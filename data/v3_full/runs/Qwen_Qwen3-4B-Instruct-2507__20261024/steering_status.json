@@ -1,0 +1,14 @@
+{
+  "direction_norm": 2.1026155948638916,
+  "finished": true,
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "random_control_norm": 2.1026155948638916,
+  "seed": 20261024,
+  "selected_alpha": 0.04,
+  "selected_block": 19,
+  "selection": "validation only; held-out splits untouched",
+  "status": "complete",
+  "val_clean_gain": 0.2604166666666667,
+  "val_injection_gain": 0.3125,
+  "validation_objective": 0.3125
+}

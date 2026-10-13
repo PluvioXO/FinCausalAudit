@@ -1,0 +1,6 @@
+model_id,seed,holdout_task,status,selected_layer,probe_C,text_C,val_auroc_other_tasks
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261013,earnings,complete,20,0.1,1.0,0.9374983045330005
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261013,cashflow,complete,20,0.1,1.0,0.926077638824838
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261013,credit,complete,20,0.1,1.0,0.9723307291666667
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261013,liquidity,complete,20,0.1,1.0,0.9318015354149147
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261013,valuation,complete,20,0.1,1.0,0.9716517917695251

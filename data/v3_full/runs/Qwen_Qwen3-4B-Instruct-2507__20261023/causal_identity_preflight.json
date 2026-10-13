@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "block": 5,
+      "case_id": "s20261023_earnings_0_0_010",
+      "drift": 0.25
+    },
+    {
+      "block": 19,
+      "case_id": "s20261023_earnings_0_0_010",
+      "drift": 0.25
+    },
+    {
+      "block": 31,
+      "case_id": "s20261023_earnings_0_0_010",
+      "drift": 0.25
+    },
+    {
+      "block": 5,
+      "case_id": "s20261023_earnings_0_0_013",
+      "drift": 0.125
+    },
+    {
+      "block": 19,
+      "case_id": "s20261023_earnings_0_0_013",
+      "drift": 0.125
+    },
+    {
+      "block": 31,
+      "case_id": "s20261023_earnings_0_0_013",
+      "drift": 0.125
+    }
+  ],
+  "max_abs_drift": 0.25,
+  "note": "Identity patch must preserve logits before any causal localization claim.",
+  "valid": false
+}

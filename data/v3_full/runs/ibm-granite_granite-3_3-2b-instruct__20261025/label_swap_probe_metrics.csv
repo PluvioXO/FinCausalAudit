@@ -1,0 +1,11 @@
+model_id,seed,split,predictor,auroc,auprc,brier,n,errors,ci_lo,ci_hi,n_boot_valid
+ibm-granite/granite-3.3-2b-instruct,20261025,test_id,risk_internal,0.9664053751399775,0.935774418039816,0.062082925154596014,160,19,,,
+ibm-granite/granite-3.3-2b-instruct,20261025,test_id,risk_text_output,0.9316909294512878,0.63888118607444,0.07711893644242662,160,19,,,
+ibm-granite/granite-3.3-2b-instruct,20261025,test_id,risk_confidence,0.7752892870474057,0.3134437023501134,0.09646035951298151,160,19,,,
+ibm-granite/granite-3.3-2b-instruct,20261025,test_id,risk_rule_verifier,1.0,1.0,1.0000000000068295e-12,160,19,,,
+ibm-granite/granite-3.3-2b-instruct,20261025,test_id,DIFF_internal_minus_text_output,0.034714445688689644,,,160,19,-0.002859788359788498,0.09610292386185242,1000.0
+ibm-granite/granite-3.3-2b-instruct,20261025,test_ood,risk_internal,0.936105476673428,0.9188183000840907,0.12434122698708086,160,58,,,
+ibm-granite/granite-3.3-2b-instruct,20261025,test_ood,risk_text_output,0.7300540906017579,0.6147084891441394,0.2233283657809328,160,58,,,
+ibm-granite/granite-3.3-2b-instruct,20261025,test_ood,risk_confidence,0.6961629479377957,0.5616876268888176,0.26537790606418227,160,58,,,
+ibm-granite/granite-3.3-2b-instruct,20261025,test_ood,risk_rule_verifier,1.0,1.0,1.0000000000208477e-12,160,58,,,
+ibm-granite/granite-3.3-2b-instruct,20261025,test_ood,DIFF_internal_minus_text_output,0.20605138607167017,,,160,58,0.06316142303460172,0.361322563819342,1000.0

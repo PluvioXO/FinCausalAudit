@@ -1,0 +1,14 @@
+{
+  "direction_norm": 0.535484790802002,
+  "finished": true,
+  "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+  "random_control_norm": 0.5354848504066467,
+  "seed": 20261023,
+  "selected_alpha": 0.04,
+  "selected_block": 10,
+  "selection": "validation only; held-out splits untouched",
+  "status": "complete",
+  "val_clean_gain": 0.062497615814208984,
+  "val_injection_gain": 0.11458047231038411,
+  "validation_objective": 0.11458047231038411
+}

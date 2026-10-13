@@ -1,0 +1,10 @@
+model_id,variant,mean,count
+HuggingFaceTB/SmolLM2-1.7B-Instruct,clean,0.5,42
+HuggingFaceTB/SmolLM2-1.7B-Instruct,injection,0.5,42
+HuggingFaceTB/SmolLM2-1.7B-Instruct,misleading,0.5714285714285714,42
+Qwen/Qwen2.5-1.5B-Instruct,clean,0.8571428571428571,42
+Qwen/Qwen2.5-1.5B-Instruct,injection,0.8571428571428571,42
+Qwen/Qwen2.5-1.5B-Instruct,misleading,1.0,42
+Qwen/Qwen2.5-3B-Instruct,clean,0.6428571428571429,42
+Qwen/Qwen2.5-3B-Instruct,injection,0.6428571428571429,42
+Qwen/Qwen2.5-3B-Instruct,misleading,0.9285714285714286,42

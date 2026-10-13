@@ -1,0 +1,91 @@
+{
+  "all_stages_complete": true,
+  "cache_protocol_version": "v3.1-incremental-2026-10-12",
+  "cache_signature": "56931c7e24f8d4a94d7f3f2cb383f946e0b007b749a39faee94c1117a8b47831",
+  "causal_status": {
+    "finished": true,
+    "identity_controls_valid": false,
+    "identity_max_abs_delta_margin": 0.12499809265136719,
+    "reason": "Identity patch changed logits beyond threshold",
+    "status": "SKIPPED_IDENTITY_PREFLIGHT"
+  },
+  "completed_utc": "2026-10-13T00:21:33.007237+00:00",
+  "forward_sha256": "ff5fe5bc43b12cff97d2d4c214b7704229229e9c1854b95c1012ec6804d2a9d7",
+  "label_swap_enabled": true,
+  "measured_accuracy": 0.5,
+  "measured_rows": 2800,
+  "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "model_revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "n_layers": 24,
+  "probe_status": {
+    "best_decoder_block": 20,
+    "meta_C": 0.01,
+    "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "output_only_C": 0.1,
+    "seed": 20261024,
+    "selected_C": 0.1,
+    "selection_rule": "validation AUROC maximisation; no test-layer selection",
+    "status": "complete",
+    "text_C": 10.0,
+    "text_only_C": 1.0,
+    "val_probe_auroc": 0.9635763888888889,
+    "val_text_auroc": 0.8774479166666667
+  },
+  "real_sec_enabled": true,
+  "seed": 20261024,
+  "stage_outputs": {
+    "behaviour": [
+      "behaviour_paired.csv"
+    ],
+    "causal": [
+      "causal_raw.csv",
+      "causal_summary.csv",
+      "causal_status.json",
+      "causal_identity_preflight.json"
+    ],
+    "cross_task": [
+      "cross_task_predictions.csv",
+      "cross_task_selection.csv"
+    ],
+    "freeform": [
+      "freeform_check.csv"
+    ],
+    "label_swap": [
+      "label_swap_predictions.csv",
+      "label_swap_probe_metrics.csv",
+      "label_swap_state.json"
+    ],
+    "probes": [
+      "probe_metrics.csv",
+      "probe_risk_predictions.csv",
+      "probe_status.json"
+    ],
+    "sec": [
+      "sec_predictions.csv"
+    ],
+    "semantic": [
+      "paired_semantic_sensitivity.csv"
+    ],
+    "steering": [
+      "steering_test.csv",
+      "steering_summary.csv",
+      "steering_status.json"
+    ]
+  },
+  "stage_signature": "56931c7e24f8d4a94d7f3f2cb383f946e0b007b749a39faee94c1117a8b47831",
+  "steering_status": {
+    "direction_norm": 6.175159931182861,
+    "finished": true,
+    "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "random_control_norm": 6.175159454345703,
+    "seed": 20261024,
+    "selected_alpha": 0.02,
+    "selected_block": 16,
+    "selection": "validation only; held-out splits untouched",
+    "status": "complete",
+    "val_clean_gain": 0.02083301544189453,
+    "val_injection_gain": 0.04166571299235027,
+    "validation_objective": 0.04166571299235027
+  },
+  "unique_cases": 400
+}

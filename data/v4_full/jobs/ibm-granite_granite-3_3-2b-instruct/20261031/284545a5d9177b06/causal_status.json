@@ -1,0 +1,226 @@
+{
+  "signature": "159012b1e108f535a03c2ab6c1dafded43ec570fdb5eb09b77f8d2d6aca7de0d",
+  "finished": true,
+  "valid": true,
+  "reason": "passed",
+  "max_abs_control_delta": 0.0,
+  "preflight": {
+    "valid": true,
+    "reason": "passed",
+    "max_abs_drift": 0.0,
+    "tolerance": 0.02,
+    "checks": [
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "repeat_unpatched",
+        "block": null,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_low",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_high",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "prefix_null",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_low",
+        "block": 13,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_high",
+        "block": 13,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "prefix_null",
+        "block": 13,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_low",
+        "block": 25,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_high",
+        "block": 25,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "prefix_null",
+        "block": 25,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_low",
+        "block": 38,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_high",
+        "block": 38,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "prefix_null",
+        "block": 38,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "repeat_unpatched",
+        "block": null,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_low",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_high",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "prefix_null",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_low",
+        "block": 13,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_high",
+        "block": 13,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "prefix_null",
+        "block": 13,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_low",
+        "block": 25,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_high",
+        "block": 25,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "prefix_null",
+        "block": 25,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_low",
+        "block": 38,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_high",
+        "block": 38,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "prefix_null",
+        "block": 38,
+        "drift": 0.0
+      }
+    ]
+  },
+  "skips": [],
+  "completed_cases": [
+    "v4_20261031_debt_service_0008",
+    "v4_20261031_debt_service_0021",
+    "v4_20261031_debt_service_0030",
+    "v4_20261031_debt_service_0032",
+    "v4_20261031_debt_service_0036",
+    "v4_20261031_debt_service_0049",
+    "v4_20261031_free_cash_flow_0005",
+    "v4_20261031_free_cash_flow_0007",
+    "v4_20261031_free_cash_flow_0032",
+    "v4_20261031_free_cash_flow_0046",
+    "v4_20261031_leverage_and_coverage_0013",
+    "v4_20261031_leverage_and_coverage_0014",
+    "v4_20261031_leverage_and_coverage_0024",
+    "v4_20261031_leverage_and_coverage_0035",
+    "v4_20261031_leverage_and_coverage_0053",
+    "v4_20261031_leverage_and_coverage_0058",
+    "v4_20261031_leverage_and_coverage_0059",
+    "v4_20261031_operating_margin_0003",
+    "v4_20261031_operating_margin_0011",
+    "v4_20261031_post_payment_liquidity_0006",
+    "v4_20261031_post_payment_liquidity_0039",
+    "v4_20261031_post_payment_liquidity_0046",
+    "v4_20261031_post_payment_liquidity_0053",
+    "v4_20261031_working_capital_change_0007"
+  ],
+  "n_patched_cases": 24,
+  "selected_cases": [
+    "v4_20261031_debt_service_0008",
+    "v4_20261031_debt_service_0021",
+    "v4_20261031_debt_service_0036",
+    "v4_20261031_debt_service_0049",
+    "v4_20261031_free_cash_flow_0007",
+    "v4_20261031_free_cash_flow_0032",
+    "v4_20261031_leverage_and_coverage_0013",
+    "v4_20261031_leverage_and_coverage_0014",
+    "v4_20261031_leverage_and_coverage_0035",
+    "v4_20261031_operating_margin_0003",
+    "v4_20261031_post_payment_liquidity_0006",
+    "v4_20261031_post_payment_liquidity_0046",
+    "v4_20261031_debt_service_0030",
+    "v4_20261031_debt_service_0032",
+    "v4_20261031_free_cash_flow_0005",
+    "v4_20261031_free_cash_flow_0046",
+    "v4_20261031_leverage_and_coverage_0024",
+    "v4_20261031_leverage_and_coverage_0053",
+    "v4_20261031_leverage_and_coverage_0058",
+    "v4_20261031_leverage_and_coverage_0059",
+    "v4_20261031_operating_margin_0011",
+    "v4_20261031_post_payment_liquidity_0039",
+    "v4_20261031_post_payment_liquidity_0053",
+    "v4_20261031_working_capital_change_0007"
+  ],
+  "note": "Do not claim localization if identity/null controls failed. Authority labels are synthetic."
+}

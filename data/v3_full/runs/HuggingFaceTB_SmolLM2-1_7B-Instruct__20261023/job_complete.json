@@ -1,0 +1,169 @@
+{
+  "all_stages_complete": true,
+  "cache_protocol_version": "v3.1-incremental-2026-10-12",
+  "cache_signature": "19a0b10fa106708ae76b8b0d8b519c4ddb1fd0c77c7940ba4597e0df3212240e",
+  "causal_status": {
+    "completed_cases": [
+      "s20261023_cashflow_0_0_006",
+      "s20261023_cashflow_0_0_009",
+      "s20261023_cashflow_1_0_002",
+      "s20261023_cashflow_1_0_007",
+      "s20261023_cashflow_1_0_extra003",
+      "s20261023_cashflow_1_1_002",
+      "s20261023_cashflow_1_1_003",
+      "s20261023_cashflow_1_1_004",
+      "s20261023_cashflow_1_1_extra004",
+      "s20261023_credit_0_1_008",
+      "s20261023_credit_0_1_013",
+      "s20261023_credit_0_1_extra003",
+      "s20261023_credit_1_0_009",
+      "s20261023_credit_1_1_010",
+      "s20261023_earnings_0_0_006",
+      "s20261023_earnings_0_0_extra004",
+      "s20261023_earnings_0_1_003",
+      "s20261023_earnings_1_0_010",
+      "s20261023_earnings_1_0_011",
+      "s20261023_earnings_1_1_extra004",
+      "s20261023_liquidity_0_0_007",
+      "s20261023_liquidity_0_0_012",
+      "s20261023_liquidity_0_0_extra004",
+      "s20261023_liquidity_1_0_004",
+      "s20261023_liquidity_1_0_013",
+      "s20261023_liquidity_1_0_extra003",
+      "s20261023_liquidity_1_1_011",
+      "s20261023_liquidity_1_1_extra004",
+      "s20261023_valuation_0_1_000",
+      "s20261023_valuation_1_0_003",
+      "s20261023_valuation_1_0_extra003",
+      "s20261023_valuation_1_0_extra004"
+    ],
+    "finished": true,
+    "identity_controls_valid": false,
+    "identity_max_abs_delta_margin": 0.125,
+    "interpretation": "interventions on labelled synthetic status and holistic last-token state",
+    "planned_case_ids": [
+      "s20261023_cashflow_1_1_004",
+      "s20261023_valuation_1_0_extra003",
+      "s20261023_credit_0_1_013",
+      "s20261023_cashflow_1_0_extra003",
+      "s20261023_cashflow_1_1_003",
+      "s20261023_earnings_1_0_010",
+      "s20261023_earnings_0_1_003",
+      "s20261023_cashflow_1_1_002",
+      "s20261023_cashflow_1_0_007",
+      "s20261023_liquidity_1_0_extra003",
+      "s20261023_earnings_0_0_006",
+      "s20261023_liquidity_1_0_004",
+      "s20261023_liquidity_0_0_007",
+      "s20261023_liquidity_1_1_011",
+      "s20261023_cashflow_0_0_006",
+      "s20261023_credit_0_1_extra003",
+      "s20261023_liquidity_0_0_extra004",
+      "s20261023_valuation_0_1_000",
+      "s20261023_earnings_1_1_extra004",
+      "s20261023_cashflow_1_1_extra004",
+      "s20261023_earnings_0_0_extra004",
+      "s20261023_liquidity_0_0_012",
+      "s20261023_earnings_1_0_011",
+      "s20261023_credit_1_0_009",
+      "s20261023_valuation_1_0_003",
+      "s20261023_credit_1_1_010",
+      "s20261023_liquidity_1_1_extra004",
+      "s20261023_cashflow_0_0_009",
+      "s20261023_credit_0_1_008",
+      "s20261023_liquidity_1_0_013",
+      "s20261023_valuation_1_0_extra004",
+      "s20261023_cashflow_1_0_002"
+    ],
+    "preflight_max_abs_drift": 3.814697265625e-06,
+    "skipped_interventions": [],
+    "status": "complete",
+    "tested_blocks": [
+      3,
+      8,
+      12,
+      16,
+      20
+    ],
+    "tested_cases": 32
+  },
+  "completed_utc": "2026-10-13T00:16:43.936865+00:00",
+  "forward_sha256": "bb7016b3b2d1aac9a1fc3e039c535ec619f01c052abbc5364acb1c48a73b7435",
+  "label_swap_enabled": true,
+  "measured_accuracy": 0.4992857142857143,
+  "measured_rows": 2800,
+  "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "model_revision": "31b70e2e869a7173562077fd711b654946d38674",
+  "n_layers": 24,
+  "probe_status": {
+    "best_decoder_block": 20,
+    "meta_C": 0.01,
+    "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "output_only_C": 1.0,
+    "seed": 20261023,
+    "selected_C": 0.01,
+    "selection_rule": "validation AUROC maximisation; no test-layer selection",
+    "status": "complete",
+    "text_C": 10.0,
+    "text_only_C": 10.0,
+    "val_probe_auroc": 0.9513541666666667,
+    "val_text_auroc": 0.8781249999999998
+  },
+  "real_sec_enabled": true,
+  "seed": 20261023,
+  "stage_outputs": {
+    "behaviour": [
+      "behaviour_paired.csv"
+    ],
+    "causal": [
+      "causal_raw.csv",
+      "causal_summary.csv",
+      "causal_status.json",
+      "causal_identity_preflight.json"
+    ],
+    "cross_task": [
+      "cross_task_predictions.csv",
+      "cross_task_selection.csv"
+    ],
+    "freeform": [
+      "freeform_check.csv"
+    ],
+    "label_swap": [
+      "label_swap_predictions.csv",
+      "label_swap_probe_metrics.csv",
+      "label_swap_state.json"
+    ],
+    "probes": [
+      "probe_metrics.csv",
+      "probe_risk_predictions.csv",
+      "probe_status.json"
+    ],
+    "sec": [
+      "sec_predictions.csv"
+    ],
+    "semantic": [
+      "paired_semantic_sensitivity.csv"
+    ],
+    "steering": [
+      "steering_test.csv",
+      "steering_summary.csv",
+      "steering_status.json"
+    ]
+  },
+  "stage_signature": "19a0b10fa106708ae76b8b0d8b519c4ddb1fd0c77c7940ba4597e0df3212240e",
+  "steering_status": {
+    "direction_norm": 12.352946281433105,
+    "finished": true,
+    "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "random_control_norm": 12.352946281433105,
+    "seed": 20261023,
+    "selected_alpha": 0.04,
+    "selected_block": 16,
+    "selection": "validation only; held-out splits untouched",
+    "status": "complete",
+    "val_clean_gain": -4.768371582123768e-07,
+    "val_injection_gain": 0.020833333333333332,
+    "validation_objective": 0.020832975705464673
+  },
+  "unique_cases": 400
+}

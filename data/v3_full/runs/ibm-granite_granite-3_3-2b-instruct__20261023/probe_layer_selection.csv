@@ -1,0 +1,6 @@
+model_id,seed,layer,chosen_C,val_auroc
+ibm-granite/granite-3.3-2b-instruct,20261023,6,0.1,0.9178930041152263
+ibm-granite/granite-3.3-2b-instruct,20261023,13,0.01,0.9241810699588477
+ibm-granite/granite-3.3-2b-instruct,20261023,21,0.1,0.9708641975308642
+ibm-granite/granite-3.3-2b-instruct,20261023,28,1.0,0.9913415637860082
+ibm-granite/granite-3.3-2b-instruct,20261023,34,1.0,0.9906831275720165

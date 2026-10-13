@@ -1,0 +1,15 @@
+{
+  "finished": true,
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "seed": 20261012,
+  "block": 14,
+  "latent_dim": 6144,
+  "topk": 32,
+  "val_variance_explained": 0.8692918419837952,
+  "feature_status": "train/validation direction consistent",
+  "selected_feature": 4553,
+  "matched_control_feature": 1323,
+  "train_examples": 1400,
+  "val_examples": 560,
+  "note": "SAE ablation is exploratory; decoder feature significance and semantic identity are unproven."
+}

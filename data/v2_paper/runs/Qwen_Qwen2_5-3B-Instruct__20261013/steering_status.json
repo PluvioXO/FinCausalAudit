@@ -1,0 +1,14 @@
+{
+  "finished": true,
+  "status": "complete",
+  "model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "seed": 20261013,
+  "selected_block": 12,
+  "selected_alpha": -0.04,
+  "validation_objective": -0.20254416147434312,
+  "val_injection_gain": -0.17413816195836407,
+  "val_clean_gain": -0.0378746660213054,
+  "direction_norm": 1.6609539985656738,
+  "random_control_norm": 1.6609539985656738,
+  "selection": "validation only; held-out splits untouched"
+}

@@ -1,0 +1,10 @@
+{
+  "layer": 16,
+  "warning": "Source-condition detection is NOT proof of evidence or source-of-truth circuits",
+  "n": 64,
+  "n_positive": 32,
+  "positive_rate": 0.5,
+  "brier": 0.00019935943341655907,
+  "auroc": 1.0,
+  "auprc": 1.0
+}

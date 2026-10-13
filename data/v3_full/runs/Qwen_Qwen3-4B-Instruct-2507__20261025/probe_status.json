@@ -1,0 +1,6 @@
+{
+  "status": "UNESTIMABLE",
+  "reason": "Too few errors/non-errors in train or validation",
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "seed": 20261025
+}

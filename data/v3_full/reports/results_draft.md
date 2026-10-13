@@ -1,0 +1,944 @@
+# FinCausalAudit v3 — automatically computed findings draft
+
+> **Preliminary and synthetic-primary results.** Verify every number and graph against the raw CSVs before submission.
+
+Run profile: `full`; completed model/seed jobs: **21 of 21**.
+All independent synthetic benchmark cases across seeds: **1200**.
+Main benchmark source authority is *synthetically assigned*, not authenticated.
+On the synthetically numeric rule-based task a regex-based verifier achieves 100% task-score accuracy by construction.
+
+## Primary: internal versus observable-signal error detection (held-out cases)
+### `HuggingFaceTB/SmolLM2-1.7B-Instruct` — seed `20261023`, `test_id`
+- risk_internal: AUROC 0.911 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.469 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.471 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.813 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.827 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.468 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.542 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=241; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.442 (case-bootstrap 95% CI 0.371 to 0.506).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.440 (case-bootstrap 95% CI 0.370 to 0.501).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.098 (case-bootstrap 95% CI 0.070 to 0.127).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.084 (case-bootstrap 95% CI 0.035 to 0.128).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.443 (case-bootstrap 95% CI 0.371 to 0.510).
+### `HuggingFaceTB/SmolLM2-1.7B-Instruct` — seed `20261023`, `test_ood`
+- risk_internal: AUROC 0.886 (n=360, errors=181; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.455 (n=360, errors=181; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.455 (n=360, errors=181; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.858 (n=360, errors=181; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.830 (n=360, errors=181; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.456 (n=360, errors=181; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.546 (n=360, errors=181; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=181; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.431 (case-bootstrap 95% CI 0.354 to 0.494).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.430 (case-bootstrap 95% CI 0.352 to 0.493).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.028 (case-bootstrap 95% CI -0.008 to 0.059).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.055 (case-bootstrap 95% CI 0.003 to 0.104).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.429 (case-bootstrap 95% CI 0.355 to 0.496).
+### `HuggingFaceTB/SmolLM2-1.7B-Instruct` — seed `20261024`, `test_id`
+- risk_internal: AUROC 0.943 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.486 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.490 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.833 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.820 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.486 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.533 (n=480, errors=241; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=241; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.457 (case-bootstrap 95% CI 0.387 to 0.520).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.453 (case-bootstrap 95% CI 0.384 to 0.520).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.110 (case-bootstrap 95% CI 0.085 to 0.134).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.123 (case-bootstrap 95% CI 0.089 to 0.157).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.457 (case-bootstrap 95% CI 0.387 to 0.520).
+### `HuggingFaceTB/SmolLM2-1.7B-Instruct` — seed `20261024`, `test_ood`
+- risk_internal: AUROC 0.826 (n=360, errors=179; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.437 (n=360, errors=179; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.453 (n=360, errors=179; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.823 (n=360, errors=179; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.832 (n=360, errors=179; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.438 (n=360, errors=179; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.479 (n=360, errors=179; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=179; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.389 (case-bootstrap 95% CI 0.290 to 0.478).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.373 (case-bootstrap 95% CI 0.271 to 0.464).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.003 (case-bootstrap 95% CI -0.068 to 0.079).
+- DIFF_internal_minus_risk_text_only: AUROC difference -0.006 (case-bootstrap 95% CI -0.066 to 0.050).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.389 (case-bootstrap 95% CI 0.290 to 0.477).
+### `HuggingFaceTB/SmolLM2-1.7B-Instruct` — seed `20261025`, `test_id`
+- risk_internal: AUROC 0.958 (n=480, errors=240; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.472 (n=480, errors=240; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.461 (n=480, errors=240; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.852 (n=480, errors=240; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.825 (n=480, errors=240; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.484 (n=480, errors=240; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.559 (n=480, errors=240; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=240; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.485 (case-bootstrap 95% CI 0.412 to 0.549).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.497 (case-bootstrap 95% CI 0.422 to 0.570).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.105 (case-bootstrap 95% CI 0.082 to 0.133).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.132 (case-bootstrap 95% CI 0.104 to 0.162).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.474 (case-bootstrap 95% CI 0.408 to 0.535).
+### `HuggingFaceTB/SmolLM2-1.7B-Instruct` — seed `20261025`, `test_ood`
+- risk_internal: AUROC 0.817 (n=360, errors=180; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.463 (n=360, errors=180; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.468 (n=360, errors=180; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.861 (n=360, errors=180; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.834 (n=360, errors=180; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.476 (n=360, errors=180; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.428 (n=360, errors=180; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=180; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.353 (case-bootstrap 95% CI 0.266 to 0.433).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.348 (case-bootstrap 95% CI 0.246 to 0.450).
+- DIFF_internal_minus_risk_text_output: AUROC difference -0.044 (case-bootstrap 95% CI -0.092 to 0.001).
+- DIFF_internal_minus_risk_text_only: AUROC difference -0.017 (case-bootstrap 95% CI -0.070 to 0.034).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.340 (case-bootstrap 95% CI 0.242 to 0.430).
+### `Qwen/Qwen2.5-1.5B-Instruct` — seed `20261023`, `test_id`
+- risk_internal: AUROC 0.960 (n=480, errors=147; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.598 (n=480, errors=147; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.763 (n=480, errors=147; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.818 (n=480, errors=147; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.819 (n=480, errors=147; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.649 (n=480, errors=147; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.463 (n=480, errors=147; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=147; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.362 (case-bootstrap 95% CI 0.280 to 0.439).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.197 (case-bootstrap 95% CI 0.135 to 0.266).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.141 (case-bootstrap 95% CI 0.084 to 0.205).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.141 (case-bootstrap 95% CI 0.095 to 0.190).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.310 (case-bootstrap 95% CI 0.238 to 0.380).
+### `Qwen/Qwen2.5-1.5B-Instruct` — seed `20261023`, `test_ood`
+- risk_internal: AUROC 0.899 (n=360, errors=132; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.571 (n=360, errors=132; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.670 (n=360, errors=132; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.775 (n=360, errors=132; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.731 (n=360, errors=132; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.607 (n=360, errors=132; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.527 (n=360, errors=132; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=132; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.328 (case-bootstrap 95% CI 0.228 to 0.424).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.229 (case-bootstrap 95% CI 0.151 to 0.309).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.124 (case-bootstrap 95% CI 0.039 to 0.213).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.168 (case-bootstrap 95% CI 0.080 to 0.268).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.292 (case-bootstrap 95% CI 0.204 to 0.377).
+### `Qwen/Qwen2.5-1.5B-Instruct` — seed `20261024`, `test_id`
+- risk_internal: AUROC 0.955 (n=480, errors=145; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.659 (n=480, errors=145; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.745 (n=480, errors=145; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.792 (n=480, errors=145; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.754 (n=480, errors=145; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.684 (n=480, errors=145; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.612 (n=480, errors=145; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=145; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.296 (case-bootstrap 95% CI 0.225 to 0.374).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.210 (case-bootstrap 95% CI 0.143 to 0.274).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.162 (case-bootstrap 95% CI 0.107 to 0.222).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.201 (case-bootstrap 95% CI 0.140 to 0.265).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.270 (case-bootstrap 95% CI 0.208 to 0.340).
+### `Qwen/Qwen2.5-1.5B-Instruct` — seed `20261024`, `test_ood`
+- risk_internal: AUROC 0.871 (n=360, errors=145; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.573 (n=360, errors=145; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.704 (n=360, errors=145; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.775 (n=360, errors=145; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.814 (n=360, errors=145; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.634 (n=360, errors=145; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.532 (n=360, errors=145; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=145; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.306 (case-bootstrap 95% CI 0.194 to 0.404).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.175 (case-bootstrap 95% CI 0.084 to 0.274).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.104 (case-bootstrap 95% CI 0.008 to 0.203).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.065 (case-bootstrap 95% CI -0.026 to 0.158).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.246 (case-bootstrap 95% CI 0.144 to 0.330).
+### `Qwen/Qwen2.5-1.5B-Instruct` — seed `20261025`, `test_id`
+- risk_internal: AUROC 0.948 (n=480, errors=153; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.685 (n=480, errors=153; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.770 (n=480, errors=153; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.766 (n=480, errors=153; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.704 (n=480, errors=153; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.714 (n=480, errors=153; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.446 (n=480, errors=153; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=153; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.264 (case-bootstrap 95% CI 0.194 to 0.337).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.179 (case-bootstrap 95% CI 0.120 to 0.234).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.182 (case-bootstrap 95% CI 0.123 to 0.242).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.244 (case-bootstrap 95% CI 0.179 to 0.314).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.234 (case-bootstrap 95% CI 0.168 to 0.298).
+### `Qwen/Qwen2.5-1.5B-Instruct` — seed `20261025`, `test_ood`
+- risk_internal: AUROC 0.833 (n=360, errors=150; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.586 (n=360, errors=150; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.659 (n=360, errors=150; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.713 (n=360, errors=150; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.712 (n=360, errors=150; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.635 (n=360, errors=150; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.445 (n=360, errors=150; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=150; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.248 (case-bootstrap 95% CI 0.149 to 0.344).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.176 (case-bootstrap 95% CI 0.080 to 0.273).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.122 (case-bootstrap 95% CI 0.021 to 0.227).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.123 (case-bootstrap 95% CI 0.018 to 0.232).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.200 (case-bootstrap 95% CI 0.120 to 0.284).
+### `Qwen/Qwen2.5-3B-Instruct` — seed `20261023`, `test_id`
+- risk_internal: AUROC 0.993 (n=480, errors=119; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.799 (n=480, errors=119; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.907 (n=480, errors=119; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.913 (n=480, errors=119; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.815 (n=480, errors=119; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.811 (n=480, errors=119; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.539 (n=480, errors=119; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=119; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.189 (case-bootstrap 95% CI 0.136 to 0.254).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.087 (case-bootstrap 95% CI 0.055 to 0.121).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.080 (case-bootstrap 95% CI 0.047 to 0.119).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.178 (case-bootstrap 95% CI 0.126 to 0.239).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.182 (case-bootstrap 95% CI 0.131 to 0.246).
+### `Qwen/Qwen2.5-3B-Instruct` — seed `20261023`, `test_ood`
+- risk_internal: AUROC 0.979 (n=360, errors=103; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.745 (n=360, errors=103; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.803 (n=360, errors=103; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.824 (n=360, errors=103; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.764 (n=360, errors=103; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.743 (n=360, errors=103; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.389 (n=360, errors=103; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=103; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.227 (case-bootstrap 95% CI 0.158 to 0.306).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.176 (case-bootstrap 95% CI 0.103 to 0.255).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.155 (case-bootstrap 95% CI 0.089 to 0.226).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.215 (case-bootstrap 95% CI 0.141 to 0.303).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.236 (case-bootstrap 95% CI 0.166 to 0.316).
+### `Qwen/Qwen2.5-3B-Instruct` — seed `20261024`, `test_id`
+- risk_internal: AUROC 0.987 (n=480, errors=116; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.791 (n=480, errors=116; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.891 (n=480, errors=116; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.899 (n=480, errors=116; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.796 (n=480, errors=116; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.818 (n=480, errors=116; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.577 (n=480, errors=116; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=116; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.190 (case-bootstrap 95% CI 0.141 to 0.244).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.096 (case-bootstrap 95% CI 0.057 to 0.136).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.088 (case-bootstrap 95% CI 0.052 to 0.127).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.190 (case-bootstrap 95% CI 0.138 to 0.246).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.168 (case-bootstrap 95% CI 0.118 to 0.224).
+### `Qwen/Qwen2.5-3B-Instruct` — seed `20261024`, `test_ood`
+- risk_internal: AUROC 0.961 (n=360, errors=105; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.793 (n=360, errors=105; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.845 (n=360, errors=105; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.814 (n=360, errors=105; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.734 (n=360, errors=105; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.784 (n=360, errors=105; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.543 (n=360, errors=105; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=105; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.165 (case-bootstrap 95% CI 0.095 to 0.245).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.116 (case-bootstrap 95% CI 0.049 to 0.183).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.147 (case-bootstrap 95% CI 0.070 to 0.224).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.226 (case-bootstrap 95% CI 0.140 to 0.323).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.177 (case-bootstrap 95% CI 0.096 to 0.264).
+### `Qwen/Qwen2.5-3B-Instruct` — seed `20261025`, `test_id`
+- risk_internal: AUROC 0.995 (n=480, errors=132; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.832 (n=480, errors=132; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.899 (n=480, errors=132; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.909 (n=480, errors=132; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.783 (n=480, errors=132; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.844 (n=480, errors=132; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.555 (n=480, errors=132; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=132; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.155 (case-bootstrap 95% CI 0.110 to 0.203).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.096 (case-bootstrap 95% CI 0.063 to 0.131).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.086 (case-bootstrap 95% CI 0.058 to 0.119).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.212 (case-bootstrap 95% CI 0.155 to 0.280).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.151 (case-bootstrap 95% CI 0.106 to 0.202).
+### `Qwen/Qwen2.5-3B-Instruct` — seed `20261025`, `test_ood`
+- risk_internal: AUROC 0.968 (n=360, errors=117; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.805 (n=360, errors=117; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.827 (n=360, errors=117; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.847 (n=360, errors=117; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.757 (n=360, errors=117; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.817 (n=360, errors=117; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.564 (n=360, errors=117; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=117; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.160 (case-bootstrap 95% CI 0.086 to 0.235).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.141 (case-bootstrap 95% CI 0.066 to 0.219).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.121 (case-bootstrap 95% CI 0.055 to 0.196).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.211 (case-bootstrap 95% CI 0.138 to 0.304).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.151 (case-bootstrap 95% CI 0.074 to 0.227).
+### `allenai/OLMo-2-0425-1B-Instruct` — seed `20261023`, `test_id`
+- risk_internal: AUROC 0.882 (n=480, errors=258; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.412 (n=480, errors=258; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.694 (n=480, errors=258; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.804 (n=480, errors=258; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.804 (n=480, errors=258; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.590 (n=480, errors=258; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.521 (n=480, errors=258; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=258; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.470 (case-bootstrap 95% CI 0.403 to 0.526).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.188 (case-bootstrap 95% CI 0.115 to 0.258).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.078 (case-bootstrap 95% CI 0.033 to 0.129).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.078 (case-bootstrap 95% CI 0.032 to 0.124).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.292 (case-bootstrap 95% CI 0.214 to 0.366).
+### `allenai/OLMo-2-0425-1B-Instruct` — seed `20261023`, `test_ood`
+- risk_internal: AUROC 0.784 (n=360, errors=222; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.434 (n=360, errors=222; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.731 (n=360, errors=222; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.753 (n=360, errors=222; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.705 (n=360, errors=222; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.584 (n=360, errors=222; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.511 (n=360, errors=222; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=222; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.350 (case-bootstrap 95% CI 0.254 to 0.424).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.053 (case-bootstrap 95% CI -0.026 to 0.130).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.031 (case-bootstrap 95% CI -0.030 to 0.100).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.079 (case-bootstrap 95% CI 0.027 to 0.134).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.200 (case-bootstrap 95% CI 0.132 to 0.271).
+### `allenai/OLMo-2-0425-1B-Instruct` — seed `20261024`, `test_id`
+- risk_internal: AUROC 0.891 (n=480, errors=255; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.402 (n=480, errors=255; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.706 (n=480, errors=255; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.804 (n=480, errors=255; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.800 (n=480, errors=255; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.608 (n=480, errors=255; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.534 (n=480, errors=255; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=255; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.489 (case-bootstrap 95% CI 0.420 to 0.548).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.186 (case-bootstrap 95% CI 0.115 to 0.252).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.087 (case-bootstrap 95% CI 0.048 to 0.127).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.091 (case-bootstrap 95% CI 0.057 to 0.125).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.283 (case-bootstrap 95% CI 0.219 to 0.345).
+### `allenai/OLMo-2-0425-1B-Instruct` — seed `20261024`, `test_ood`
+- risk_internal: AUROC 0.592 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.378 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.795 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.773 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.752 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.626 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.554 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=214; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.447 (case-bootstrap 95% CI 0.360 to 0.517).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.030 (case-bootstrap 95% CI -0.041 to 0.096).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.053 (case-bootstrap 95% CI -0.017 to 0.121).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.073 (case-bootstrap 95% CI 0.023 to 0.127).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.199 (case-bootstrap 95% CI 0.132 to 0.266).
+### `allenai/OLMo-2-0425-1B-Instruct` — seed `20261025`, `test_id`
+- risk_internal: AUROC 0.864 (n=480, errors=262; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.431 (n=480, errors=262; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.701 (n=480, errors=262; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.778 (n=480, errors=262; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.781 (n=480, errors=262; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.575 (n=480, errors=262; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.620 (n=480, errors=262; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=262; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.433 (case-bootstrap 95% CI 0.371 to 0.496).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.163 (case-bootstrap 95% CI 0.085 to 0.238).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.086 (case-bootstrap 95% CI 0.039 to 0.138).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.083 (case-bootstrap 95% CI 0.043 to 0.128).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.289 (case-bootstrap 95% CI 0.210 to 0.368).
+### `allenai/OLMo-2-0425-1B-Instruct` — seed `20261025`, `test_ood`
+- risk_internal: AUROC 0.712 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.418 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.719 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.767 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.755 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.590 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.631 (n=360, errors=214; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=214; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.310 (case-bootstrap 95% CI 0.228 to 0.376).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.008 (case-bootstrap 95% CI -0.065 to 0.076).
+- DIFF_internal_minus_risk_text_output: AUROC difference -0.040 (case-bootstrap 95% CI -0.097 to 0.015).
+- DIFF_internal_minus_risk_text_only: AUROC difference -0.027 (case-bootstrap 95% CI -0.071 to 0.013).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.137 (case-bootstrap 95% CI 0.066 to 0.204).
+### `ibm-granite/granite-3.3-2b-instruct` — seed `20261023`, `test_id`
+- risk_internal: AUROC 0.992 (n=480, errors=107; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.638 (n=480, errors=107; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.886 (n=480, errors=107; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.897 (n=480, errors=107; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.909 (n=480, errors=107; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.693 (n=480, errors=107; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.423 (n=480, errors=107; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=107; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.354 (case-bootstrap 95% CI 0.247 to 0.476).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.106 (case-bootstrap 95% CI 0.062 to 0.157).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.095 (case-bootstrap 95% CI 0.057 to 0.139).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.083 (case-bootstrap 95% CI 0.051 to 0.122).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.300 (case-bootstrap 95% CI 0.209 to 0.396).
+### `ibm-granite/granite-3.3-2b-instruct` — seed `20261023`, `test_ood`
+- risk_internal: AUROC 0.916 (n=360, errors=94; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.693 (n=360, errors=94; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.789 (n=360, errors=94; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.803 (n=360, errors=94; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.756 (n=360, errors=94; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.727 (n=360, errors=94; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.477 (n=360, errors=94; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=94; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.223 (case-bootstrap 95% CI 0.103 to 0.341).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.126 (case-bootstrap 95% CI 0.035 to 0.218).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.113 (case-bootstrap 95% CI 0.026 to 0.209).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.160 (case-bootstrap 95% CI 0.055 to 0.279).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.189 (case-bootstrap 95% CI 0.079 to 0.296).
+### `ibm-granite/granite-3.3-2b-instruct` — seed `20261024`, `test_id`
+- risk_internal: AUROC 0.990 (n=480, errors=85; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.706 (n=480, errors=85; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.905 (n=480, errors=85; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.915 (n=480, errors=85; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.903 (n=480, errors=85; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.773 (n=480, errors=85; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.571 (n=480, errors=85; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=85; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.284 (case-bootstrap 95% CI 0.200 to 0.376).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.085 (case-bootstrap 95% CI 0.049 to 0.126).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.075 (case-bootstrap 95% CI 0.045 to 0.111).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.087 (case-bootstrap 95% CI 0.051 to 0.128).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.217 (case-bootstrap 95% CI 0.150 to 0.302).
+### `ibm-granite/granite-3.3-2b-instruct` — seed `20261024`, `test_ood`
+- risk_internal: AUROC 0.963 (n=360, errors=116; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.626 (n=360, errors=116; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.778 (n=360, errors=116; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.734 (n=360, errors=116; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.699 (n=360, errors=116; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.655 (n=360, errors=116; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.539 (n=360, errors=116; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=116; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.338 (case-bootstrap 95% CI 0.241 to 0.447).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.185 (case-bootstrap 95% CI 0.113 to 0.267).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.230 (case-bootstrap 95% CI 0.148 to 0.322).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.264 (case-bootstrap 95% CI 0.161 to 0.372).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.309 (case-bootstrap 95% CI 0.228 to 0.405).
+### `ibm-granite/granite-3.3-2b-instruct` — seed `20261025`, `test_id`
+- risk_internal: AUROC 0.985 (n=480, errors=84; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.765 (n=480, errors=84; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.884 (n=480, errors=84; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.917 (n=480, errors=84; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.891 (n=480, errors=84; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.826 (n=480, errors=84; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.506 (n=480, errors=84; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=84; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.220 (case-bootstrap 95% CI 0.133 to 0.313).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.101 (case-bootstrap 95% CI 0.058 to 0.150).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.068 (case-bootstrap 95% CI 0.041 to 0.099).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.094 (case-bootstrap 95% CI 0.061 to 0.137).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.159 (case-bootstrap 95% CI 0.090 to 0.224).
+### `ibm-granite/granite-3.3-2b-instruct` — seed `20261025`, `test_ood`
+- risk_internal: AUROC 0.955 (n=360, errors=110; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.626 (n=360, errors=110; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.778 (n=360, errors=110; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.756 (n=360, errors=110; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.740 (n=360, errors=110; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.664 (n=360, errors=110; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.341 (n=360, errors=110; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=110; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.329 (case-bootstrap 95% CI 0.215 to 0.440).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.177 (case-bootstrap 95% CI 0.099 to 0.261).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.199 (case-bootstrap 95% CI 0.113 to 0.291).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.214 (case-bootstrap 95% CI 0.119 to 0.324).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.291 (case-bootstrap 95% CI 0.203 to 0.382).
+### `microsoft/Phi-4-mini-instruct` — seed `20261023`, `test_id`
+- risk_internal: AUROC 1.000 (n=480, errors=7; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.984 (n=480, errors=7; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.995 (n=480, errors=7; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.992 (n=480, errors=7; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.851 (n=480, errors=7; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.992 (n=480, errors=7; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.242 (n=480, errors=7; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=7; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.016 (case-bootstrap 95% CI 0.003 to 0.029).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.005 (case-bootstrap 95% CI 0.000 to 0.021).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.008 (case-bootstrap 95% CI 0.000 to 0.018).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.149 (case-bootstrap 95% CI 0.050 to 0.238).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.008 (case-bootstrap 95% CI 0.002 to 0.018).
+### `microsoft/Phi-4-mini-instruct` — seed `20261023`, `test_ood`
+- risk_internal: AUROC 0.950 (n=360, errors=15; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.938 (n=360, errors=15; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.991 (n=360, errors=15; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.969 (n=360, errors=15; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.746 (n=360, errors=15; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.957 (n=360, errors=15; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.321 (n=360, errors=15; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=15; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.012 (case-bootstrap 95% CI -0.268 to 0.095).
+- DIFF_internal_minus_risk_metadata: AUROC difference -0.042 (case-bootstrap 95% CI -0.248 to 0.006).
+- DIFF_internal_minus_risk_text_output: AUROC difference -0.019 (case-bootstrap 95% CI -0.259 to 0.045).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.204 (case-bootstrap 95% CI 0.054 to 0.671).
+- DIFF_internal_minus_risk_output_only: AUROC difference -0.007 (case-bootstrap 95% CI -0.279 to 0.068).
+### `microsoft/Phi-4-mini-instruct` — seed `20261024`, `test_id`
+- risk_internal: AUROC nan (n=480, errors=0; undefined metrics shown as `nan`).
+- risk_confidence: AUROC nan (n=480, errors=0; undefined metrics shown as `nan`).
+- risk_metadata: AUROC nan (n=480, errors=0; undefined metrics shown as `nan`).
+- risk_text_output: AUROC nan (n=480, errors=0; undefined metrics shown as `nan`).
+- risk_text_only: AUROC nan (n=480, errors=0; undefined metrics shown as `nan`).
+- risk_output_only: AUROC nan (n=480, errors=0; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC nan (n=480, errors=0; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC nan (n=480, errors=0; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference nan (case-bootstrap 95% CI nan to nan).
+- DIFF_internal_minus_risk_metadata: AUROC difference nan (case-bootstrap 95% CI nan to nan).
+- DIFF_internal_minus_risk_text_output: AUROC difference nan (case-bootstrap 95% CI nan to nan).
+- DIFF_internal_minus_risk_text_only: AUROC difference nan (case-bootstrap 95% CI nan to nan).
+- DIFF_internal_minus_risk_output_only: AUROC difference nan (case-bootstrap 95% CI nan to nan).
+### `microsoft/Phi-4-mini-instruct` — seed `20261024`, `test_ood`
+- risk_internal: AUROC 0.902 (n=360, errors=17; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.899 (n=360, errors=17; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.953 (n=360, errors=17; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.940 (n=360, errors=17; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.838 (n=360, errors=17; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.911 (n=360, errors=17; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.605 (n=360, errors=17; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=17; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.003 (case-bootstrap 95% CI -0.296 to 0.118).
+- DIFF_internal_minus_risk_metadata: AUROC difference -0.051 (case-bootstrap 95% CI -0.336 to 0.043).
+- DIFF_internal_minus_risk_text_output: AUROC difference -0.038 (case-bootstrap 95% CI -0.308 to 0.057).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.064 (case-bootstrap 95% CI -0.168 to 0.249).
+- DIFF_internal_minus_risk_output_only: AUROC difference -0.009 (case-bootstrap 95% CI -0.333 to 0.107).
+### `microsoft/Phi-4-mini-instruct` — seed `20261025`, `test_id`
+- risk_internal: AUROC 1.000 (n=480, errors=5; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.997 (n=480, errors=5; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 1.000 (n=480, errors=5; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.998 (n=480, errors=5; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.859 (n=480, errors=5; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 1.000 (n=480, errors=5; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.780 (n=480, errors=5; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=480, errors=5; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.003 (case-bootstrap 95% CI 0.000 to 0.008).
+- DIFF_internal_minus_risk_metadata: AUROC difference 0.000 (case-bootstrap 95% CI -0.000 to 0.000).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.002 (case-bootstrap 95% CI 0.000 to 0.006).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.141 (case-bootstrap 95% CI 0.067 to 0.224).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.000 (case-bootstrap 95% CI 0.000 to 0.001).
+### `microsoft/Phi-4-mini-instruct` — seed `20261025`, `test_ood`
+- risk_internal: AUROC 0.970 (n=360, errors=26; undefined metrics shown as `nan`).
+- risk_confidence: AUROC 0.944 (n=360, errors=26; undefined metrics shown as `nan`).
+- risk_metadata: AUROC 0.979 (n=360, errors=26; undefined metrics shown as `nan`).
+- risk_text_output: AUROC 0.964 (n=360, errors=26; undefined metrics shown as `nan`).
+- risk_text_only: AUROC 0.734 (n=360, errors=26; undefined metrics shown as `nan`).
+- risk_output_only: AUROC 0.957 (n=360, errors=26; undefined metrics shown as `nan`).
+- risk_perm_control: AUROC 0.739 (n=360, errors=26; undefined metrics shown as `nan`).
+- risk_rule_verifier: AUROC 1.000 (n=360, errors=26; undefined metrics shown as `nan`).
+- DIFF_internal_minus_risk_confidence: AUROC difference 0.025 (case-bootstrap 95% CI -0.054 to 0.072).
+- DIFF_internal_minus_risk_metadata: AUROC difference -0.010 (case-bootstrap 95% CI -0.065 to 0.020).
+- DIFF_internal_minus_risk_text_output: AUROC difference 0.005 (case-bootstrap 95% CI -0.059 to 0.038).
+- DIFF_internal_minus_risk_text_only: AUROC difference 0.235 (case-bootstrap 95% CI 0.101 to 0.499).
+- DIFF_internal_minus_risk_output_only: AUROC difference 0.013 (case-bootstrap 95% CI -0.059 to 0.052).
+
+## Source-specific and holistic causal edits
+
+A higher correct-choice margin after an edit does not, by itself, imply that source trustworthiness is localized in the modified residual component.
+- authority_token / status_high_to_low / delta_minus_identity_control: mean over reported per-model/seed/layer tests = -0.017 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+- authority_token / status_high_to_low / raw_delta_margin: mean over reported per-model/seed/layer tests = -0.016 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+- authority_token / status_low_to_high / delta_minus_identity_control: mean over reported per-model/seed/layer tests = +0.029 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+- authority_token / status_low_to_high / raw_delta_margin: mean over reported per-model/seed/layer tests = +0.030 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+- authority_token / status_self_control / raw_delta_margin: mean over reported per-model/seed/layer tests = +0.001 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+- authority_token / unchanged_earlier_token / delta_minus_identity_control: mean over reported per-model/seed/layer tests = +0.000 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+- authority_token / unchanged_earlier_token / raw_delta_margin: mean over reported per-model/seed/layer tests = +0.001 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+- whole_final_token / different_case_clean_matched / raw_delta_margin: mean over reported per-model/seed/layer tests = +0.031 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+- whole_final_token / same_case_clean / raw_delta_margin: mean over reported per-model/seed/layer tests = +0.084 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+- whole_final_token / same_case_evidence_flip / raw_delta_margin: mean over reported per-model/seed/layer tests = -1.048 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+- whole_final_token / self_injection / raw_delta_margin: mean over reported per-model/seed/layer tests = +0.001 (descriptive; consult disaggregated CIs and FDR in causal_summary_all.csv).
+
+## Activation steering with held-out controls
+
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; clean/learned_direction: margin effect +0.047 [-0.016, +0.109]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; clean/norm_matched_random: margin effect +0.039 [+0.016, +0.070]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; injection/learned_direction: margin effect -0.016 [-0.070, +0.047]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; injection/norm_matched_random: margin effect -0.016 [-0.062, +0.031]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; misleading/learned_direction: margin effect -0.008 [-0.078, +0.062]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; misleading/norm_matched_random: margin effect +0.008 [-0.031, +0.047]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; trusted_misleading/learned_direction: margin effect -0.023 [-0.102, +0.047]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; trusted_misleading/norm_matched_random: margin effect -0.008 [-0.047, +0.031]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; clean/learned_direction: margin effect +0.016 [-0.008, +0.047]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; clean/norm_matched_random: margin effect +0.016 [-0.016, +0.047]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; injection/learned_direction: margin effect +0.008 [-0.023, +0.039]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; injection/norm_matched_random: margin effect -0.031 [-0.062, +0.000]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; misleading/learned_direction: margin effect -0.000 [-0.039, +0.039]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; misleading/norm_matched_random: margin effect -0.000 [-0.031, +0.031]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; trusted_misleading/learned_direction: margin effect +0.035 [+0.012, +0.062]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; trusted_misleading/norm_matched_random: margin effect +0.004 [-0.031, +0.035]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; clean/learned_direction: margin effect +0.016 [-0.008, +0.047]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; clean/norm_matched_random: margin effect -0.000 [-0.031, +0.031]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; injection/learned_direction: margin effect -0.016 [-0.055, +0.023]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; injection/norm_matched_random: margin effect -0.008 [-0.039, +0.023]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; misleading/learned_direction: margin effect +0.008 [-0.031, +0.047]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; misleading/norm_matched_random: margin effect -0.016 [-0.055, +0.023]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; trusted_misleading/learned_direction: margin effect +0.008 [-0.000, +0.023]; n=16.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; trusted_misleading/norm_matched_random: margin effect -0.008 [-0.039, +0.016]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; clean/learned_direction: margin effect -0.051 [-0.227, +0.125]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; clean/norm_matched_random: margin effect -0.070 [-0.238, +0.082]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; injection/learned_direction: margin effect +0.148 [-0.039, +0.344]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; injection/norm_matched_random: margin effect +0.145 [-0.016, +0.293]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; misleading/learned_direction: margin effect +0.070 [-0.070, +0.211]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; misleading/norm_matched_random: margin effect +0.082 [-0.023, +0.191]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; trusted_misleading/learned_direction: margin effect +0.098 [-0.027, +0.234]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; trusted_misleading/norm_matched_random: margin effect +0.055 [-0.070, +0.188]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; clean/learned_direction: margin effect -0.031 [-0.133, +0.078]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; clean/norm_matched_random: margin effect -0.070 [-0.211, +0.070]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; injection/learned_direction: margin effect +0.121 [-0.027, +0.301]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; injection/norm_matched_random: margin effect +0.023 [-0.086, +0.129]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; misleading/learned_direction: margin effect +0.152 [-0.055, +0.453]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; misleading/norm_matched_random: margin effect +0.121 [-0.047, +0.356]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; trusted_misleading/learned_direction: margin effect +0.102 [-0.055, +0.360]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; trusted_misleading/norm_matched_random: margin effect +0.070 [-0.078, +0.281]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; clean/learned_direction: margin effect +0.180 [-0.047, +0.398]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; clean/norm_matched_random: margin effect +0.059 [-0.125, +0.266]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; injection/learned_direction: margin effect +0.063 [-0.063, +0.172]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; injection/norm_matched_random: margin effect -0.047 [-0.172, +0.086]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; misleading/learned_direction: margin effect -0.043 [-0.312, +0.176]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; misleading/norm_matched_random: margin effect -0.137 [-0.340, +0.027]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; trusted_misleading/learned_direction: margin effect +0.117 [-0.024, +0.258]; n=16.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; trusted_misleading/norm_matched_random: margin effect +0.020 [-0.125, +0.172]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261023; clean/learned_direction: margin effect +0.125 [+0.016, +0.234]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261023; clean/norm_matched_random: margin effect +0.031 [-0.078, +0.141]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261023; injection/learned_direction: margin effect +0.109 [+0.016, +0.203]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261023; injection/norm_matched_random: margin effect -0.047 [-0.141, +0.032]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261023; misleading/learned_direction: margin effect -0.078 [-0.172, +0.016]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261023; misleading/norm_matched_random: margin effect -0.078 [-0.172, +0.016]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261023; trusted_misleading/learned_direction: margin effect +0.000 [-0.125, +0.125]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261023; trusted_misleading/norm_matched_random: margin effect -0.062 [-0.172, +0.047]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261024; clean/learned_direction: margin effect +0.125 [+0.046, +0.203]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261024; clean/norm_matched_random: margin effect +0.094 [+0.031, +0.188]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261024; injection/learned_direction: margin effect +0.203 [+0.125, +0.281]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261024; injection/norm_matched_random: margin effect +0.141 [+0.062, +0.219]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261024; misleading/learned_direction: margin effect +0.094 [+0.000, +0.188]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261024; misleading/norm_matched_random: margin effect +0.047 [-0.031, +0.125]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261024; trusted_misleading/learned_direction: margin effect +0.094 [-0.016, +0.203]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261024; trusted_misleading/norm_matched_random: margin effect +0.125 [+0.016, +0.234]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261025; clean/learned_direction: margin effect +0.094 [-0.016, +0.203]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261025; clean/norm_matched_random: margin effect -0.000 [-0.094, +0.094]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261025; injection/learned_direction: margin effect +0.016 [-0.094, +0.125]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261025; injection/norm_matched_random: margin effect +0.062 [-0.031, +0.156]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261025; misleading/learned_direction: margin effect +0.078 [-0.031, +0.187]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261025; misleading/norm_matched_random: margin effect +0.078 [+0.000, +0.156]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261025; trusted_misleading/learned_direction: margin effect +0.156 [+0.078, +0.235]; n=16.
+- microsoft/Phi-4-mini-instruct; seed 20261025; trusted_misleading/norm_matched_random: margin effect +0.141 [+0.078, +0.203]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261023; clean/learned_direction: margin effect +0.445 [+0.211, +0.672]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261023; clean/norm_matched_random: margin effect +0.062 [-0.164, +0.266]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261023; injection/learned_direction: margin effect +0.344 [+0.148, +0.547]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261023; injection/norm_matched_random: margin effect -0.031 [-0.242, +0.156]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261023; misleading/learned_direction: margin effect +0.344 [+0.188, +0.492]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261023; misleading/norm_matched_random: margin effect +0.039 [-0.086, +0.164]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261023; trusted_misleading/learned_direction: margin effect +0.289 [+0.133, +0.461]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261023; trusted_misleading/norm_matched_random: margin effect -0.008 [-0.156, +0.141]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261024; clean/learned_direction: margin effect +0.273 [+0.094, +0.461]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261024; clean/norm_matched_random: margin effect +0.375 [+0.195, +0.562]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261024; injection/learned_direction: margin effect +0.344 [+0.101, +0.602]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261024; injection/norm_matched_random: margin effect +0.445 [+0.242, +0.664]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261024; misleading/learned_direction: margin effect +0.312 [+0.102, +0.508]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261024; misleading/norm_matched_random: margin effect +0.391 [+0.250, +0.555]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261024; trusted_misleading/learned_direction: margin effect +0.352 [+0.195, +0.492]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261024; trusted_misleading/norm_matched_random: margin effect +0.453 [+0.320, +0.602]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261025; clean/learned_direction: margin effect +0.414 [+0.164, +0.641]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261025; clean/norm_matched_random: margin effect +0.219 [-0.039, +0.477]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261025; injection/learned_direction: margin effect +0.398 [+0.242, +0.578]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261025; injection/norm_matched_random: margin effect +0.211 [+0.047, +0.367]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261025; misleading/learned_direction: margin effect +0.359 [+0.234, +0.492]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261025; misleading/norm_matched_random: margin effect +0.180 [-0.047, +0.398]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261025; trusted_misleading/learned_direction: margin effect +0.422 [+0.320, +0.523]; n=16.
+- Qwen/Qwen3-4B-Instruct-2507; seed 20261025; trusted_misleading/norm_matched_random: margin effect +0.242 [+0.039, +0.445]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; clean/learned_direction: margin effect +0.109 [+0.023, +0.203]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; clean/norm_matched_random: margin effect +0.047 [-0.055, +0.141]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; injection/learned_direction: margin effect +0.039 [-0.031, +0.109]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; injection/norm_matched_random: margin effect -0.016 [-0.086, +0.055]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; misleading/learned_direction: margin effect +0.039 [-0.047, +0.141]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; misleading/norm_matched_random: margin effect -0.047 [-0.149, +0.070]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; trusted_misleading/learned_direction: margin effect +0.047 [-0.023, +0.148]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; trusted_misleading/norm_matched_random: margin effect +0.000 [-0.086, +0.109]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; clean/learned_direction: margin effect +0.000 [-0.078, +0.070]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; clean/norm_matched_random: margin effect -0.055 [-0.164, +0.055]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; injection/learned_direction: margin effect -0.008 [-0.078, +0.062]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; injection/norm_matched_random: margin effect +0.008 [-0.078, +0.086]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; misleading/learned_direction: margin effect +0.016 [-0.062, +0.094]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; misleading/norm_matched_random: margin effect -0.023 [-0.117, +0.070]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; trusted_misleading/learned_direction: margin effect +0.023 [-0.094, +0.141]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; trusted_misleading/norm_matched_random: margin effect +0.008 [-0.117, +0.141]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; clean/learned_direction: margin effect +0.125 [+0.016, +0.242]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; clean/norm_matched_random: margin effect +0.117 [-0.016, +0.250]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; injection/learned_direction: margin effect +0.062 [-0.047, +0.188]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; injection/norm_matched_random: margin effect +0.008 [-0.133, +0.149]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; misleading/learned_direction: margin effect +0.164 [+0.047, +0.281]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; misleading/norm_matched_random: margin effect +0.148 [+0.016, +0.289]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; trusted_misleading/learned_direction: margin effect -0.031 [-0.117, +0.055]; n=16.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; trusted_misleading/norm_matched_random: margin effect +0.102 [-0.031, +0.250]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; clean/learned_direction: margin effect +0.016 [-0.016, +0.055]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; clean/norm_matched_random: margin effect +0.023 [-0.008, +0.055]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; injection/learned_direction: margin effect +0.023 [-0.008, +0.055]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; injection/norm_matched_random: margin effect +0.008 [-0.039, +0.062]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; misleading/learned_direction: margin effect +0.023 [-0.008, +0.055]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; misleading/norm_matched_random: margin effect +0.031 [-0.008, +0.070]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; trusted_misleading/learned_direction: margin effect +0.008 [-0.031, +0.062]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; trusted_misleading/norm_matched_random: margin effect -0.016 [-0.070, +0.039]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; clean/learned_direction: margin effect -0.008 [-0.055, +0.031]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; clean/norm_matched_random: margin effect +0.023 [-0.016, +0.070]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; injection/learned_direction: margin effect +0.016 [-0.023, +0.047]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; injection/norm_matched_random: margin effect -0.000 [-0.039, +0.039]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; misleading/learned_direction: margin effect +0.023 [-0.023, +0.070]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; misleading/norm_matched_random: margin effect -0.008 [-0.047, +0.031]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; trusted_misleading/learned_direction: margin effect +0.031 [-0.016, +0.078]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; trusted_misleading/norm_matched_random: margin effect -0.000 [-0.039, +0.039]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; clean/learned_direction: margin effect -0.016 [-0.055, +0.023]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; clean/norm_matched_random: margin effect -0.008 [-0.039, +0.023]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; injection/learned_direction: margin effect -0.023 [-0.055, +0.008]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; injection/norm_matched_random: margin effect -0.031 [-0.070, +0.008]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; misleading/learned_direction: margin effect +0.008 [-0.023, +0.047]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; misleading/norm_matched_random: margin effect -0.008 [-0.047, +0.031]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; trusted_misleading/learned_direction: margin effect +0.000 [-0.039, +0.039]; n=16.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; trusted_misleading/norm_matched_random: margin effect +0.008 [-0.031, +0.047]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; clean/learned_direction: margin effect +0.203 [-0.133, +0.594]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; clean/norm_matched_random: margin effect +0.195 [-0.141, +0.641]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; injection/learned_direction: margin effect +0.047 [-0.274, +0.328]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; injection/norm_matched_random: margin effect +0.109 [-0.141, +0.375]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; misleading/learned_direction: margin effect +0.008 [-0.281, +0.297]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; misleading/norm_matched_random: margin effect +0.062 [-0.281, +0.422]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; trusted_misleading/learned_direction: margin effect +0.227 [-0.024, +0.484]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; trusted_misleading/norm_matched_random: margin effect +0.336 [+0.070, +0.602]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; clean/learned_direction: margin effect +0.273 [+0.016, +0.531]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; clean/norm_matched_random: margin effect +0.172 [-0.109, +0.453]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; injection/learned_direction: margin effect +0.156 [-0.086, +0.492]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; injection/norm_matched_random: margin effect +0.047 [-0.164, +0.328]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; misleading/learned_direction: margin effect +0.164 [-0.063, +0.391]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; misleading/norm_matched_random: margin effect -0.102 [-0.320, +0.117]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; trusted_misleading/learned_direction: margin effect +0.258 [+0.086, +0.430]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; trusted_misleading/norm_matched_random: margin effect +0.070 [-0.078, +0.234]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; clean/learned_direction: margin effect +0.016 [-0.180, +0.250]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; clean/norm_matched_random: margin effect +0.109 [-0.094, +0.367]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; injection/learned_direction: margin effect +0.188 [-0.039, +0.445]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; injection/norm_matched_random: margin effect +0.125 [-0.102, +0.414]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; misleading/learned_direction: margin effect +0.406 [+0.094, +0.742]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; misleading/norm_matched_random: margin effect +0.578 [+0.219, +0.969]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; trusted_misleading/learned_direction: margin effect +0.023 [-0.172, +0.250]; n=16.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; trusted_misleading/norm_matched_random: margin effect +0.172 [-0.062, +0.445]; n=16.
+
+## Leave-one-task-out robustness
+
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; test_id; risk_internal: AUROC=0.768, n=480, errors=241.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; test_id; risk_text_output: AUROC=0.706, n=480, errors=241.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; test_id; risk_confidence: AUROC=0.469, n=480, errors=241.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; test_ood; risk_internal: AUROC=0.709, n=360, errors=181.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; test_ood; risk_text_output: AUROC=0.765, n=360, errors=181.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261023; test_ood; risk_confidence: AUROC=0.455, n=360, errors=181.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; test_id; risk_internal: AUROC=0.859, n=480, errors=241.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; test_id; risk_text_output: AUROC=0.770, n=480, errors=241.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; test_id; risk_confidence: AUROC=0.486, n=480, errors=241.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; test_ood; risk_internal: AUROC=0.757, n=360, errors=179.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; test_ood; risk_text_output: AUROC=0.770, n=360, errors=179.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261024; test_ood; risk_confidence: AUROC=0.437, n=360, errors=179.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; test_id; risk_internal: AUROC=0.821, n=480, errors=240.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; test_id; risk_text_output: AUROC=0.718, n=480, errors=240.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; test_id; risk_confidence: AUROC=0.472, n=480, errors=240.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; test_ood; risk_internal: AUROC=0.735, n=360, errors=180.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; test_ood; risk_text_output: AUROC=0.806, n=360, errors=180.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct; seed 20261025; test_ood; risk_confidence: AUROC=0.463, n=360, errors=180.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; test_id; risk_internal: AUROC=0.769, n=480, errors=147.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; test_id; risk_text_output: AUROC=0.784, n=480, errors=147.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; test_id; risk_confidence: AUROC=0.598, n=480, errors=147.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; test_ood; risk_internal: AUROC=0.714, n=360, errors=132.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; test_ood; risk_text_output: AUROC=0.660, n=360, errors=132.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261023; test_ood; risk_confidence: AUROC=0.571, n=360, errors=132.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; test_id; risk_internal: AUROC=0.815, n=480, errors=145.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; test_id; risk_text_output: AUROC=0.787, n=480, errors=145.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; test_id; risk_confidence: AUROC=0.659, n=480, errors=145.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; test_ood; risk_internal: AUROC=0.751, n=360, errors=145.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; test_ood; risk_text_output: AUROC=0.707, n=360, errors=145.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261024; test_ood; risk_confidence: AUROC=0.573, n=360, errors=145.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; test_id; risk_internal: AUROC=0.799, n=480, errors=153.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; test_id; risk_text_output: AUROC=0.740, n=480, errors=153.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; test_id; risk_confidence: AUROC=0.685, n=480, errors=153.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; test_ood; risk_internal: AUROC=0.675, n=360, errors=150.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; test_ood; risk_text_output: AUROC=0.698, n=360, errors=150.
+- Qwen/Qwen2.5-1.5B-Instruct; seed 20261025; test_ood; risk_confidence: AUROC=0.586, n=360, errors=150.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; test_id; risk_internal: AUROC=0.957, n=480, errors=119.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; test_id; risk_text_output: AUROC=0.764, n=480, errors=119.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; test_id; risk_confidence: AUROC=0.799, n=480, errors=119.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; test_ood; risk_internal: AUROC=0.934, n=360, errors=103.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; test_ood; risk_text_output: AUROC=0.705, n=360, errors=103.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261023; test_ood; risk_confidence: AUROC=0.745, n=360, errors=103.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; test_id; risk_internal: AUROC=0.870, n=480, errors=116.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; test_id; risk_text_output: AUROC=0.792, n=480, errors=116.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; test_id; risk_confidence: AUROC=0.791, n=480, errors=116.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; test_ood; risk_internal: AUROC=0.829, n=360, errors=105.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; test_ood; risk_text_output: AUROC=0.735, n=360, errors=105.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261024; test_ood; risk_confidence: AUROC=0.793, n=360, errors=105.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; test_id; risk_internal: AUROC=0.883, n=480, errors=132.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; test_id; risk_text_output: AUROC=0.832, n=480, errors=132.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; test_id; risk_confidence: AUROC=0.832, n=480, errors=132.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; test_ood; risk_internal: AUROC=0.806, n=360, errors=117.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; test_ood; risk_text_output: AUROC=0.816, n=360, errors=117.
+- Qwen/Qwen2.5-3B-Instruct; seed 20261025; test_ood; risk_confidence: AUROC=0.805, n=360, errors=117.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; test_id; risk_internal: AUROC=0.802, n=480, errors=258.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; test_id; risk_text_output: AUROC=0.712, n=480, errors=258.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; test_id; risk_confidence: AUROC=0.412, n=480, errors=258.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; test_ood; risk_internal: AUROC=0.725, n=360, errors=222.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; test_ood; risk_text_output: AUROC=0.660, n=360, errors=222.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261023; test_ood; risk_confidence: AUROC=0.434, n=360, errors=222.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; test_id; risk_internal: AUROC=0.750, n=480, errors=255.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; test_id; risk_text_output: AUROC=0.753, n=480, errors=255.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; test_id; risk_confidence: AUROC=0.402, n=480, errors=255.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; test_ood; risk_internal: AUROC=0.657, n=360, errors=214.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; test_ood; risk_text_output: AUROC=0.742, n=360, errors=214.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261024; test_ood; risk_confidence: AUROC=0.378, n=360, errors=214.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; test_id; risk_internal: AUROC=0.688, n=480, errors=262.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; test_id; risk_text_output: AUROC=0.668, n=480, errors=262.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; test_id; risk_confidence: AUROC=0.431, n=480, errors=262.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; test_ood; risk_internal: AUROC=0.658, n=360, errors=214.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; test_ood; risk_text_output: AUROC=0.748, n=360, errors=214.
+- allenai/OLMo-2-0425-1B-Instruct; seed 20261025; test_ood; risk_confidence: AUROC=0.418, n=360, errors=214.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; test_id; risk_internal: AUROC=0.858, n=480, errors=107.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; test_id; risk_text_output: AUROC=0.748, n=480, errors=107.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; test_id; risk_confidence: AUROC=0.638, n=480, errors=107.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; test_ood; risk_internal: AUROC=0.747, n=360, errors=94.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; test_ood; risk_text_output: AUROC=0.726, n=360, errors=94.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261023; test_ood; risk_confidence: AUROC=0.693, n=360, errors=94.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; test_id; risk_internal: AUROC=0.678, n=480, errors=85.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; test_id; risk_text_output: AUROC=0.800, n=480, errors=85.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; test_id; risk_confidence: AUROC=0.706, n=480, errors=85.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; test_ood; risk_internal: AUROC=0.645, n=360, errors=116.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; test_ood; risk_text_output: AUROC=0.599, n=360, errors=116.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261024; test_ood; risk_confidence: AUROC=0.626, n=360, errors=116.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; test_id; risk_internal: AUROC=0.874, n=480, errors=84.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; test_id; risk_text_output: AUROC=0.799, n=480, errors=84.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; test_id; risk_confidence: AUROC=0.765, n=480, errors=84.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; test_ood; risk_internal: AUROC=0.785, n=360, errors=110.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; test_ood; risk_text_output: AUROC=0.640, n=360, errors=110.
+- ibm-granite/granite-3.3-2b-instruct; seed 20261025; test_ood; risk_confidence: AUROC=0.626, n=360, errors=110.
+- microsoft/Phi-4-mini-instruct; seed 20261023; test_id; risk_internal: AUROC=nan, n=384, errors=0.
+- microsoft/Phi-4-mini-instruct; seed 20261023; test_id; risk_text_output: AUROC=nan, n=384, errors=0.
+- microsoft/Phi-4-mini-instruct; seed 20261023; test_id; risk_confidence: AUROC=nan, n=384, errors=0.
+- microsoft/Phi-4-mini-instruct; seed 20261023; test_ood; risk_internal: AUROC=0.476, n=288, errors=5.
+- microsoft/Phi-4-mini-instruct; seed 20261023; test_ood; risk_text_output: AUROC=0.995, n=288, errors=5.
+- microsoft/Phi-4-mini-instruct; seed 20261023; test_ood; risk_confidence: AUROC=0.996, n=288, errors=5.
+- microsoft/Phi-4-mini-instruct; seed 20261024; test_id; risk_internal: AUROC=nan, n=384, errors=0.
+- microsoft/Phi-4-mini-instruct; seed 20261024; test_id; risk_text_output: AUROC=nan, n=384, errors=0.
+- microsoft/Phi-4-mini-instruct; seed 20261024; test_id; risk_confidence: AUROC=nan, n=384, errors=0.
+- microsoft/Phi-4-mini-instruct; seed 20261024; test_ood; risk_internal: AUROC=0.902, n=288, errors=4.
+- microsoft/Phi-4-mini-instruct; seed 20261024; test_ood; risk_text_output: AUROC=0.972, n=288, errors=4.
+- microsoft/Phi-4-mini-instruct; seed 20261024; test_ood; risk_confidence: AUROC=0.960, n=288, errors=4.
+- microsoft/Phi-4-mini-instruct; seed 20261025; test_id; risk_internal: AUROC=nan, n=384, errors=0.
+- microsoft/Phi-4-mini-instruct; seed 20261025; test_id; risk_text_output: AUROC=nan, n=384, errors=0.
+- microsoft/Phi-4-mini-instruct; seed 20261025; test_id; risk_confidence: AUROC=nan, n=384, errors=0.
+- microsoft/Phi-4-mini-instruct; seed 20261025; test_ood; risk_internal: AUROC=0.846, n=288, errors=8.
+- microsoft/Phi-4-mini-instruct; seed 20261025; test_ood; risk_text_output: AUROC=0.999, n=288, errors=8.
+- microsoft/Phi-4-mini-instruct; seed 20261025; test_ood; risk_confidence: AUROC=0.993, n=288, errors=8.
+
+## Falsification: paired answer-letter swaps
+
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/test_id: forced-choice letter flips in 0.0% of paired prompts; n_cases=120.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/test_ood: forced-choice letter flips in 1.2% of paired prompts; n_cases=120.
+- Qwen/Qwen2.5-1.5B-Instruct/test_id: forced-choice letter flips in 80.6% of paired prompts; n_cases=120.
+- Qwen/Qwen2.5-1.5B-Instruct/test_ood: forced-choice letter flips in 79.8% of paired prompts; n_cases=120.
+- Qwen/Qwen2.5-3B-Instruct/test_id: forced-choice letter flips in 87.9% of paired prompts; n_cases=120.
+- Qwen/Qwen2.5-3B-Instruct/test_ood: forced-choice letter flips in 86.0% of paired prompts; n_cases=120.
+- allenai/OLMo-2-0425-1B-Instruct/test_id: forced-choice letter flips in 17.7% of paired prompts; n_cases=120.
+- allenai/OLMo-2-0425-1B-Instruct/test_ood: forced-choice letter flips in 46.5% of paired prompts; n_cases=120.
+- ibm-granite/granite-3.3-2b-instruct/test_id: forced-choice letter flips in 80.8% of paired prompts; n_cases=120.
+- ibm-granite/granite-3.3-2b-instruct/test_ood: forced-choice letter flips in 60.8% of paired prompts; n_cases=120.
+- microsoft/Phi-4-mini-instruct/test_id: forced-choice letter flips in 100.0% of paired prompts; n_cases=120.
+- microsoft/Phi-4-mini-instruct/test_ood: forced-choice letter flips in 93.1% of paired prompts; n_cases=120.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/test_id/risk_internal: mean AUROC 0.983 across benchmark seeds.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/test_id/risk_text_output: mean AUROC 0.050 across benchmark seeds.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/test_ood/risk_internal: mean AUROC 0.854 across benchmark seeds.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/test_ood/risk_text_output: mean AUROC 0.053 across benchmark seeds.
+- Qwen/Qwen2.5-1.5B-Instruct/test_id/risk_internal: mean AUROC 0.962 across benchmark seeds.
+- Qwen/Qwen2.5-1.5B-Instruct/test_id/risk_text_output: mean AUROC 0.838 across benchmark seeds.
+- Qwen/Qwen2.5-1.5B-Instruct/test_ood/risk_internal: mean AUROC 0.869 across benchmark seeds.
+- Qwen/Qwen2.5-1.5B-Instruct/test_ood/risk_text_output: mean AUROC 0.721 across benchmark seeds.
+- Qwen/Qwen2.5-3B-Instruct/test_id/risk_internal: mean AUROC 0.995 across benchmark seeds.
+- Qwen/Qwen2.5-3B-Instruct/test_id/risk_text_output: mean AUROC 0.911 across benchmark seeds.
+- Qwen/Qwen2.5-3B-Instruct/test_ood/risk_internal: mean AUROC 0.971 across benchmark seeds.
+- Qwen/Qwen2.5-3B-Instruct/test_ood/risk_text_output: mean AUROC 0.834 across benchmark seeds.
+- allenai/OLMo-2-0425-1B-Instruct/test_id/risk_internal: mean AUROC 0.801 across benchmark seeds.
+- allenai/OLMo-2-0425-1B-Instruct/test_id/risk_text_output: mean AUROC 0.182 across benchmark seeds.
+- allenai/OLMo-2-0425-1B-Instruct/test_ood/risk_internal: mean AUROC 0.714 across benchmark seeds.
+- allenai/OLMo-2-0425-1B-Instruct/test_ood/risk_text_output: mean AUROC 0.299 across benchmark seeds.
+- ibm-granite/granite-3.3-2b-instruct/test_id/risk_internal: mean AUROC 0.981 across benchmark seeds.
+- ibm-granite/granite-3.3-2b-instruct/test_id/risk_text_output: mean AUROC 0.913 across benchmark seeds.
+- ibm-granite/granite-3.3-2b-instruct/test_ood/risk_internal: mean AUROC 0.882 across benchmark seeds.
+- ibm-granite/granite-3.3-2b-instruct/test_ood/risk_text_output: mean AUROC 0.752 across benchmark seeds.
+- microsoft/Phi-4-mini-instruct/test_id/risk_internal: mean AUROC nan across benchmark seeds.
+- microsoft/Phi-4-mini-instruct/test_id/risk_text_output: mean AUROC nan across benchmark seeds.
+- microsoft/Phi-4-mini-instruct/test_ood/risk_internal: mean AUROC 0.984 across benchmark seeds.
+- microsoft/Phi-4-mini-instruct/test_ood/risk_text_output: mean AUROC 0.955 across benchmark seeds.
+
+## Answer-letter collapse audit
+
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/20261023/test_id: predicted B fraction=99.8%, near-constant=True; n=480.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/20261023/test_ood: predicted B fraction=99.2%, near-constant=True; n=360.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/20261024/test_id: predicted B fraction=99.8%, near-constant=True; n=480.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/20261024/test_ood: predicted B fraction=98.6%, near-constant=True; n=360.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/20261025/test_id: predicted B fraction=100.0%, near-constant=True; n=480.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/20261025/test_ood: predicted B fraction=98.9%, near-constant=True; n=360.
+- Qwen/Qwen2.5-1.5B-Instruct/20261023/test_id: predicted B fraction=49.0%, near-constant=False; n=480.
+- Qwen/Qwen2.5-1.5B-Instruct/20261023/test_ood: predicted B fraction=46.1%, near-constant=False; n=360.
+- Qwen/Qwen2.5-1.5B-Instruct/20261024/test_id: predicted B fraction=47.7%, near-constant=False; n=480.
+- Qwen/Qwen2.5-1.5B-Instruct/20261024/test_ood: predicted B fraction=46.9%, near-constant=False; n=360.
+- Qwen/Qwen2.5-1.5B-Instruct/20261025/test_id: predicted B fraction=48.1%, near-constant=False; n=480.
+- Qwen/Qwen2.5-1.5B-Instruct/20261025/test_ood: predicted B fraction=41.7%, near-constant=False; n=360.
+- Qwen/Qwen2.5-3B-Instruct/20261023/test_id: predicted B fraction=46.9%, near-constant=False; n=480.
+- Qwen/Qwen2.5-3B-Instruct/20261023/test_ood: predicted B fraction=54.7%, near-constant=False; n=360.
+- Qwen/Qwen2.5-3B-Instruct/20261024/test_id: predicted B fraction=44.6%, near-constant=False; n=480.
+- Qwen/Qwen2.5-3B-Instruct/20261024/test_ood: predicted B fraction=50.3%, near-constant=False; n=360.
+- Qwen/Qwen2.5-3B-Instruct/20261025/test_id: predicted B fraction=45.8%, near-constant=False; n=480.
+- Qwen/Qwen2.5-3B-Instruct/20261025/test_ood: predicted B fraction=49.7%, near-constant=False; n=360.
+- allenai/OLMo-2-0425-1B-Instruct/20261023/test_id: predicted B fraction=6.2%, near-constant=False; n=480.
+- allenai/OLMo-2-0425-1B-Instruct/20261023/test_ood: predicted B fraction=25.6%, near-constant=False; n=360.
+- allenai/OLMo-2-0425-1B-Instruct/20261024/test_id: predicted B fraction=5.6%, near-constant=False; n=480.
+- allenai/OLMo-2-0425-1B-Instruct/20261024/test_ood: predicted B fraction=21.1%, near-constant=False; n=360.
+- allenai/OLMo-2-0425-1B-Instruct/20261025/test_id: predicted B fraction=6.2%, near-constant=False; n=480.
+- allenai/OLMo-2-0425-1B-Instruct/20261025/test_ood: predicted B fraction=23.3%, near-constant=False; n=360.
+- ibm-granite/granite-3.3-2b-instruct/20261023/test_id: predicted B fraction=36.5%, near-constant=False; n=480.
+- ibm-granite/granite-3.3-2b-instruct/20261023/test_ood: predicted B fraction=33.9%, near-constant=False; n=360.
+- ibm-granite/granite-3.3-2b-instruct/20261024/test_id: predicted B fraction=38.1%, near-constant=False; n=480.
+- ibm-granite/granite-3.3-2b-instruct/20261024/test_ood: predicted B fraction=31.1%, near-constant=False; n=360.
+- ibm-granite/granite-3.3-2b-instruct/20261025/test_id: predicted B fraction=37.5%, near-constant=False; n=480.
+- ibm-granite/granite-3.3-2b-instruct/20261025/test_ood: predicted B fraction=32.2%, near-constant=False; n=360.
+- microsoft/Phi-4-mini-instruct/20261023/test_id: predicted B fraction=50.6%, near-constant=False; n=480.
+- microsoft/Phi-4-mini-instruct/20261023/test_ood: predicted B fraction=54.2%, near-constant=False; n=360.
+- microsoft/Phi-4-mini-instruct/20261024/test_id: predicted B fraction=50.0%, near-constant=False; n=480.
+- microsoft/Phi-4-mini-instruct/20261024/test_ood: predicted B fraction=50.8%, near-constant=False; n=360.
+- microsoft/Phi-4-mini-instruct/20261025/test_id: predicted B fraction=51.0%, near-constant=False; n=480.
+- microsoft/Phi-4-mini-instruct/20261025/test_ood: predicted B fraction=52.8%, near-constant=False; n=360.
+
+## Evidence, commentary and authority paired tests
+
+- HuggingFaceTB/SmolLM2-1.7B-Instruct: evidence-flip response rate 0.0%; authority-only response rate 0.4%; neutral paraphrase response rate 0.0%.
+- Qwen/Qwen2.5-1.5B-Instruct: evidence-flip response rate 41.2%; authority-only response rate 5.8%; neutral paraphrase response rate 7.5%.
+- Qwen/Qwen2.5-3B-Instruct: evidence-flip response rate 43.8%; authority-only response rate 2.1%; neutral paraphrase response rate 4.2%.
+- Qwen/Qwen3-4B-Instruct-2507: evidence-flip response rate 100.0%; authority-only response rate 0.0%; neutral paraphrase response rate 0.0%.
+- allenai/OLMo-2-0425-1B-Instruct: evidence-flip response rate 7.1%; authority-only response rate 6.2%; neutral paraphrase response rate 2.1%.
+- ibm-granite/granite-3.3-2b-instruct: evidence-flip response rate 85.4%; authority-only response rate 2.5%; neutral paraphrase response rate 5.8%.
+- microsoft/Phi-4-mini-instruct: evidence-flip response rate 98.8%; authority-only response rate 0.0%; neutral paraphrase response rate 0.0%.
+
+## Causal control validity
+
+- allenai/OLMo-2-0425-1B-Instruct/20261023: identity controls valid=False; maximum drift=0.24998283386230477.
+- allenai/OLMo-2-0425-1B-Instruct/20261024: identity controls valid=False; maximum drift=0.12499237060546874.
+- allenai/OLMo-2-0425-1B-Instruct/20261025: identity controls valid=False; maximum drift=0.12499618530273444.
+- ibm-granite/granite-3.3-2b-instruct/20261023: identity controls valid=False; maximum drift=0.5.
+- ibm-granite/granite-3.3-2b-instruct/20261024: identity controls valid=False; maximum drift=0.25.
+- ibm-granite/granite-3.3-2b-instruct/20261025: identity controls valid=False; maximum drift=0.25.
+- microsoft/Phi-4-mini-instruct/20261023: identity controls valid=False; maximum drift=0.2500000000000002.
+- microsoft/Phi-4-mini-instruct/20261024: identity controls valid=False; maximum drift=0.25.
+- microsoft/Phi-4-mini-instruct/20261025: identity controls valid=False; maximum drift=0.4999961853027344.
+- Qwen/Qwen3-4B-Instruct-2507/20261023: identity controls valid=False; maximum drift=0.25.
+- Qwen/Qwen3-4B-Instruct-2507/20261024: identity controls valid=False; maximum drift=0.125.
+- Qwen/Qwen3-4B-Instruct-2507/20261025: identity controls valid=False; maximum drift=0.375.
+- Qwen/Qwen2.5-1.5B-Instruct/20261023: identity controls valid=False; maximum drift=0.25.
+- Qwen/Qwen2.5-1.5B-Instruct/20261024: identity controls valid=False; maximum drift=0.125.
+- Qwen/Qwen2.5-1.5B-Instruct/20261025: identity controls valid=False; maximum drift=0.5.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/20261023: identity controls valid=False; maximum drift=0.125.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/20261024: identity controls valid=False; maximum drift=0.12499809265136719.
+- HuggingFaceTB/SmolLM2-1.7B-Instruct/20261025: identity controls valid=False; maximum drift=0.125.
+- Qwen/Qwen2.5-3B-Instruct/20261023: identity controls valid=False; maximum drift=0.25.
+- Qwen/Qwen2.5-3B-Instruct/20261024: identity controls valid=False; maximum drift=0.625.
+- Qwen/Qwen2.5-3B-Instruct/20261025: identity controls valid=False; maximum drift=0.25.
+
+## SAE (exploratory)
+
+- frequency_matched_control: mean held-out delta-correct-margin +0.027, n=32 cases (not a mechanistic validation).
+- selected_feature: mean held-out delta-correct-margin +0.027, n=32 cases (not a mechanistic validation).
+
+## Real-data stress test (optional)
+
+SEC XBRL tests: 160 company-year examples, with verifiable source metadata. This is numeric extracted-data evaluation, NOT direct financial-document reading.
+
+## Submission-critical limitations and checks
+1. A/B forced-choice next-token measurement is not free-form evidence citation accuracy.
+2. Baselines trained on prompt text must be discussed even if the internal probe wins against confidence.
+3. The deterministic numeric verifier solves the synthetic target by construction; interpretability does not beat it.
+4. The experiment manipulates claimed textual authority, not objective reliability of audited financial filings.
+5. Compare matched donor patching, self-patches, unchanged-token controls, across-model replication, and null interventions.
+6. Source-token alignment failures and SAE failures are recorded, not quietly dropped.
+7. Check qualitative errors, content leakage, prompt truncation (disallowed), model revisions, ablation specificity and multiplicity.
+8. Cluster bootstrap intervals condition on the synthetic data generator; they are not broad market-world guarantees.
+9. Before a substantive deployment claim, test held-out real filing passages, audited provenance and independent factual annotations.
+10. Acceptance is determined by workshop reviewers; no amount of code makes it obvious or guaranteed.

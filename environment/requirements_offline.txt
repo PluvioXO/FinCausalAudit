@@ -1,0 +1,4 @@
+# Metric/statistic verification (no GPU, no model downloads)
+numpy>=1.26,<3
+pandas>=2.0,<3
+scikit-learn>=1.4,<2

@@ -1,0 +1,12 @@
+{
+  "cases": 80,
+  "finished": true,
+  "flip_rate": 0.940625,
+  "identity_definition": "output letter should invert when option mapping is reversed",
+  "mean_deviation": 0.11882797856039815,
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "note": "A nonflipping response may reflect letter bias or other task failures, not a causal claim.",
+  "prompts": 320,
+  "protocol_version": "v3",
+  "seed": 20261025
+}

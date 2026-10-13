@@ -1,0 +1,91 @@
+{
+  "all_stages_complete": true,
+  "cache_protocol_version": "v3.1-incremental-2026-10-12",
+  "cache_signature": "ec38d64f62e45a3eaa897e94a57544e7102aa1e29648f62a34e9d66a1c2dfb7e",
+  "causal_status": {
+    "finished": true,
+    "identity_controls_valid": false,
+    "identity_max_abs_delta_margin": 0.125,
+    "reason": "Identity patch changed logits beyond threshold",
+    "status": "SKIPPED_IDENTITY_PREFLIGHT"
+  },
+  "completed_utc": "2026-10-13T00:05:03.663489+00:00",
+  "forward_sha256": "4e779a023bdf2ae1be448c71c4489ac62cf52c4cbb56edd50048fe9217294afd",
+  "label_swap_enabled": true,
+  "measured_accuracy": 0.6710714285714285,
+  "measured_rows": 2800,
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "n_layers": 28,
+  "probe_status": {
+    "best_decoder_block": 23,
+    "meta_C": 1.0,
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "output_only_C": 0.01,
+    "seed": 20261024,
+    "selected_C": 1.0,
+    "selection_rule": "validation AUROC maximisation; no test-layer selection",
+    "status": "complete",
+    "text_C": 10.0,
+    "text_only_C": 10.0,
+    "val_probe_auroc": 0.9402417582417582,
+    "val_text_auroc": 0.8095934065934066
+  },
+  "real_sec_enabled": true,
+  "seed": 20261024,
+  "stage_outputs": {
+    "behaviour": [
+      "behaviour_paired.csv"
+    ],
+    "causal": [
+      "causal_raw.csv",
+      "causal_summary.csv",
+      "causal_status.json",
+      "causal_identity_preflight.json"
+    ],
+    "cross_task": [
+      "cross_task_predictions.csv",
+      "cross_task_selection.csv"
+    ],
+    "freeform": [
+      "freeform_check.csv"
+    ],
+    "label_swap": [
+      "label_swap_predictions.csv",
+      "label_swap_probe_metrics.csv",
+      "label_swap_state.json"
+    ],
+    "probes": [
+      "probe_metrics.csv",
+      "probe_risk_predictions.csv",
+      "probe_status.json"
+    ],
+    "sec": [
+      "sec_predictions.csv"
+    ],
+    "semantic": [
+      "paired_semantic_sensitivity.csv"
+    ],
+    "steering": [
+      "steering_test.csv",
+      "steering_summary.csv",
+      "steering_status.json"
+    ]
+  },
+  "stage_signature": "ec38d64f62e45a3eaa897e94a57544e7102aa1e29648f62a34e9d66a1c2dfb7e",
+  "steering_status": {
+    "direction_norm": 0.6587550640106201,
+    "finished": true,
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "random_control_norm": 0.6587550640106201,
+    "seed": 20261024,
+    "selected_alpha": -0.02,
+    "selected_block": 9,
+    "selection": "validation only; held-out splits untouched",
+    "status": "complete",
+    "val_clean_gain": -0.041666666666666664,
+    "val_injection_gain": 0.052083333333333336,
+    "validation_objective": 0.020833333333333336
+  },
+  "unique_cases": 400
+}

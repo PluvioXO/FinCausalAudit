@@ -1,0 +1,6 @@
+model_id,seed,layer,chosen_C,val_auroc
+Qwen/Qwen2.5-1.5B-Instruct,20261012,4,0.1,0.8075
+Qwen/Qwen2.5-1.5B-Instruct,20261012,9,0.01,0.789537037037037
+Qwen/Qwen2.5-1.5B-Instruct,20261012,14,0.1,0.7659259259259259
+Qwen/Qwen2.5-1.5B-Instruct,20261012,20,0.1,0.9375925925925925
+Qwen/Qwen2.5-1.5B-Instruct,20261012,23,0.1,0.9437962962962962

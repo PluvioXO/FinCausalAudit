@@ -1,0 +1,91 @@
+{
+  "all_stages_complete": true,
+  "cache_protocol_version": "v3.1-incremental-2026-10-12",
+  "cache_signature": "942d2f3f90fc208631fc8f84f570b0c6b5533b202b5c952f7fa9682430989387",
+  "causal_status": {
+    "finished": true,
+    "identity_controls_valid": false,
+    "identity_max_abs_delta_margin": 0.5,
+    "reason": "Identity patch changed logits beyond threshold",
+    "status": "SKIPPED_IDENTITY_PREFLIGHT"
+  },
+  "completed_utc": "2026-10-12T23:14:18.961826+00:00",
+  "forward_sha256": "17aec8b017d879973b6e44033f3f6a1748da282d9b567dbfd03799dbe7d50ab1",
+  "label_swap_enabled": true,
+  "measured_accuracy": 0.8203571428571429,
+  "measured_rows": 2800,
+  "model_id": "ibm-granite/granite-3.3-2b-instruct",
+  "model_revision": "707f574c62054322f6b5b04b6d075f0a8f05e0f0",
+  "n_layers": 40,
+  "probe_status": {
+    "best_decoder_block": 28,
+    "meta_C": 1.0,
+    "model_id": "ibm-granite/granite-3.3-2b-instruct",
+    "output_only_C": 1.0,
+    "seed": 20261023,
+    "selected_C": 1.0,
+    "selection_rule": "validation AUROC maximisation; no test-layer selection",
+    "status": "complete",
+    "text_C": 10.0,
+    "text_only_C": 10.0,
+    "val_probe_auroc": 0.9913415637860082,
+    "val_text_auroc": 0.9262222222222222
+  },
+  "real_sec_enabled": true,
+  "seed": 20261023,
+  "stage_outputs": {
+    "behaviour": [
+      "behaviour_paired.csv"
+    ],
+    "causal": [
+      "causal_raw.csv",
+      "causal_summary.csv",
+      "causal_status.json",
+      "causal_identity_preflight.json"
+    ],
+    "cross_task": [
+      "cross_task_predictions.csv",
+      "cross_task_selection.csv"
+    ],
+    "freeform": [
+      "freeform_check.csv"
+    ],
+    "label_swap": [
+      "label_swap_predictions.csv",
+      "label_swap_probe_metrics.csv",
+      "label_swap_state.json"
+    ],
+    "probes": [
+      "probe_metrics.csv",
+      "probe_risk_predictions.csv",
+      "probe_status.json"
+    ],
+    "sec": [
+      "sec_predictions.csv"
+    ],
+    "semantic": [
+      "paired_semantic_sensitivity.csv"
+    ],
+    "steering": [
+      "steering_test.csv",
+      "steering_summary.csv",
+      "steering_status.json"
+    ]
+  },
+  "stage_signature": "942d2f3f90fc208631fc8f84f570b0c6b5533b202b5c952f7fa9682430989387",
+  "steering_status": {
+    "direction_norm": 0.8087940216064453,
+    "finished": true,
+    "model_id": "ibm-granite/granite-3.3-2b-instruct",
+    "random_control_norm": 0.8087940216064453,
+    "seed": 20261023,
+    "selected_alpha": -0.04,
+    "selected_block": 28,
+    "selection": "validation only; held-out splits untouched",
+    "status": "complete",
+    "val_clean_gain": 0.06770809491475423,
+    "val_injection_gain": 0.078125,
+    "validation_objective": 0.078125
+  },
+  "unique_cases": 400
+}

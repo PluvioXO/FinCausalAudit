@@ -1,0 +1,6 @@
+metric,value
+distinct SEC task cases,139
+distinct SEC issuer-year observations,70
+companies,14
+distinct prompt condition variants,3
+year label offsets observed,all prompts +2 versus actual period end

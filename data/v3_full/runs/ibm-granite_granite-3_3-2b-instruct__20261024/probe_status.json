@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "model_id": "ibm-granite/granite-3.3-2b-instruct",
+  "seed": 20261024,
+  "best_decoder_block": 34,
+  "selected_C": 0.1,
+  "val_probe_auroc": 0.99311098297472,
+  "val_text_auroc": 0.9005644745227761,
+  "meta_C": 1.0,
+  "text_C": 1.0,
+  "text_only_C": 10.0,
+  "output_only_C": 0.1,
+  "selection_rule": "validation AUROC maximisation; no test-layer selection"
+}

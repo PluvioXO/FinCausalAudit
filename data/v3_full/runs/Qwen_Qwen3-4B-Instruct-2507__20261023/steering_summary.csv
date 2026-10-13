@@ -1,0 +1,17 @@
+model_id,seed,split,variant,condition,mean_delta,ci_lo,ci_hi,n_cases
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_id,clean,learned_direction,0.4453125,0.2107421875,0.6720703124999998,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_id,clean,norm_matched_random,0.0625,-0.1640625,0.265625,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_id,injection,learned_direction,0.34375,0.1484375,0.546875,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_id,injection,norm_matched_random,-0.03125,-0.2421875,0.15625,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_id,misleading,learned_direction,0.34375,0.1875,0.4921875,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_id,misleading,norm_matched_random,0.0390625,-0.08613281249999999,0.1640625,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_id,trusted_misleading,learned_direction,0.2890625,0.1328125,0.4609375,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_id,trusted_misleading,norm_matched_random,-0.0078125,-0.15625,0.140625,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_ood,clean,learned_direction,0.34375,0.1328125,0.5390625,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_ood,clean,norm_matched_random,0.03125,-0.125,0.18769531249999982,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_ood,injection,learned_direction,0.40625,0.1796875,0.625,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_ood,injection,norm_matched_random,-0.0234375,-0.2109375,0.1328125,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_ood,misleading,learned_direction,0.3515625,0.125,0.5546875,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_ood,misleading,norm_matched_random,-0.0390625,-0.2267578125,0.1328125,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_ood,trusted_misleading,learned_direction,0.265625,0.078125,0.421875,16
+Qwen/Qwen3-4B-Instruct-2507,20261023,test_ood,trusted_misleading,norm_matched_random,-0.1015625,-0.3125,0.0625,16

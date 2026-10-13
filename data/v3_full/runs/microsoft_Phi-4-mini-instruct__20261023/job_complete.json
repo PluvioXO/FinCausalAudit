@@ -1,0 +1,91 @@
+{
+  "all_stages_complete": true,
+  "cache_protocol_version": "v3.1-incremental-2026-10-12",
+  "cache_signature": "199e8d5112a36e24b9a67a06d92268df6c78a316933a4d7fb33a3cb12866122a",
+  "causal_status": {
+    "finished": true,
+    "identity_controls_valid": false,
+    "identity_max_abs_delta_margin": 0.2500000000000002,
+    "reason": "Identity patch changed logits beyond threshold",
+    "status": "SKIPPED_IDENTITY_PREFLIGHT"
+  },
+  "completed_utc": "2026-10-12T23:31:33.623596+00:00",
+  "forward_sha256": "2d5b7a4cbbcc50214b81010979d756c98add33ef73e3c5e42d7276d6ce26e421",
+  "label_swap_enabled": true,
+  "measured_accuracy": 0.9846428571428572,
+  "measured_rows": 2800,
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "n_layers": 32,
+  "probe_status": {
+    "best_decoder_block": 22,
+    "meta_C": 1.0,
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "output_only_C": 0.1,
+    "seed": 20261023,
+    "selected_C": 0.01,
+    "selection_rule": "validation AUROC maximisation; no test-layer selection",
+    "status": "complete",
+    "text_C": 0.1,
+    "text_only_C": 1.0,
+    "val_probe_auroc": 1.0,
+    "val_text_auroc": 0.9984243697478992
+  },
+  "real_sec_enabled": true,
+  "seed": 20261023,
+  "stage_outputs": {
+    "behaviour": [
+      "behaviour_paired.csv"
+    ],
+    "causal": [
+      "causal_raw.csv",
+      "causal_summary.csv",
+      "causal_status.json",
+      "causal_identity_preflight.json"
+    ],
+    "cross_task": [
+      "cross_task_predictions.csv",
+      "cross_task_selection.csv"
+    ],
+    "freeform": [
+      "freeform_check.csv"
+    ],
+    "label_swap": [
+      "label_swap_predictions.csv",
+      "label_swap_probe_metrics.csv",
+      "label_swap_state.json"
+    ],
+    "probes": [
+      "probe_metrics.csv",
+      "probe_risk_predictions.csv",
+      "probe_status.json"
+    ],
+    "sec": [
+      "sec_predictions.csv"
+    ],
+    "semantic": [
+      "paired_semantic_sensitivity.csv"
+    ],
+    "steering": [
+      "steering_test.csv",
+      "steering_summary.csv",
+      "steering_status.json"
+    ]
+  },
+  "stage_signature": "199e8d5112a36e24b9a67a06d92268df6c78a316933a4d7fb33a3cb12866122a",
+  "steering_status": {
+    "direction_norm": 1.9789135456085205,
+    "finished": true,
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "random_control_norm": 1.97891366481781,
+    "seed": 20261023,
+    "selected_alpha": -0.04,
+    "selected_block": 16,
+    "selection": "validation only; held-out splits untouched",
+    "status": "complete",
+    "val_clean_gain": 0.14583174387613937,
+    "val_injection_gain": 0.1249996821085612,
+    "validation_objective": 0.1249996821085612
+  },
+  "unique_cases": 400
+}

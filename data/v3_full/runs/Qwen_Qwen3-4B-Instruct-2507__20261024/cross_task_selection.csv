@@ -1,0 +1,6 @@
+model_id,seed,holdout_task,status
+Qwen/Qwen3-4B-Instruct-2507,20261024,earnings,unestimable labels
+Qwen/Qwen3-4B-Instruct-2507,20261024,cashflow,unestimable labels
+Qwen/Qwen3-4B-Instruct-2507,20261024,credit,unestimable labels
+Qwen/Qwen3-4B-Instruct-2507,20261024,liquidity,unestimable labels
+Qwen/Qwen3-4B-Instruct-2507,20261024,valuation,unestimable labels

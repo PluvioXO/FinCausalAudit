@@ -1,0 +1,14 @@
+{
+  "finished": true,
+  "status": "complete",
+  "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "seed": 20261012,
+  "selected_block": 12,
+  "selected_alpha": 0.02,
+  "validation_objective": 0.010415375740516958,
+  "val_injection_gain": 0.010415375740516958,
+  "val_clean_gain": 0.01041715918087168,
+  "direction_norm": 3.1612370014190674,
+  "random_control_norm": 3.1612370014190674,
+  "selection": "validation only; held-out splits untouched"
+}

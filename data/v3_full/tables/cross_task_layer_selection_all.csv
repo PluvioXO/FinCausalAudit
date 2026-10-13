@@ -1,0 +1,106 @@
+model_id,seed,holdout_task,status,selected_layer,probe_C,text_C,val_auroc_other_tasks
+allenai/OLMo-2-0425-1B-Instruct,20261023,earnings,complete,13.0,0.1,1.0,0.8621959201483582
+allenai/OLMo-2-0425-1B-Instruct,20261023,cashflow,complete,13.0,0.1,1.0,0.8524639423076924
+allenai/OLMo-2-0425-1B-Instruct,20261023,credit,complete,13.0,0.1,1.0,0.8963779956427015
+allenai/OLMo-2-0425-1B-Instruct,20261023,liquidity,complete,13.0,0.1,1.0,0.8655530991566364
+allenai/OLMo-2-0425-1B-Instruct,20261023,valuation,complete,13.0,0.1,1.0,0.8991644667011405
+allenai/OLMo-2-0425-1B-Instruct,20261024,earnings,complete,13.0,0.1,1.0,0.8843581975490598
+allenai/OLMo-2-0425-1B-Instruct,20261024,cashflow,complete,13.0,1.0,1.0,0.8865079365079366
+allenai/OLMo-2-0425-1B-Instruct,20261024,credit,complete,13.0,1.0,1.0,0.9306083390293918
+allenai/OLMo-2-0425-1B-Instruct,20261024,liquidity,complete,13.0,0.1,1.0,0.8632731253420909
+allenai/OLMo-2-0425-1B-Instruct,20261024,valuation,complete,13.0,0.1,1.0,0.8874455337690631
+allenai/OLMo-2-0425-1B-Instruct,20261025,earnings,complete,13.0,0.1,1.0,0.8497400865470974
+allenai/OLMo-2-0425-1B-Instruct,20261025,cashflow,complete,13.0,0.1,1.0,0.8422693096377306
+allenai/OLMo-2-0425-1B-Instruct,20261025,credit,complete,13.0,0.1,1.0,0.922169232865513
+allenai/OLMo-2-0425-1B-Instruct,20261025,liquidity,complete,10.0,0.1,1.0,0.8561594997806056
+allenai/OLMo-2-0425-1B-Instruct,20261025,valuation,complete,10.0,0.1,1.0,0.9040912688665084
+ibm-granite/granite-3.3-2b-instruct,20261023,earnings,complete,34.0,1.0,1.0,0.9857804976825811
+ibm-granite/granite-3.3-2b-instruct,20261023,cashflow,complete,34.0,1.0,1.0,0.9900894154957495
+ibm-granite/granite-3.3-2b-instruct,20261023,credit,complete,34.0,1.0,1.0,0.9876047904191616
+ibm-granite/granite-3.3-2b-instruct,20261023,liquidity,complete,34.0,1.0,1.0,0.9944620253164557
+ibm-granite/granite-3.3-2b-instruct,20261023,valuation,complete,28.0,1.0,1.0,0.995892911469425
+ibm-granite/granite-3.3-2b-instruct,20261024,earnings,complete,34.0,0.1,1.0,0.9880067840413503
+ibm-granite/granite-3.3-2b-instruct,20261024,cashflow,complete,34.0,0.1,1.0,0.9931936086324965
+ibm-granite/granite-3.3-2b-instruct,20261024,credit,complete,28.0,0.1,1.0,0.9936446532191212
+ibm-granite/granite-3.3-2b-instruct,20261024,liquidity,complete,34.0,0.1,1.0,0.991498920847465
+ibm-granite/granite-3.3-2b-instruct,20261024,valuation,complete,34.0,1.0,1.0,0.9974084430198459
+ibm-granite/granite-3.3-2b-instruct,20261025,earnings,complete,34.0,0.1,1.0,0.9838516746411483
+ibm-granite/granite-3.3-2b-instruct,20261025,cashflow,complete,34.0,0.1,1.0,0.9839953075247193
+ibm-granite/granite-3.3-2b-instruct,20261025,credit,complete,34.0,1.0,1.0,0.9968141797961074
+ibm-granite/granite-3.3-2b-instruct,20261025,liquidity,complete,28.0,0.1,1.0,0.9856912813434553
+ibm-granite/granite-3.3-2b-instruct,20261025,valuation,complete,34.0,1.0,1.0,0.9985980216527767
+microsoft/Phi-4-mini-instruct,20261023,earnings,complete,22.0,0.1,0.1,1.0
+microsoft/Phi-4-mini-instruct,20261023,cashflow,complete,22.0,0.1,0.1,1.0
+microsoft/Phi-4-mini-instruct,20261023,credit,unestimable labels,,,,
+microsoft/Phi-4-mini-instruct,20261023,liquidity,complete,22.0,0.1,0.1,1.0
+microsoft/Phi-4-mini-instruct,20261023,valuation,complete,22.0,0.1,0.1,1.0
+microsoft/Phi-4-mini-instruct,20261024,earnings,complete,16.0,0.1,1.0,1.0
+microsoft/Phi-4-mini-instruct,20261024,cashflow,complete,16.0,0.1,1.0,1.0
+microsoft/Phi-4-mini-instruct,20261024,credit,unestimable labels,,,,
+microsoft/Phi-4-mini-instruct,20261024,liquidity,complete,16.0,0.1,1.0,1.0
+microsoft/Phi-4-mini-instruct,20261024,valuation,complete,16.0,0.1,1.0,1.0
+microsoft/Phi-4-mini-instruct,20261025,earnings,complete,22.0,0.1,0.1,0.9973890339425587
+microsoft/Phi-4-mini-instruct,20261025,cashflow,complete,22.0,0.1,0.1,0.9973890339425587
+microsoft/Phi-4-mini-instruct,20261025,credit,unestimable labels,,,,
+microsoft/Phi-4-mini-instruct,20261025,liquidity,complete,22.0,0.1,0.1,0.9973890339425587
+microsoft/Phi-4-mini-instruct,20261025,valuation,complete,22.0,0.1,0.1,0.9973890339425587
+Qwen/Qwen3-4B-Instruct-2507,20261023,earnings,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261023,cashflow,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261023,credit,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261023,liquidity,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261023,valuation,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261024,earnings,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261024,cashflow,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261024,credit,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261024,liquidity,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261024,valuation,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261025,earnings,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261025,cashflow,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261025,credit,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261025,liquidity,unestimable labels,,,,
+Qwen/Qwen3-4B-Instruct-2507,20261025,valuation,unestimable labels,,,,
+Qwen/Qwen2.5-1.5B-Instruct,20261023,earnings,complete,23.0,0.1,1.0,0.9419665012406948
+Qwen/Qwen2.5-1.5B-Instruct,20261023,cashflow,complete,23.0,0.1,1.0,0.9337589299285606
+Qwen/Qwen2.5-1.5B-Instruct,20261023,credit,complete,23.0,0.1,1.0,0.9444444444444444
+Qwen/Qwen2.5-1.5B-Instruct,20261023,liquidity,complete,23.0,0.1,1.0,0.9495502416850732
+Qwen/Qwen2.5-1.5B-Instruct,20261023,valuation,complete,23.0,1.0,1.0,0.9669845928099781
+Qwen/Qwen2.5-1.5B-Instruct,20261024,earnings,complete,23.0,0.1,1.0,0.9290630301866257
+Qwen/Qwen2.5-1.5B-Instruct,20261024,cashflow,complete,23.0,1.0,1.0,0.9278810408921934
+Qwen/Qwen2.5-1.5B-Instruct,20261024,credit,complete,23.0,1.0,1.0,0.9405918313768143
+Qwen/Qwen2.5-1.5B-Instruct,20261024,liquidity,complete,23.0,1.0,1.0,0.9320767306088408
+Qwen/Qwen2.5-1.5B-Instruct,20261024,valuation,complete,23.0,1.0,1.0,0.9701320638820639
+Qwen/Qwen2.5-1.5B-Instruct,20261025,earnings,complete,23.0,1.0,1.0,0.9761114797611148
+Qwen/Qwen2.5-1.5B-Instruct,20261025,cashflow,complete,23.0,1.0,1.0,0.9567018658692334
+Qwen/Qwen2.5-1.5B-Instruct,20261025,credit,complete,23.0,1.0,1.0,0.9786195592788198
+Qwen/Qwen2.5-1.5B-Instruct,20261025,liquidity,complete,20.0,1.0,1.0,0.9661300505050505
+Qwen/Qwen2.5-1.5B-Instruct,20261025,valuation,complete,23.0,0.1,1.0,0.9868703931203932
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,earnings,complete,20.0,0.1,1.0,0.9365776909722222
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,cashflow,complete,20.0,0.1,1.0,0.9297688802083334
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,credit,complete,16.0,0.1,1.0,0.968505859375
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,liquidity,complete,20.0,0.1,1.0,0.9371744791666665
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,valuation,complete,20.0,0.1,1.0,0.9780815972222221
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261024,earnings,complete,20.0,0.1,1.0,0.9419487847222223
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261024,cashflow,complete,20.0,0.1,1.0,0.9473470052083334
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261024,credit,complete,20.0,0.1,1.0,0.9769151475694444
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261024,liquidity,complete,20.0,0.1,1.0,0.9499782986111112
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261024,valuation,complete,20.0,0.1,1.0,0.9799262152777778
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,earnings,complete,20.0,0.1,1.0,0.924560546875
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,cashflow,complete,20.0,0.1,1.0,0.9267849392361112
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,credit,complete,20.0,1.0,1.0,0.9782172309027778
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,liquidity,complete,20.0,0.1,1.0,0.929714626736111
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,valuation,complete,20.0,0.1,1.0,0.974093967013889
+Qwen/Qwen2.5-3B-Instruct,20261023,earnings,complete,31.0,0.1,1.0,0.9984301412872841
+Qwen/Qwen2.5-3B-Instruct,20261023,cashflow,complete,31.0,0.1,1.0,0.9975352112676057
+Qwen/Qwen2.5-3B-Instruct,20261023,credit,complete,31.0,1.0,1.0,0.9984770929396336
+Qwen/Qwen2.5-3B-Instruct,20261023,liquidity,complete,31.0,1.0,1.0,0.9970631931727879
+Qwen/Qwen2.5-3B-Instruct,20261023,valuation,complete,31.0,0.1,1.0,0.9963434181526749
+Qwen/Qwen2.5-3B-Instruct,20261024,earnings,complete,31.0,0.1,1.0,0.9763132889914483
+Qwen/Qwen2.5-3B-Instruct,20261024,cashflow,complete,31.0,0.1,1.0,0.9789042498719919
+Qwen/Qwen2.5-3B-Instruct,20261024,credit,complete,26.0,1.0,1.0,0.9772151898734177
+Qwen/Qwen2.5-3B-Instruct,20261024,liquidity,complete,31.0,0.1,1.0,0.9890389575132347
+Qwen/Qwen2.5-3B-Instruct,20261024,valuation,complete,31.0,0.1,1.0,0.9706196581196582
+Qwen/Qwen2.5-3B-Instruct,20261025,earnings,complete,31.0,0.1,1.0,0.9978335084033614
+Qwen/Qwen2.5-3B-Instruct,20261025,cashflow,complete,31.0,0.1,1.0,0.9989788732394367
+Qwen/Qwen2.5-3B-Instruct,20261025,credit,complete,26.0,1.0,1.0,0.9993164730006836
+Qwen/Qwen2.5-3B-Instruct,20261025,liquidity,complete,31.0,0.1,1.0,0.9976787847755589
+Qwen/Qwen2.5-3B-Instruct,20261025,valuation,complete,26.0,0.1,1.0,0.9959870550161812

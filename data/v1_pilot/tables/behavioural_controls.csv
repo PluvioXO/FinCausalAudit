@@ -1,0 +1,5 @@
+control,n_cases,frequency,ci_lo,ci_hi
+fact_flip_changes_choice,32,0.4375,0.28125,0.625
+source_label_swap_changes_choice,32,0.21875,0.09375,0.34375
+misleading_changes_choice,32,0.125,0.03125,0.25
+injection_changes_choice,32,0.125,0.03125,0.25

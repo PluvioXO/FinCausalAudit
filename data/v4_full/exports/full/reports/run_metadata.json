@@ -1,0 +1,21 @@
+{
+  "protocol": "FinCausalAudit-v4.0.0-hardtasks-causal-identity",
+  "profile": "full",
+  "created_utc": "2026-10-13T03:24:36.964063+00:00",
+  "models": [
+    "Qwen/Qwen2.5-1.5B-Instruct",
+    "Qwen/Qwen2.5-3B-Instruct",
+    "Qwen/Qwen3-4B-Instruct-2507",
+    "microsoft/Phi-4-mini-instruct",
+    "ibm-granite/granite-3.3-2b-instruct",
+    "allenai/OLMo-2-0425-1B-Instruct"
+  ],
+  "seeds": [
+    20261031,
+    20261101,
+    20261102
+  ],
+  "n_jobs_complete": 18,
+  "n_jobs_requested": 18,
+  "failures": []
+}

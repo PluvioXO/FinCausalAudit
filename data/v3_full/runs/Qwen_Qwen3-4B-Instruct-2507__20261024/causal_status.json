@@ -1,0 +1,7 @@
+{
+  "finished": true,
+  "identity_controls_valid": false,
+  "identity_max_abs_delta_margin": 0.125,
+  "reason": "Identity patch changed logits beyond threshold",
+  "status": "SKIPPED_IDENTITY_PREFLIGHT"
+}

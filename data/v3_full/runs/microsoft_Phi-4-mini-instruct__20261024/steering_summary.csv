@@ -1,0 +1,17 @@
+model_id,seed,split,variant,condition,mean_delta,ci_lo,ci_hi,n_cases
+microsoft/Phi-4-mini-instruct,20261024,test_id,clean,learned_direction,0.125,0.046484196186065696,0.203125,16
+microsoft/Phi-4-mini-instruct,20261024,test_id,clean,norm_matched_random,0.09375238418579102,0.03125190734863281,0.1875014305114746,16
+microsoft/Phi-4-mini-instruct,20261024,test_id,injection,learned_direction,0.20312404632568365,0.12499976158142095,0.2812485694885254,16
+microsoft/Phi-4-mini-instruct,20261024,test_id,injection,norm_matched_random,0.14062619209289556,0.062109178304672316,0.21875167489051828,16
+microsoft/Phi-4-mini-instruct,20261024,test_id,misleading,learned_direction,0.0937504768371582,4.76837158203125e-07,0.1875009536743164,16
+microsoft/Phi-4-mini-instruct,20261024,test_id,misleading,norm_matched_random,0.046878814697265625,-0.031246423721313477,0.12500381469726562,16
+microsoft/Phi-4-mini-instruct,20261024,test_id,trusted_misleading,learned_direction,0.09375095367431643,-0.015622860193252534,0.2031242907047272,16
+microsoft/Phi-4-mini-instruct,20261024,test_id,trusted_misleading,norm_matched_random,0.12500286102294925,0.01562857627868658,0.23437667489051822,16
+microsoft/Phi-4-mini-instruct,20261024,test_ood,clean,learned_direction,0.12499880790710449,-0.015625011920928956,0.24999905824661256,16
+microsoft/Phi-4-mini-instruct,20261024,test_ood,clean,norm_matched_random,0.1250009536743164,0.0312502384185791,0.21875119805336,16
+microsoft/Phi-4-mini-instruct,20261024,test_ood,injection,learned_direction,0.0781252384185791,0.0,0.1562502384185791,16
+microsoft/Phi-4-mini-instruct,20261024,test_ood,injection,norm_matched_random,0.06250262260437012,-0.031248337030410765,0.15625238418579102,16
+microsoft/Phi-4-mini-instruct,20261024,test_ood,misleading,learned_direction,0.031249523162841797,-0.0781240463256836,0.12539122700691188,16
+microsoft/Phi-4-mini-instruct,20261024,test_ood,misleading,norm_matched_random,0.06250286102294922,-0.04687310457229614,0.1875016748905182,16
+microsoft/Phi-4-mini-instruct,20261024,test_ood,trusted_misleading,learned_direction,0.015626430511474602,4.768371581892472e-07,0.046876907348632806,16
+microsoft/Phi-4-mini-instruct,20261024,test_ood,trusted_misleading,norm_matched_random,0.04687762260437011,-0.015622621774673476,0.1093776285648346,16

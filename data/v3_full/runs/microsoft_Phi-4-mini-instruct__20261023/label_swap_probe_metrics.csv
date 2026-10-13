@@ -1,0 +1,10 @@
+model_id,seed,split,predictor,auroc,auprc,brier,n,errors,ci_lo,ci_hi,n_boot_valid
+microsoft/Phi-4-mini-instruct,20261023,test_id,risk_internal,,,,160,0,,,
+microsoft/Phi-4-mini-instruct,20261023,test_id,risk_text_output,,,,160,0,,,
+microsoft/Phi-4-mini-instruct,20261023,test_id,risk_confidence,,,,160,0,,,
+microsoft/Phi-4-mini-instruct,20261023,test_id,risk_rule_verifier,,,,160,0,,,
+microsoft/Phi-4-mini-instruct,20261023,test_ood,risk_internal,0.9909677419354839,0.8833333333333333,0.051121832950173716,160,5,,,
+microsoft/Phi-4-mini-instruct,20261023,test_ood,risk_text_output,0.9961290322580645,0.8766666666666667,0.11301821574590887,160,5,,,
+microsoft/Phi-4-mini-instruct,20261023,test_ood,risk_confidence,0.9561290322580644,0.4325,0.02816030020880389,160,5,,,
+microsoft/Phi-4-mini-instruct,20261023,test_ood,risk_rule_verifier,1.0,1.0,1.0000000000017973e-12,160,5,,,
+microsoft/Phi-4-mini-instruct,20261023,test_ood,DIFF_internal_minus_text_output,-0.005161290322580614,,,160,5,-0.07006369426751594,0.010327257202257262,872.0

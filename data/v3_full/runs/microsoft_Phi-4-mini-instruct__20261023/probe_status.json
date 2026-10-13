@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "seed": 20261023,
+  "best_decoder_block": 22,
+  "selected_C": 0.01,
+  "val_probe_auroc": 1.0,
+  "val_text_auroc": 0.9984243697478992,
+  "meta_C": 1.0,
+  "text_C": 0.1,
+  "text_only_C": 1.0,
+  "output_only_C": 0.1,
+  "selection_rule": "validation AUROC maximisation; no test-layer selection"
+}

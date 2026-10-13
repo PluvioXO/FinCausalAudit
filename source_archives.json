@@ -1,0 +1,34 @@
+{
+  "source_archives": [
+    {
+      "archive": "FinCausalAudit_results.zip",
+      "sha256": "4c0f29456cf29d9eeb8b03c434ba7bd1faa356bb0a8836883ddd5e89a52843b3",
+      "extracted_files": 21,
+      "destination": "data/v1_pilot"
+    },
+    {
+      "archive": "FinCausalAudit_v2_paper_results_light(1).zip",
+      "sha256": "7ac9cb282c2f03c37881748af0a7c95a3092600da8d54e3b6e918faba32a3356",
+      "extracted_files": 133,
+      "destination": "data/v2_paper"
+    },
+    {
+      "archive": "FinCausalAudit_v2_extended_results_light.zip",
+      "sha256": "826dab450989d418f4d7eedc17acf4e6b38cf9d23d190d859b4cc5a80891df6b",
+      "extracted_files": 188,
+      "destination": "data/v2_extended"
+    },
+    {
+      "archive": "FinCausalAudit_v3_full_results_light.zip",
+      "sha256": "50c7e140439c2789472fb74c34494b70127b0d0783091050616f567a2227f5ce",
+      "extracted_files": 512,
+      "destination": "data/v3_full"
+    },
+    {
+      "archive": "FinCausalAudit_v4_full_results_light-2.zip",
+      "sha256": "d6f6666323be0640c7d5b68ce1567e51e88075e065b83bef195129e1f501610b",
+      "extracted_files": 58,
+      "destination": "data/v4_full"
+    }
+  ]
+}

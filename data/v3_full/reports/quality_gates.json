@@ -1,0 +1,17 @@
+{
+  "two_or_more_distinct_models": true,
+  "two_or_more_independent_benchmark_seeds": true,
+  "all_planned_model_seed_jobs_completed": true,
+  "no_recorded_failures": true,
+  "both_primary_test_splits_reported": true,
+  "behaviour_and_causal_tables_present": true,
+  "steering_and_random_direction_control_reported": true,
+  "leave_one_task_out_robustness_reported": true,
+  "strong_text_and_numeric_baselines_reported": true,
+  "real_sec_data_tested": true,
+  "answer_swap_invariance_reported": true,
+  "answer_letter_collapse_audit_reported": true,
+  "swap_probe_transfer_reported": true,
+  "paired_evidence_sensitivity_reported": true,
+  "identity_controls_all_valid": false
+}

@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-12T21:26:36.058175+00:00",
+  "profile": "extended",
+  "seeds": [
+    20261012,
+    20261013,
+    20261014
+  ],
+  "models": [
+    "Qwen/Qwen2.5-1.5B-Instruct",
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "Qwen/Qwen2.5-3B-Instruct"
+  ],
+  "n_per_task": 80,
+  "n_cases_total": 1200,
+  "n_prompts_total": 8400,
+  "n_runs_finished": 9,
+  "n_runs_requested": 9,
+  "n_failures": 0,
+  "sec_enabled": true,
+  "source_authenticity": "synthetic except SEC opt-in",
+  "dataset_ood_description": "unseen prompt and commentary templates",
+  "main_metric": "forced-choice A vs B next-token probability",
+  "gpu": "NVIDIA L4",
+  "dtype": "torch.bfloat16",
+  "python": "3.13.15",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.57.6",
+  "scikit_learn": "1.6.1",
+  "source_links": [
+    "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+    "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+    "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+  ]
+}

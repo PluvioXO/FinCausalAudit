@@ -1,0 +1,5 @@
+variant,condition,n_cases,margin_gain,ci_lo,ci_hi,accuracy_before,accuracy_after
+clean,random_direction,32,0.02734375,-0.05859375,0.109375,0.71875,0.6875
+clean,trained_direction,32,-0.18359375,-0.24609375,-0.12109375,0.71875,0.6875
+injection,random_direction,32,-0.11328125,-0.1875,-0.03515625,0.59375,0.53125
+injection,trained_direction,32,0.05859375,-0.05078125,0.1796875,0.59375,0.5625

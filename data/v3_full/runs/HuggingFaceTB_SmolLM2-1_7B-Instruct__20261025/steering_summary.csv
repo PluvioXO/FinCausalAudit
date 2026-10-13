@@ -1,0 +1,17 @@
+model_id,seed,split,variant,condition,mean_delta,ci_lo,ci_hi,n_cases
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_id,clean,learned_direction,-0.015624880790710453,-0.054686430096626285,0.02343690395355224,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_id,clean,norm_matched_random,-0.007812976837158207,-0.03906274139881134,0.02343654632568359,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_id,injection,learned_direction,-0.023435950279235833,-0.054685118794441226,0.00781333446502687,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_id,injection,norm_matched_random,-0.031248807907104485,-0.07031071484088898,0.007813099026680002,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_id,misleading,learned_direction,0.0078122615814208984,-0.023437857627868652,0.046874046325683594,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_id,misleading,norm_matched_random,-0.00781261920928955,-0.046874165534973145,0.03124868869781494,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_id,trusted_misleading,learned_direction,1.192092895542507e-07,-0.03906107246875763,0.03906143009662629,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_id,trusted_misleading,norm_matched_random,0.007812142372131351,-0.03124928772449493,0.04687356948852539,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_ood,clean,learned_direction,2.384185791015625e-07,-0.04687225818634033,0.046872618794441226,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_ood,clean,norm_matched_random,-0.015624165534973145,-0.06249618828296662,0.03124868869781494,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_ood,injection,learned_direction,3.576278686627521e-07,-0.03906106948852538,0.046873095631599436,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_ood,injection,norm_matched_random,1.430511474621518e-06,-0.03906023800373076,0.03125131428241733,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_ood,misleading,learned_direction,0.015625596046447757,-0.015623939037322995,0.054686784744262695,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_ood,misleading,norm_matched_random,0.03906261920928955,2.4944543838537413e-06,0.07812333106994629,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_ood,trusted_misleading,learned_direction,0.02343666553497315,-0.0078110694885253715,0.054685354232788086,16
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,test_ood,trusted_misleading,norm_matched_random,0.046873331069946296,0.02343606948852539,0.07812214195728302,16

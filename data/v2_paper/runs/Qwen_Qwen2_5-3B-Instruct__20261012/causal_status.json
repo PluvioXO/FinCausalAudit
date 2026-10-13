@@ -1,0 +1,98 @@
+{
+  "finished": true,
+  "tested_cases": 20,
+  "planned_case_ids": [
+    "s20261012_cashflow_0_0_007",
+    "s20261012_liquidity_1_0_001",
+    "s20261012_earnings_0_0_004",
+    "s20261012_liquidity_0_0_003",
+    "s20261012_valuation_1_0_003",
+    "s20261012_valuation_1_1_007",
+    "s20261012_liquidity_0_1_000",
+    "s20261012_valuation_1_1_006",
+    "s20261012_liquidity_0_1_001",
+    "s20261012_credit_0_0_007",
+    "s20261012_valuation_0_1_007",
+    "s20261012_cashflow_1_1_009",
+    "s20261012_earnings_0_1_004",
+    "s20261012_valuation_1_0_004",
+    "s20261012_cashflow_0_1_008",
+    "s20261012_credit_0_1_002",
+    "s20261012_liquidity_0_1_007",
+    "s20261012_earnings_1_1_001",
+    "s20261012_cashflow_1_0_004",
+    "s20261012_valuation_0_0_001"
+  ],
+  "completed_cases": [
+    "s20261012_cashflow_0_0_007",
+    "s20261012_cashflow_0_1_008",
+    "s20261012_cashflow_1_0_004",
+    "s20261012_cashflow_1_1_009",
+    "s20261012_credit_0_0_007",
+    "s20261012_credit_0_1_002",
+    "s20261012_earnings_0_0_004",
+    "s20261012_earnings_0_1_004",
+    "s20261012_earnings_1_1_001",
+    "s20261012_liquidity_0_0_003",
+    "s20261012_liquidity_0_1_000",
+    "s20261012_liquidity_0_1_001",
+    "s20261012_liquidity_0_1_007",
+    "s20261012_liquidity_1_0_001",
+    "s20261012_valuation_0_0_001",
+    "s20261012_valuation_0_1_007",
+    "s20261012_valuation_1_0_003",
+    "s20261012_valuation_1_0_004",
+    "s20261012_valuation_1_1_006",
+    "s20261012_valuation_1_1_007"
+  ],
+  "skipped_interventions": [
+    {
+      "case_id": "s20261012_valuation_0_1_007",
+      "reason": "No different-case clean donor with matched task/truth/answer"
+    },
+    {
+      "case_id": "s20261012_cashflow_1_1_009",
+      "reason": "No different-case clean donor with matched task/truth/answer"
+    },
+    {
+      "case_id": "s20261012_earnings_0_1_004",
+      "reason": "No different-case clean donor with matched task/truth/answer"
+    },
+    {
+      "case_id": "s20261012_valuation_1_0_004",
+      "reason": "No different-case clean donor with matched task/truth/answer"
+    },
+    {
+      "case_id": "s20261012_cashflow_0_1_008",
+      "reason": "No different-case clean donor with matched task/truth/answer"
+    },
+    {
+      "case_id": "s20261012_credit_0_1_002",
+      "reason": "No different-case clean donor with matched task/truth/answer"
+    },
+    {
+      "case_id": "s20261012_liquidity_0_1_007",
+      "reason": "No different-case clean donor with matched task/truth/answer"
+    },
+    {
+      "case_id": "s20261012_earnings_1_1_001",
+      "reason": "No different-case clean donor with matched task/truth/answer"
+    },
+    {
+      "case_id": "s20261012_cashflow_1_0_004",
+      "reason": "No different-case clean donor with matched task/truth/answer"
+    },
+    {
+      "case_id": "s20261012_valuation_0_0_001",
+      "reason": "No different-case clean donor with matched task/truth/answer"
+    }
+  ],
+  "tested_blocks": [
+    5,
+    12,
+    19,
+    31
+  ],
+  "status": "complete",
+  "interpretation": "interventions on labelled synthetic status and holistic last-token state"
+}

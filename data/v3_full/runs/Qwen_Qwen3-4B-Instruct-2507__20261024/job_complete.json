@@ -1,0 +1,83 @@
+{
+  "all_stages_complete": true,
+  "cache_protocol_version": "v3.1-incremental-2026-10-12",
+  "cache_signature": "5951668fb9729416032f1c43bb55b50c76e4238aff55b353623c8689e1de1b96",
+  "causal_status": {
+    "finished": true,
+    "identity_controls_valid": false,
+    "identity_max_abs_delta_margin": 0.125,
+    "reason": "Identity patch changed logits beyond threshold",
+    "status": "SKIPPED_IDENTITY_PREFLIGHT"
+  },
+  "completed_utc": "2026-10-12T23:53:11.412838+00:00",
+  "forward_sha256": "31a4cb420b3a067c2fc536f7176fd8b668fbcadf7ee0f6a5355d186ceb118f90",
+  "label_swap_enabled": true,
+  "measured_accuracy": 1.0,
+  "measured_rows": 2800,
+  "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "n_layers": 36,
+  "probe_status": {
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "reason": "Too few errors/non-errors in train or validation",
+    "seed": 20261024,
+    "status": "UNESTIMABLE"
+  },
+  "real_sec_enabled": true,
+  "seed": 20261024,
+  "stage_outputs": {
+    "behaviour": [
+      "behaviour_paired.csv"
+    ],
+    "causal": [
+      "causal_raw.csv",
+      "causal_summary.csv",
+      "causal_status.json",
+      "causal_identity_preflight.json"
+    ],
+    "cross_task": [
+      "cross_task_predictions.csv",
+      "cross_task_selection.csv"
+    ],
+    "freeform": [
+      "freeform_check.csv"
+    ],
+    "label_swap": [
+      "label_swap_predictions.csv",
+      "label_swap_probe_metrics.csv",
+      "label_swap_state.json"
+    ],
+    "probes": [
+      "probe_metrics.csv",
+      "probe_risk_predictions.csv",
+      "probe_status.json"
+    ],
+    "sec": [
+      "sec_predictions.csv"
+    ],
+    "semantic": [
+      "paired_semantic_sensitivity.csv"
+    ],
+    "steering": [
+      "steering_test.csv",
+      "steering_summary.csv",
+      "steering_status.json"
+    ]
+  },
+  "stage_signature": "5951668fb9729416032f1c43bb55b50c76e4238aff55b353623c8689e1de1b96",
+  "steering_status": {
+    "direction_norm": 2.1026155948638916,
+    "finished": true,
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "random_control_norm": 2.1026155948638916,
+    "seed": 20261024,
+    "selected_alpha": 0.04,
+    "selected_block": 19,
+    "selection": "validation only; held-out splits untouched",
+    "status": "complete",
+    "val_clean_gain": 0.2604166666666667,
+    "val_injection_gain": 0.3125,
+    "validation_objective": 0.3125
+  },
+  "unique_cases": 400
+}

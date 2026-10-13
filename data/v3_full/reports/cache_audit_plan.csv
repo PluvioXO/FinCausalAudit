@@ -1,0 +1,22 @@
+model,seed,forward_rows,reusable_forward_rows,remaining_forward_rows,donor_profile,status
+allenai/OLMo-2-0425-1B-Instruct,20261023,2800,2800,0,none,SKIP COMPLETE
+allenai/OLMo-2-0425-1B-Instruct,20261024,2800,1152,1648,none,REUSE 1152 / 2800 FORWARDS
+allenai/OLMo-2-0425-1B-Instruct,20261025,2800,0,2800,none,NEW JOB
+ibm-granite/granite-3.3-2b-instruct,20261023,2800,0,2800,none,NEW JOB
+ibm-granite/granite-3.3-2b-instruct,20261024,2800,0,2800,none,NEW JOB
+ibm-granite/granite-3.3-2b-instruct,20261025,2800,0,2800,none,NEW JOB
+microsoft/Phi-4-mini-instruct,20261023,2800,0,2800,none,NEW JOB
+microsoft/Phi-4-mini-instruct,20261024,2800,0,2800,none,NEW JOB
+microsoft/Phi-4-mini-instruct,20261025,2800,0,2800,none,NEW JOB
+Qwen/Qwen3-4B-Instruct-2507,20261023,2800,0,2800,none,NEW JOB
+Qwen/Qwen3-4B-Instruct-2507,20261024,2800,0,2800,none,NEW JOB
+Qwen/Qwen3-4B-Instruct-2507,20261025,2800,0,2800,none,NEW JOB
+Qwen/Qwen2.5-1.5B-Instruct,20261023,2800,0,2800,none,NEW JOB
+Qwen/Qwen2.5-1.5B-Instruct,20261024,2800,0,2800,none,NEW JOB
+Qwen/Qwen2.5-1.5B-Instruct,20261025,2800,0,2800,none,NEW JOB
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,2800,0,2800,none,NEW JOB
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261024,2800,0,2800,none,NEW JOB
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261025,2800,0,2800,none,NEW JOB
+Qwen/Qwen2.5-3B-Instruct,20261023,2800,0,2800,none,NEW JOB
+Qwen/Qwen2.5-3B-Instruct,20261024,2800,0,2800,none,NEW JOB
+Qwen/Qwen2.5-3B-Instruct,20261025,2800,0,2800,none,NEW JOB

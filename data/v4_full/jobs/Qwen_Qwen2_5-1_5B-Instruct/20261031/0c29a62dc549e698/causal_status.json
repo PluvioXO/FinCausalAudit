@@ -1,0 +1,186 @@
+{
+  "signature": "b0eb90dbec6f8cf0dc068d597198bac186d206e6ff6114fb4ff92042866f7d77",
+  "finished": true,
+  "valid": true,
+  "reason": "passed",
+  "max_abs_control_delta": 0.0,
+  "preflight": {
+    "valid": true,
+    "reason": "passed",
+    "max_abs_drift": 0.0,
+    "tolerance": 0.02,
+    "checks": [
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "repeat_unpatched",
+        "block": null,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_low",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_high",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "prefix_null",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_low",
+        "block": 9,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_high",
+        "block": 9,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "prefix_null",
+        "block": 9,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_low",
+        "block": 17,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_high",
+        "block": 17,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "prefix_null",
+        "block": 17,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_low",
+        "block": 26,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "self_high",
+        "block": 26,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0003",
+        "condition": "prefix_null",
+        "block": 26,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "repeat_unpatched",
+        "block": null,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_low",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_high",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "prefix_null",
+        "block": 0,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_low",
+        "block": 9,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_high",
+        "block": 9,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "prefix_null",
+        "block": 9,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_low",
+        "block": 17,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_high",
+        "block": 17,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "prefix_null",
+        "block": 17,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_low",
+        "block": 26,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "self_high",
+        "block": 26,
+        "drift": 0.0
+      },
+      {
+        "case_id": "v4_20261031_operating_margin_0004",
+        "condition": "prefix_null",
+        "block": 26,
+        "drift": 0.0
+      }
+    ]
+  },
+  "skips": [],
+  "completed_cases": [
+    "v4_20261031_free_cash_flow_0005",
+    "v4_20261031_free_cash_flow_0006",
+    "v4_20261031_free_cash_flow_0007",
+    "v4_20261031_working_capital_change_0007"
+  ],
+  "n_patched_cases": 4,
+  "selected_cases": [
+    "v4_20261031_free_cash_flow_0006",
+    "v4_20261031_free_cash_flow_0007",
+    "v4_20261031_free_cash_flow_0005",
+    "v4_20261031_working_capital_change_0007"
+  ],
+  "note": "Do not claim localization if identity/null controls failed. Authority labels are synthetic."
+}

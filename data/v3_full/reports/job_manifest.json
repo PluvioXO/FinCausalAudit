@@ -1,0 +1,2283 @@
+[
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "462280fb25457ff47ca8c3213f7c646c57e5437a302a97dbce657bcc413db9ef",
+    "causal_status": {
+      "completed_cases": [
+        "s20261023_cashflow_0_0_006",
+        "s20261023_cashflow_0_0_009",
+        "s20261023_cashflow_1_0_002",
+        "s20261023_cashflow_1_0_007",
+        "s20261023_cashflow_1_0_extra003",
+        "s20261023_cashflow_1_1_002",
+        "s20261023_cashflow_1_1_003",
+        "s20261023_cashflow_1_1_004",
+        "s20261023_cashflow_1_1_extra004",
+        "s20261023_credit_0_1_008",
+        "s20261023_credit_0_1_013",
+        "s20261023_credit_0_1_extra003",
+        "s20261023_credit_1_0_009",
+        "s20261023_credit_1_1_010",
+        "s20261023_earnings_0_0_006",
+        "s20261023_earnings_0_0_extra004",
+        "s20261023_earnings_0_1_003",
+        "s20261023_earnings_1_0_010",
+        "s20261023_earnings_1_0_011",
+        "s20261023_earnings_1_1_extra004",
+        "s20261023_liquidity_0_0_007",
+        "s20261023_liquidity_0_0_012",
+        "s20261023_liquidity_0_0_extra004",
+        "s20261023_liquidity_1_0_004",
+        "s20261023_liquidity_1_0_013",
+        "s20261023_liquidity_1_0_extra003",
+        "s20261023_liquidity_1_1_011",
+        "s20261023_liquidity_1_1_extra004",
+        "s20261023_valuation_0_1_000",
+        "s20261023_valuation_1_0_003",
+        "s20261023_valuation_1_0_extra003",
+        "s20261023_valuation_1_0_extra004"
+      ],
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.24998283386230477,
+      "interpretation": "interventions on labelled synthetic status and holistic last-token state",
+      "planned_case_ids": [
+        "s20261023_cashflow_1_1_004",
+        "s20261023_valuation_1_0_extra003",
+        "s20261023_credit_0_1_013",
+        "s20261023_cashflow_1_0_extra003",
+        "s20261023_cashflow_1_1_003",
+        "s20261023_earnings_1_0_010",
+        "s20261023_earnings_0_1_003",
+        "s20261023_cashflow_1_1_002",
+        "s20261023_cashflow_1_0_007",
+        "s20261023_liquidity_1_0_extra003",
+        "s20261023_earnings_0_0_006",
+        "s20261023_liquidity_1_0_004",
+        "s20261023_liquidity_0_0_007",
+        "s20261023_liquidity_1_1_011",
+        "s20261023_cashflow_0_0_006",
+        "s20261023_credit_0_1_extra003",
+        "s20261023_liquidity_0_0_extra004",
+        "s20261023_valuation_0_1_000",
+        "s20261023_earnings_1_1_extra004",
+        "s20261023_cashflow_1_1_extra004",
+        "s20261023_earnings_0_0_extra004",
+        "s20261023_liquidity_0_0_012",
+        "s20261023_earnings_1_0_011",
+        "s20261023_credit_1_0_009",
+        "s20261023_valuation_1_0_003",
+        "s20261023_credit_1_1_010",
+        "s20261023_liquidity_1_1_extra004",
+        "s20261023_cashflow_0_0_009",
+        "s20261023_credit_0_1_008",
+        "s20261023_liquidity_1_0_013",
+        "s20261023_valuation_1_0_extra004",
+        "s20261023_cashflow_1_0_002"
+      ],
+      "preflight_max_abs_drift": 3.8146972655972444e-06,
+      "skipped_interventions": [],
+      "status": "complete",
+      "tested_blocks": [
+        2,
+        5,
+        8,
+        10,
+        13
+      ],
+      "tested_cases": 32
+    },
+    "completed_utc": "2026-10-12T22:58:30.677891+00:00",
+    "forward_sha256": "b253f23971ae21f27baf79d504662e99c93f7dcf19239cb25000d125b6d91947",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.45107142857142857,
+    "measured_rows": 2800,
+    "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+    "model_revision": "48d788eca847d4d7548f375ad03d3c9312f6139e",
+    "n_layers": 16,
+    "probe_status": {
+      "best_decoder_block": 13,
+      "meta_C": 1.0,
+      "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+      "output_only_C": 1.0,
+      "seed": 20261023,
+      "selected_C": 0.1,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.8781211285791558,
+      "val_text_auroc": 0.8338626092722163
+    },
+    "real_sec_enabled": true,
+    "seed": 20261023,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sae": [
+        "sae_ablation.csv",
+        "sae_report.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "462280fb25457ff47ca8c3213f7c646c57e5437a302a97dbce657bcc413db9ef",
+    "steering_status": {
+      "direction_norm": 0.535484790802002,
+      "finished": true,
+      "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+      "random_control_norm": 0.5354848504066467,
+      "seed": 20261023,
+      "selected_alpha": 0.04,
+      "selected_block": 10,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.062497615814208984,
+      "val_injection_gain": 0.11458047231038411,
+      "validation_objective": 0.11458047231038411
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "a18acb4abba57931ad9b13815cb63890bf7e4a43403a747f836bc13367f89813",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.12499237060546874,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-12T23:03:47.665187+00:00",
+    "forward_sha256": "3af9e014758274b1c4f5b2bd63ac063e8cde9d828c44b8452d29bff714428931",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.46,
+    "measured_rows": 2800,
+    "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+    "model_revision": "48d788eca847d4d7548f375ad03d3c9312f6139e",
+    "n_layers": 16,
+    "probe_status": {
+      "best_decoder_block": 13,
+      "meta_C": 0.01,
+      "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+      "output_only_C": 1.0,
+      "seed": 20261024,
+      "selected_C": 1.0,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.8978146853146852,
+      "val_text_auroc": 0.8174388111888111
+    },
+    "real_sec_enabled": true,
+    "seed": 20261024,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "a18acb4abba57931ad9b13815cb63890bf7e4a43403a747f836bc13367f89813",
+    "steering_status": {
+      "direction_norm": 0.299510657787323,
+      "finished": true,
+      "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+      "random_control_norm": 0.2995105981826782,
+      "seed": 20261024,
+      "selected_alpha": -0.04,
+      "selected_block": 5,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": -0.020831902821858723,
+      "val_injection_gain": 0.010415554046630865,
+      "validation_objective": -0.005208373069763178
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "3a0da885fd5cb72df601240f3aa0d450bbc02007c11f5f52cfa5ce90e167b533",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.12499618530273444,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-12T23:08:16.334378+00:00",
+    "forward_sha256": "6745530768be65fc793d342ad588dc6f3779bf9a5e895f6ca9eb232cbe9c8eda",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.44892857142857145,
+    "measured_rows": 2800,
+    "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+    "model_revision": "48d788eca847d4d7548f375ad03d3c9312f6139e",
+    "n_layers": 16,
+    "probe_status": {
+      "best_decoder_block": 10,
+      "meta_C": 1.0,
+      "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+      "output_only_C": 0.1,
+      "seed": 20261025,
+      "selected_C": 0.1,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.8757665228253465,
+      "val_text_auroc": 0.7960219430807667
+    },
+    "real_sec_enabled": true,
+    "seed": 20261025,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "3a0da885fd5cb72df601240f3aa0d450bbc02007c11f5f52cfa5ce90e167b533",
+    "steering_status": {
+      "direction_norm": 0.24553349614143372,
+      "finished": true,
+      "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+      "random_control_norm": 0.2455335110425949,
+      "seed": 20261025,
+      "selected_alpha": -0.02,
+      "selected_block": 8,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.04166746139526367,
+      "val_injection_gain": 0.03124586741129558,
+      "validation_objective": 0.03124586741129558
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "942d2f3f90fc208631fc8f84f570b0c6b5533b202b5c952f7fa9682430989387",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.5,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-12T23:14:18.961826+00:00",
+    "forward_sha256": "17aec8b017d879973b6e44033f3f6a1748da282d9b567dbfd03799dbe7d50ab1",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.8203571428571429,
+    "measured_rows": 2800,
+    "model_id": "ibm-granite/granite-3.3-2b-instruct",
+    "model_revision": "707f574c62054322f6b5b04b6d075f0a8f05e0f0",
+    "n_layers": 40,
+    "probe_status": {
+      "best_decoder_block": 28,
+      "meta_C": 1.0,
+      "model_id": "ibm-granite/granite-3.3-2b-instruct",
+      "output_only_C": 1.0,
+      "seed": 20261023,
+      "selected_C": 1.0,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.9913415637860082,
+      "val_text_auroc": 0.9262222222222222
+    },
+    "real_sec_enabled": true,
+    "seed": 20261023,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "942d2f3f90fc208631fc8f84f570b0c6b5533b202b5c952f7fa9682430989387",
+    "steering_status": {
+      "direction_norm": 0.8087940216064453,
+      "finished": true,
+      "model_id": "ibm-granite/granite-3.3-2b-instruct",
+      "random_control_norm": 0.8087940216064453,
+      "seed": 20261023,
+      "selected_alpha": -0.04,
+      "selected_block": 28,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.06770809491475423,
+      "val_injection_gain": 0.078125,
+      "validation_objective": 0.078125
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "3acdbeebb42eb5d01ab09fc52d1f58f117724c4736d9f6489a7e23dfa265fe31",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.25,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-12T23:19:29.966981+00:00",
+    "forward_sha256": "0eab13904147328e5581b90791f8faaebf708f6c2929ee0283d4ea604fc74486",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.8117857142857143,
+    "measured_rows": 2800,
+    "model_id": "ibm-granite/granite-3.3-2b-instruct",
+    "model_revision": "707f574c62054322f6b5b04b6d075f0a8f05e0f0",
+    "n_layers": 40,
+    "probe_status": {
+      "best_decoder_block": 34,
+      "meta_C": 1.0,
+      "model_id": "ibm-granite/granite-3.3-2b-instruct",
+      "output_only_C": 0.1,
+      "seed": 20261024,
+      "selected_C": 0.1,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 1.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.99311098297472,
+      "val_text_auroc": 0.9005644745227761
+    },
+    "real_sec_enabled": true,
+    "seed": 20261024,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "3acdbeebb42eb5d01ab09fc52d1f58f117724c4736d9f6489a7e23dfa265fe31",
+    "steering_status": {
+      "direction_norm": 0.460523396730423,
+      "finished": true,
+      "model_id": "ibm-granite/granite-3.3-2b-instruct",
+      "random_control_norm": 0.4605233669281006,
+      "seed": 20261024,
+      "selected_alpha": -0.04,
+      "selected_block": 21,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.13020833333333334,
+      "val_injection_gain": 0.036458333333333336,
+      "validation_objective": 0.036458333333333336
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "1e7fb11c32d10c18cddeb9cb0bd42efc630f792cead50f42936907e57a28b5c2",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.25,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-12T23:24:39.226869+00:00",
+    "forward_sha256": "e42f1b790e4e655702a760b3b7c2ee118a103cf1d40b1affdfc115765cb016e6",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.8153571428571429,
+    "measured_rows": 2800,
+    "model_id": "ibm-granite/granite-3.3-2b-instruct",
+    "model_revision": "707f574c62054322f6b5b04b6d075f0a8f05e0f0",
+    "n_layers": 40,
+    "probe_status": {
+      "best_decoder_block": 34,
+      "meta_C": 0.1,
+      "model_id": "ibm-granite/granite-3.3-2b-instruct",
+      "output_only_C": 1.0,
+      "seed": 20261025,
+      "selected_C": 0.01,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.9870200280648042,
+      "val_text_auroc": 0.9360887868350555
+    },
+    "real_sec_enabled": true,
+    "seed": 20261025,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "1e7fb11c32d10c18cddeb9cb0bd42efc630f792cead50f42936907e57a28b5c2",
+    "steering_status": {
+      "direction_norm": 0.8090156316757202,
+      "finished": true,
+      "model_id": "ibm-granite/granite-3.3-2b-instruct",
+      "random_control_norm": 0.8090156316757202,
+      "seed": 20261025,
+      "selected_alpha": -0.04,
+      "selected_block": 28,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.15104150772094727,
+      "val_injection_gain": 0.08333333333333333,
+      "validation_objective": 0.08333333333333333
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "199e8d5112a36e24b9a67a06d92268df6c78a316933a4d7fb33a3cb12866122a",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.2500000000000002,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-12T23:31:33.623596+00:00",
+    "forward_sha256": "2d5b7a4cbbcc50214b81010979d756c98add33ef73e3c5e42d7276d6ce26e421",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.9846428571428572,
+    "measured_rows": 2800,
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+    "n_layers": 32,
+    "probe_status": {
+      "best_decoder_block": 22,
+      "meta_C": 1.0,
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "output_only_C": 0.1,
+      "seed": 20261023,
+      "selected_C": 0.01,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 0.1,
+      "text_only_C": 1.0,
+      "val_probe_auroc": 1.0,
+      "val_text_auroc": 0.9984243697478992
+    },
+    "real_sec_enabled": true,
+    "seed": 20261023,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "199e8d5112a36e24b9a67a06d92268df6c78a316933a4d7fb33a3cb12866122a",
+    "steering_status": {
+      "direction_norm": 1.9789135456085205,
+      "finished": true,
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "random_control_norm": 1.97891366481781,
+      "seed": 20261023,
+      "selected_alpha": -0.04,
+      "selected_block": 16,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.14583174387613937,
+      "val_injection_gain": 0.1249996821085612,
+      "validation_objective": 0.1249996821085612
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "e844db0f2652a34b8f5a1eda887e43bbaf3150540f11a48c013d6fa0d974b4b5",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.25,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-12T23:37:20.337023+00:00",
+    "forward_sha256": "416bc0108652d4d54035eb41f734a9d2bf066e75558ab5e8e27be3e2459296a0",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.9796428571428571,
+    "measured_rows": 2800,
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+    "n_layers": 32,
+    "probe_status": {
+      "best_decoder_block": 16,
+      "meta_C": 0.01,
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "output_only_C": 0.01,
+      "seed": 20261024,
+      "selected_C": 0.01,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 1.0,
+      "text_only_C": 1.0,
+      "val_probe_auroc": 1.0,
+      "val_text_auroc": 0.995531914893617
+    },
+    "real_sec_enabled": true,
+    "seed": 20261024,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "e844db0f2652a34b8f5a1eda887e43bbaf3150540f11a48c013d6fa0d974b4b5",
+    "steering_status": {
+      "direction_norm": 4.2109270095825195,
+      "finished": true,
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "random_control_norm": 4.210927486419678,
+      "seed": 20261024,
+      "selected_alpha": -0.04,
+      "selected_block": 22,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.08333206176757797,
+      "val_injection_gain": 0.1041660308837891,
+      "validation_objective": 0.1041660308837891
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "9cae53d15e275aacb05c4ed6fff448a756c6c33249e82f5fd701600543cc4ebf",
+    "causal_status": {
+      "completed_cases": [
+        "s20261025_cashflow_0_0_extra004",
+        "s20261025_cashflow_0_1_010",
+        "s20261025_cashflow_1_0_000",
+        "s20261025_cashflow_1_0_012",
+        "s20261025_cashflow_1_1_012",
+        "s20261025_credit_0_0_012",
+        "s20261025_credit_0_0_extra003",
+        "s20261025_credit_0_1_004",
+        "s20261025_credit_0_1_005",
+        "s20261025_credit_1_0_003",
+        "s20261025_credit_1_0_009",
+        "s20261025_credit_1_0_extra003",
+        "s20261025_earnings_0_0_011",
+        "s20261025_earnings_0_0_extra003",
+        "s20261025_earnings_0_1_002",
+        "s20261025_earnings_0_1_010",
+        "s20261025_earnings_0_1_extra003",
+        "s20261025_earnings_1_0_004",
+        "s20261025_earnings_1_0_extra004",
+        "s20261025_earnings_1_1_001",
+        "s20261025_earnings_1_1_009",
+        "s20261025_earnings_1_1_012",
+        "s20261025_liquidity_0_0_005",
+        "s20261025_liquidity_0_1_000",
+        "s20261025_liquidity_0_1_extra004",
+        "s20261025_liquidity_1_0_004",
+        "s20261025_liquidity_1_0_008",
+        "s20261025_liquidity_1_1_004",
+        "s20261025_valuation_0_0_002",
+        "s20261025_valuation_0_0_extra004",
+        "s20261025_valuation_0_1_008",
+        "s20261025_valuation_1_1_013"
+      ],
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.4999961853027344,
+      "interpretation": "interventions on labelled synthetic status and holistic last-token state",
+      "planned_case_ids": [
+        "s20261025_earnings_0_1_010",
+        "s20261025_credit_0_0_012",
+        "s20261025_credit_1_0_009",
+        "s20261025_cashflow_0_1_010",
+        "s20261025_credit_0_1_005",
+        "s20261025_liquidity_1_0_008",
+        "s20261025_credit_1_0_003",
+        "s20261025_earnings_1_1_012",
+        "s20261025_earnings_0_0_extra003",
+        "s20261025_cashflow_1_0_000",
+        "s20261025_credit_1_0_extra003",
+        "s20261025_credit_0_0_extra003",
+        "s20261025_credit_0_1_004",
+        "s20261025_cashflow_1_1_012",
+        "s20261025_cashflow_1_0_012",
+        "s20261025_earnings_0_1_extra003",
+        "s20261025_liquidity_0_1_extra004",
+        "s20261025_earnings_1_1_001",
+        "s20261025_cashflow_0_0_extra004",
+        "s20261025_valuation_0_0_002",
+        "s20261025_valuation_1_1_013",
+        "s20261025_earnings_0_0_011",
+        "s20261025_earnings_1_0_extra004",
+        "s20261025_valuation_0_1_008",
+        "s20261025_liquidity_1_1_004",
+        "s20261025_liquidity_1_0_004",
+        "s20261025_valuation_0_0_extra004",
+        "s20261025_liquidity_0_0_005",
+        "s20261025_earnings_0_1_002",
+        "s20261025_earnings_1_1_009",
+        "s20261025_liquidity_0_1_000",
+        "s20261025_earnings_1_0_004"
+      ],
+      "preflight_max_abs_drift": 0.0,
+      "skipped_interventions": [],
+      "status": "complete",
+      "tested_blocks": [
+        4,
+        10,
+        16,
+        22,
+        27
+      ],
+      "tested_cases": 32
+    },
+    "completed_utc": "2026-10-12T23:45:20.045941+00:00",
+    "forward_sha256": "cbed9ff4118279ec6455fdd2b6deef664cde70257b17c2f2981c7fc8d9f0a188",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.9792857142857143,
+    "measured_rows": 2800,
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+    "n_layers": 32,
+    "probe_status": {
+      "best_decoder_block": 22,
+      "meta_C": 0.1,
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "output_only_C": 0.01,
+      "seed": 20261025,
+      "selected_C": 0.01,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 0.1,
+      "text_only_C": 1.0,
+      "val_probe_auroc": 0.9979123173277662,
+      "val_text_auroc": 1.0
+    },
+    "real_sec_enabled": true,
+    "seed": 20261025,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "9cae53d15e275aacb05c4ed6fff448a756c6c33249e82f5fd701600543cc4ebf",
+    "steering_status": {
+      "direction_norm": 1.9786678552627563,
+      "finished": true,
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "random_control_norm": 1.9786678552627563,
+      "seed": 20261025,
+      "selected_alpha": -0.04,
+      "selected_block": 16,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.06249968210856105,
+      "val_injection_gain": 0.14583396911621094,
+      "validation_objective": 0.14583396911621094
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "9e467ccc6e91569e8eae11c1213bc9fefbc6e618cfd5b459a7db8b25bcf5bc48",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.25,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-12T23:49:45.655699+00:00",
+    "forward_sha256": "e50d651f23df8c33ce22985efcf2c29766243e7efdb47a72412ad22dd781f932",
+    "label_swap_enabled": true,
+    "measured_accuracy": 1.0,
+    "measured_rows": 2800,
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "n_layers": 36,
+    "probe_status": {
+      "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+      "reason": "Too few errors/non-errors in train or validation",
+      "seed": 20261023,
+      "status": "UNESTIMABLE"
+    },
+    "real_sec_enabled": true,
+    "seed": 20261023,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "9e467ccc6e91569e8eae11c1213bc9fefbc6e618cfd5b459a7db8b25bcf5bc48",
+    "steering_status": {
+      "direction_norm": 5.425610542297363,
+      "finished": true,
+      "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+      "random_control_norm": 5.425610542297363,
+      "seed": 20261023,
+      "selected_alpha": -0.04,
+      "selected_block": 26,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.40625,
+      "val_injection_gain": 0.17708333333333334,
+      "validation_objective": 0.17708333333333334
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "5951668fb9729416032f1c43bb55b50c76e4238aff55b353623c8689e1de1b96",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.125,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-12T23:53:11.412838+00:00",
+    "forward_sha256": "31a4cb420b3a067c2fc536f7176fd8b668fbcadf7ee0f6a5355d186ceb118f90",
+    "label_swap_enabled": true,
+    "measured_accuracy": 1.0,
+    "measured_rows": 2800,
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "n_layers": 36,
+    "probe_status": {
+      "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+      "reason": "Too few errors/non-errors in train or validation",
+      "seed": 20261024,
+      "status": "UNESTIMABLE"
+    },
+    "real_sec_enabled": true,
+    "seed": 20261024,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "5951668fb9729416032f1c43bb55b50c76e4238aff55b353623c8689e1de1b96",
+    "steering_status": {
+      "direction_norm": 2.1026155948638916,
+      "finished": true,
+      "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+      "random_control_norm": 2.1026155948638916,
+      "seed": 20261024,
+      "selected_alpha": 0.04,
+      "selected_block": 19,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.2604166666666667,
+      "val_injection_gain": 0.3125,
+      "validation_objective": 0.3125
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "7a58da4119fc81594cb162f6747fe79522642cc60f9d6525c8d802a38554b00f",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.375,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-12T23:56:37.379458+00:00",
+    "forward_sha256": "fdd2b902164d2c835978ffc645466d88de67731657070b82e8b52cbe47527988",
+    "label_swap_enabled": true,
+    "measured_accuracy": 1.0,
+    "measured_rows": 2800,
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "n_layers": 36,
+    "probe_status": {
+      "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+      "reason": "Too few errors/non-errors in train or validation",
+      "seed": 20261025,
+      "status": "UNESTIMABLE"
+    },
+    "real_sec_enabled": true,
+    "seed": 20261025,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "7a58da4119fc81594cb162f6747fe79522642cc60f9d6525c8d802a38554b00f",
+    "steering_status": {
+      "direction_norm": 5.422416687011719,
+      "finished": true,
+      "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+      "random_control_norm": 5.422416687011719,
+      "seed": 20261025,
+      "selected_alpha": -0.04,
+      "selected_block": 26,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.6979166666666666,
+      "val_injection_gain": 0.40625,
+      "validation_objective": 0.40625
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "54ce8f7e4f248e0d732b133b7ff400b480cd02b3ced0c55b0d3a6f05cb1c950b",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.25,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-13T00:01:04.630019+00:00",
+    "forward_sha256": "1614f4aae5715dc68ccc92d799c3b563e229efbaac9994a3d79931bf6dfe7c67",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.6825,
+    "measured_rows": 2800,
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "n_layers": 28,
+    "probe_status": {
+      "best_decoder_block": 23,
+      "meta_C": 0.1,
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "output_only_C": 0.01,
+      "seed": 20261023,
+      "selected_C": 0.1,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 1.0,
+      "val_probe_auroc": 0.9479570874229628,
+      "val_text_auroc": 0.8511651553194579
+    },
+    "real_sec_enabled": true,
+    "seed": 20261023,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "54ce8f7e4f248e0d732b133b7ff400b480cd02b3ced0c55b0d3a6f05cb1c950b",
+    "steering_status": {
+      "direction_norm": 1.3617191314697266,
+      "finished": true,
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "random_control_norm": 1.3617191314697266,
+      "seed": 20261023,
+      "selected_alpha": -0.02,
+      "selected_block": 20,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.052083333333333336,
+      "val_injection_gain": 0.0,
+      "validation_objective": 0.0
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "ec38d64f62e45a3eaa897e94a57544e7102aa1e29648f62a34e9d66a1c2dfb7e",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.125,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-13T00:05:03.663489+00:00",
+    "forward_sha256": "4e779a023bdf2ae1be448c71c4489ac62cf52c4cbb56edd50048fe9217294afd",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.6710714285714285,
+    "measured_rows": 2800,
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "n_layers": 28,
+    "probe_status": {
+      "best_decoder_block": 23,
+      "meta_C": 1.0,
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "output_only_C": 0.01,
+      "seed": 20261024,
+      "selected_C": 1.0,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.9402417582417582,
+      "val_text_auroc": 0.8095934065934066
+    },
+    "real_sec_enabled": true,
+    "seed": 20261024,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "ec38d64f62e45a3eaa897e94a57544e7102aa1e29648f62a34e9d66a1c2dfb7e",
+    "steering_status": {
+      "direction_norm": 0.6587550640106201,
+      "finished": true,
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "random_control_norm": 0.6587550640106201,
+      "seed": 20261024,
+      "selected_alpha": -0.02,
+      "selected_block": 9,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": -0.041666666666666664,
+      "val_injection_gain": 0.052083333333333336,
+      "validation_objective": 0.020833333333333336
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "13c3678410f6074d67da8948b8147040844877b65c0ce193718d49af7444ec52",
+    "causal_status": {
+      "completed_cases": [
+        "s20261025_cashflow_0_0_extra004",
+        "s20261025_cashflow_0_1_010",
+        "s20261025_cashflow_1_0_000",
+        "s20261025_cashflow_1_0_012",
+        "s20261025_cashflow_1_1_012",
+        "s20261025_credit_0_0_012",
+        "s20261025_credit_0_0_extra003",
+        "s20261025_credit_0_1_004",
+        "s20261025_credit_0_1_005",
+        "s20261025_credit_1_0_003",
+        "s20261025_credit_1_0_009",
+        "s20261025_credit_1_0_extra003",
+        "s20261025_earnings_0_0_011",
+        "s20261025_earnings_0_0_extra003",
+        "s20261025_earnings_0_1_002",
+        "s20261025_earnings_0_1_010",
+        "s20261025_earnings_0_1_extra003",
+        "s20261025_earnings_1_0_004",
+        "s20261025_earnings_1_0_extra004",
+        "s20261025_earnings_1_1_001",
+        "s20261025_earnings_1_1_009",
+        "s20261025_earnings_1_1_012",
+        "s20261025_liquidity_0_0_005",
+        "s20261025_liquidity_0_1_000",
+        "s20261025_liquidity_0_1_extra004",
+        "s20261025_liquidity_1_0_004",
+        "s20261025_liquidity_1_0_008",
+        "s20261025_liquidity_1_1_004",
+        "s20261025_valuation_0_0_002",
+        "s20261025_valuation_0_0_extra004",
+        "s20261025_valuation_0_1_008",
+        "s20261025_valuation_1_1_013"
+      ],
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.5,
+      "interpretation": "interventions on labelled synthetic status and holistic last-token state",
+      "planned_case_ids": [
+        "s20261025_earnings_0_1_010",
+        "s20261025_credit_0_0_012",
+        "s20261025_credit_1_0_009",
+        "s20261025_cashflow_0_1_010",
+        "s20261025_credit_0_1_005",
+        "s20261025_liquidity_1_0_008",
+        "s20261025_credit_1_0_003",
+        "s20261025_earnings_1_1_012",
+        "s20261025_earnings_0_0_extra003",
+        "s20261025_cashflow_1_0_000",
+        "s20261025_credit_1_0_extra003",
+        "s20261025_credit_0_0_extra003",
+        "s20261025_credit_0_1_004",
+        "s20261025_cashflow_1_1_012",
+        "s20261025_cashflow_1_0_012",
+        "s20261025_earnings_0_1_extra003",
+        "s20261025_liquidity_0_1_extra004",
+        "s20261025_earnings_1_1_001",
+        "s20261025_cashflow_0_0_extra004",
+        "s20261025_valuation_0_0_002",
+        "s20261025_valuation_1_1_013",
+        "s20261025_earnings_0_0_011",
+        "s20261025_earnings_1_0_extra004",
+        "s20261025_valuation_0_1_008",
+        "s20261025_liquidity_1_1_004",
+        "s20261025_liquidity_1_0_004",
+        "s20261025_valuation_0_0_extra004",
+        "s20261025_liquidity_0_0_005",
+        "s20261025_earnings_0_1_002",
+        "s20261025_earnings_1_1_009",
+        "s20261025_liquidity_0_1_000",
+        "s20261025_earnings_1_0_004"
+      ],
+      "preflight_max_abs_drift": 0.0,
+      "skipped_interventions": [],
+      "status": "complete",
+      "tested_blocks": [
+        4,
+        9,
+        14,
+        20,
+        23
+      ],
+      "tested_cases": 32
+    },
+    "completed_utc": "2026-10-13T00:10:18.987475+00:00",
+    "forward_sha256": "64e4a9eee4bc3828777fcd5b0863ae467762afda5e248850f8f3f2305dbbf364",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.6657142857142857,
+    "measured_rows": 2800,
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "n_layers": 28,
+    "probe_status": {
+      "best_decoder_block": 23,
+      "meta_C": 1.0,
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "output_only_C": 0.01,
+      "seed": 20261025,
+      "selected_C": 1.0,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.9773962557156414,
+      "val_text_auroc": 0.83736304028988
+    },
+    "real_sec_enabled": true,
+    "seed": 20261025,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "13c3678410f6074d67da8948b8147040844877b65c0ce193718d49af7444ec52",
+    "steering_status": {
+      "direction_norm": 1.9420863389968872,
+      "finished": true,
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "random_control_norm": 1.9420862197875977,
+      "seed": 20261025,
+      "selected_alpha": 0.04,
+      "selected_block": 14,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.0,
+      "val_injection_gain": 0.09375,
+      "validation_objective": 0.09375
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "19a0b10fa106708ae76b8b0d8b519c4ddb1fd0c77c7940ba4597e0df3212240e",
+    "causal_status": {
+      "completed_cases": [
+        "s20261023_cashflow_0_0_006",
+        "s20261023_cashflow_0_0_009",
+        "s20261023_cashflow_1_0_002",
+        "s20261023_cashflow_1_0_007",
+        "s20261023_cashflow_1_0_extra003",
+        "s20261023_cashflow_1_1_002",
+        "s20261023_cashflow_1_1_003",
+        "s20261023_cashflow_1_1_004",
+        "s20261023_cashflow_1_1_extra004",
+        "s20261023_credit_0_1_008",
+        "s20261023_credit_0_1_013",
+        "s20261023_credit_0_1_extra003",
+        "s20261023_credit_1_0_009",
+        "s20261023_credit_1_1_010",
+        "s20261023_earnings_0_0_006",
+        "s20261023_earnings_0_0_extra004",
+        "s20261023_earnings_0_1_003",
+        "s20261023_earnings_1_0_010",
+        "s20261023_earnings_1_0_011",
+        "s20261023_earnings_1_1_extra004",
+        "s20261023_liquidity_0_0_007",
+        "s20261023_liquidity_0_0_012",
+        "s20261023_liquidity_0_0_extra004",
+        "s20261023_liquidity_1_0_004",
+        "s20261023_liquidity_1_0_013",
+        "s20261023_liquidity_1_0_extra003",
+        "s20261023_liquidity_1_1_011",
+        "s20261023_liquidity_1_1_extra004",
+        "s20261023_valuation_0_1_000",
+        "s20261023_valuation_1_0_003",
+        "s20261023_valuation_1_0_extra003",
+        "s20261023_valuation_1_0_extra004"
+      ],
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.125,
+      "interpretation": "interventions on labelled synthetic status and holistic last-token state",
+      "planned_case_ids": [
+        "s20261023_cashflow_1_1_004",
+        "s20261023_valuation_1_0_extra003",
+        "s20261023_credit_0_1_013",
+        "s20261023_cashflow_1_0_extra003",
+        "s20261023_cashflow_1_1_003",
+        "s20261023_earnings_1_0_010",
+        "s20261023_earnings_0_1_003",
+        "s20261023_cashflow_1_1_002",
+        "s20261023_cashflow_1_0_007",
+        "s20261023_liquidity_1_0_extra003",
+        "s20261023_earnings_0_0_006",
+        "s20261023_liquidity_1_0_004",
+        "s20261023_liquidity_0_0_007",
+        "s20261023_liquidity_1_1_011",
+        "s20261023_cashflow_0_0_006",
+        "s20261023_credit_0_1_extra003",
+        "s20261023_liquidity_0_0_extra004",
+        "s20261023_valuation_0_1_000",
+        "s20261023_earnings_1_1_extra004",
+        "s20261023_cashflow_1_1_extra004",
+        "s20261023_earnings_0_0_extra004",
+        "s20261023_liquidity_0_0_012",
+        "s20261023_earnings_1_0_011",
+        "s20261023_credit_1_0_009",
+        "s20261023_valuation_1_0_003",
+        "s20261023_credit_1_1_010",
+        "s20261023_liquidity_1_1_extra004",
+        "s20261023_cashflow_0_0_009",
+        "s20261023_credit_0_1_008",
+        "s20261023_liquidity_1_0_013",
+        "s20261023_valuation_1_0_extra004",
+        "s20261023_cashflow_1_0_002"
+      ],
+      "preflight_max_abs_drift": 3.814697265625e-06,
+      "skipped_interventions": [],
+      "status": "complete",
+      "tested_blocks": [
+        3,
+        8,
+        12,
+        16,
+        20
+      ],
+      "tested_cases": 32
+    },
+    "completed_utc": "2026-10-13T00:16:43.936865+00:00",
+    "forward_sha256": "bb7016b3b2d1aac9a1fc3e039c535ec619f01c052abbc5364acb1c48a73b7435",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.4992857142857143,
+    "measured_rows": 2800,
+    "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_revision": "31b70e2e869a7173562077fd711b654946d38674",
+    "n_layers": 24,
+    "probe_status": {
+      "best_decoder_block": 20,
+      "meta_C": 0.01,
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "output_only_C": 1.0,
+      "seed": 20261023,
+      "selected_C": 0.01,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.9513541666666667,
+      "val_text_auroc": 0.8781249999999998
+    },
+    "real_sec_enabled": true,
+    "seed": 20261023,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "19a0b10fa106708ae76b8b0d8b519c4ddb1fd0c77c7940ba4597e0df3212240e",
+    "steering_status": {
+      "direction_norm": 12.352946281433105,
+      "finished": true,
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "random_control_norm": 12.352946281433105,
+      "seed": 20261023,
+      "selected_alpha": 0.04,
+      "selected_block": 16,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": -4.768371582123768e-07,
+      "val_injection_gain": 0.020833333333333332,
+      "validation_objective": 0.020832975705464673
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "56931c7e24f8d4a94d7f3f2cb383f946e0b007b749a39faee94c1117a8b47831",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.12499809265136719,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-13T00:21:33.007237+00:00",
+    "forward_sha256": "ff5fe5bc43b12cff97d2d4c214b7704229229e9c1854b95c1012ec6804d2a9d7",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.5,
+    "measured_rows": 2800,
+    "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_revision": "31b70e2e869a7173562077fd711b654946d38674",
+    "n_layers": 24,
+    "probe_status": {
+      "best_decoder_block": 20,
+      "meta_C": 0.01,
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "output_only_C": 0.1,
+      "seed": 20261024,
+      "selected_C": 0.1,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 1.0,
+      "val_probe_auroc": 0.9635763888888889,
+      "val_text_auroc": 0.8774479166666667
+    },
+    "real_sec_enabled": true,
+    "seed": 20261024,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "56931c7e24f8d4a94d7f3f2cb383f946e0b007b749a39faee94c1117a8b47831",
+    "steering_status": {
+      "direction_norm": 6.175159931182861,
+      "finished": true,
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "random_control_norm": 6.175159454345703,
+      "seed": 20261024,
+      "selected_alpha": 0.02,
+      "selected_block": 16,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.02083301544189453,
+      "val_injection_gain": 0.04166571299235027,
+      "validation_objective": 0.04166571299235027
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "3dd41aebeac153fd493261a79db3141647e4c8b84ab4dab779514f2c1ffe36ca",
+    "causal_status": {
+      "completed_cases": [
+        "s20261025_cashflow_0_0_extra004",
+        "s20261025_cashflow_0_1_010",
+        "s20261025_cashflow_1_0_000",
+        "s20261025_cashflow_1_0_012",
+        "s20261025_cashflow_1_1_012",
+        "s20261025_credit_0_0_012",
+        "s20261025_credit_0_0_extra003",
+        "s20261025_credit_0_1_004",
+        "s20261025_credit_0_1_005",
+        "s20261025_credit_1_0_003",
+        "s20261025_credit_1_0_009",
+        "s20261025_credit_1_0_extra003",
+        "s20261025_earnings_0_0_011",
+        "s20261025_earnings_0_0_extra003",
+        "s20261025_earnings_0_1_002",
+        "s20261025_earnings_0_1_010",
+        "s20261025_earnings_0_1_extra003",
+        "s20261025_earnings_1_0_004",
+        "s20261025_earnings_1_0_extra004",
+        "s20261025_earnings_1_1_001",
+        "s20261025_earnings_1_1_009",
+        "s20261025_earnings_1_1_012",
+        "s20261025_liquidity_0_0_005",
+        "s20261025_liquidity_0_1_000",
+        "s20261025_liquidity_0_1_extra004",
+        "s20261025_liquidity_1_0_004",
+        "s20261025_liquidity_1_0_008",
+        "s20261025_liquidity_1_1_004",
+        "s20261025_valuation_0_0_002",
+        "s20261025_valuation_0_0_extra004",
+        "s20261025_valuation_0_1_008",
+        "s20261025_valuation_1_1_013"
+      ],
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.125,
+      "interpretation": "interventions on labelled synthetic status and holistic last-token state",
+      "planned_case_ids": [
+        "s20261025_earnings_0_1_010",
+        "s20261025_credit_0_0_012",
+        "s20261025_credit_1_0_009",
+        "s20261025_cashflow_0_1_010",
+        "s20261025_credit_0_1_005",
+        "s20261025_liquidity_1_0_008",
+        "s20261025_credit_1_0_003",
+        "s20261025_earnings_1_1_012",
+        "s20261025_earnings_0_0_extra003",
+        "s20261025_cashflow_1_0_000",
+        "s20261025_credit_1_0_extra003",
+        "s20261025_credit_0_0_extra003",
+        "s20261025_credit_0_1_004",
+        "s20261025_cashflow_1_1_012",
+        "s20261025_cashflow_1_0_012",
+        "s20261025_earnings_0_1_extra003",
+        "s20261025_liquidity_0_1_extra004",
+        "s20261025_earnings_1_1_001",
+        "s20261025_cashflow_0_0_extra004",
+        "s20261025_valuation_0_0_002",
+        "s20261025_valuation_1_1_013",
+        "s20261025_earnings_0_0_011",
+        "s20261025_earnings_1_0_extra004",
+        "s20261025_valuation_0_1_008",
+        "s20261025_liquidity_1_1_004",
+        "s20261025_liquidity_1_0_004",
+        "s20261025_valuation_0_0_extra004",
+        "s20261025_liquidity_0_0_005",
+        "s20261025_earnings_0_1_002",
+        "s20261025_earnings_1_1_009",
+        "s20261025_liquidity_0_1_000",
+        "s20261025_earnings_1_0_004"
+      ],
+      "preflight_max_abs_drift": 0.0,
+      "skipped_interventions": [],
+      "status": "complete",
+      "tested_blocks": [
+        3,
+        8,
+        12,
+        16,
+        20
+      ],
+      "tested_cases": 32
+    },
+    "completed_utc": "2026-10-13T00:27:28.807268+00:00",
+    "forward_sha256": "e5682653eb05f2f7fadccc8db73bfae54c391c2c4e91b15ec659d988655d351e",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.5,
+    "measured_rows": 2800,
+    "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "model_revision": "31b70e2e869a7173562077fd711b654946d38674",
+    "n_layers": 24,
+    "probe_status": {
+      "best_decoder_block": 20,
+      "meta_C": 1.0,
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "output_only_C": 0.1,
+      "seed": 20261025,
+      "selected_C": 0.1,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.9517187500000001,
+      "val_text_auroc": 0.8812847222222222
+    },
+    "real_sec_enabled": true,
+    "seed": 20261025,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "3dd41aebeac153fd493261a79db3141647e4c8b84ab4dab779514f2c1ffe36ca",
+    "steering_status": {
+      "direction_norm": 3.1605615615844727,
+      "finished": true,
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "random_control_norm": 3.1605615615844727,
+      "seed": 20261025,
+      "selected_alpha": -0.02,
+      "selected_block": 12,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": -1.5894571941029353e-07,
+      "val_injection_gain": 0.010417143503824883,
+      "validation_objective": 0.010417024294535325
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "d2010f1a35e07521235a073b3a1bdd0c8f2da5cb273d48d9cf340f90fa35f430",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.25,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-13T00:33:27.843154+00:00",
+    "forward_sha256": "9e3fbb9f7a99d3909d37247bb35284ea6198a98205db1a26291369b8d3bb9b48",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.7446428571428572,
+    "measured_rows": 2800,
+    "model_id": "Qwen/Qwen2.5-3B-Instruct",
+    "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "n_layers": 36,
+    "probe_status": {
+      "best_decoder_block": 31,
+      "meta_C": 0.1,
+      "model_id": "Qwen/Qwen2.5-3B-Instruct",
+      "output_only_C": 0.01,
+      "seed": 20261023,
+      "selected_C": 0.1,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.997936117936118,
+      "val_text_auroc": 0.9101228501228501
+    },
+    "real_sec_enabled": true,
+    "seed": 20261023,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "d2010f1a35e07521235a073b3a1bdd0c8f2da5cb273d48d9cf340f90fa35f430",
+    "steering_status": {
+      "direction_norm": 1.6610794067382812,
+      "finished": true,
+      "model_id": "Qwen/Qwen2.5-3B-Instruct",
+      "random_control_norm": 1.6610794067382812,
+      "seed": 20261023,
+      "selected_alpha": 0.04,
+      "selected_block": 12,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.08333333333333333,
+      "val_injection_gain": 0.16666666666666666,
+      "validation_objective": 0.16666666666666666
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "7cea1b0b3db25d5af0090e90023e3e92b6c87fc87943e426f201dfbab04c6a12",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.625,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-13T00:38:42.452020+00:00",
+    "forward_sha256": "3a68ebef94746496ff64706d178ae4587bcfcaf548feaa14ef6232fd4201b5e3",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.7392857142857143,
+    "measured_rows": 2800,
+    "model_id": "Qwen/Qwen2.5-3B-Instruct",
+    "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "n_layers": 36,
+    "probe_status": {
+      "best_decoder_block": 31,
+      "meta_C": 0.1,
+      "model_id": "Qwen/Qwen2.5-3B-Instruct",
+      "output_only_C": 1.0,
+      "seed": 20261024,
+      "selected_C": 0.01,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.9838478020296202,
+      "val_text_auroc": 0.9086082267900449
+    },
+    "real_sec_enabled": true,
+    "seed": 20261024,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "7cea1b0b3db25d5af0090e90023e3e92b6c87fc87943e426f201dfbab04c6a12",
+    "steering_status": {
+      "direction_norm": 3.3011457920074463,
+      "finished": true,
+      "model_id": "Qwen/Qwen2.5-3B-Instruct",
+      "random_control_norm": 3.3011460304260254,
+      "seed": 20261024,
+      "selected_alpha": -0.04,
+      "selected_block": 26,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": 0.11458333333333333,
+      "val_injection_gain": 0.21875,
+      "validation_objective": 0.21875
+    },
+    "unique_cases": 400
+  },
+  {
+    "all_stages_complete": true,
+    "cache_protocol_version": "v3.1-incremental-2026-10-12",
+    "cache_signature": "534cd7f50732611afb260d1ecdb1cf52d5d36c58fcde82764dca83333c41ad7b",
+    "causal_status": {
+      "finished": true,
+      "identity_controls_valid": false,
+      "identity_max_abs_delta_margin": 0.25,
+      "reason": "Identity patch changed logits beyond threshold",
+      "status": "SKIPPED_IDENTITY_PREFLIGHT"
+    },
+    "completed_utc": "2026-10-13T00:43:57.883857+00:00",
+    "forward_sha256": "253daa66a79466a6236b785e309b6fa2c1be818e1f9391557e263d0b488c9185",
+    "label_swap_enabled": true,
+    "measured_accuracy": 0.7260714285714286,
+    "measured_rows": 2800,
+    "model_id": "Qwen/Qwen2.5-3B-Instruct",
+    "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "n_layers": 36,
+    "probe_status": {
+      "best_decoder_block": 31,
+      "meta_C": 0.1,
+      "model_id": "Qwen/Qwen2.5-3B-Instruct",
+      "output_only_C": 0.01,
+      "seed": 20261025,
+      "selected_C": 0.1,
+      "selection_rule": "validation AUROC maximisation; no test-layer selection",
+      "status": "complete",
+      "text_C": 10.0,
+      "text_only_C": 10.0,
+      "val_probe_auroc": 0.9978338160156343,
+      "val_text_auroc": 0.9030397212215393
+    },
+    "real_sec_enabled": true,
+    "seed": 20261025,
+    "stage_outputs": {
+      "behaviour": [
+        "behaviour_paired.csv"
+      ],
+      "causal": [
+        "causal_raw.csv",
+        "causal_summary.csv",
+        "causal_status.json",
+        "causal_identity_preflight.json"
+      ],
+      "cross_task": [
+        "cross_task_predictions.csv",
+        "cross_task_selection.csv"
+      ],
+      "freeform": [
+        "freeform_check.csv"
+      ],
+      "label_swap": [
+        "label_swap_predictions.csv",
+        "label_swap_probe_metrics.csv",
+        "label_swap_state.json"
+      ],
+      "probes": [
+        "probe_metrics.csv",
+        "probe_risk_predictions.csv",
+        "probe_status.json"
+      ],
+      "sec": [
+        "sec_predictions.csv"
+      ],
+      "semantic": [
+        "paired_semantic_sensitivity.csv"
+      ],
+      "steering": [
+        "steering_test.csv",
+        "steering_summary.csv",
+        "steering_status.json"
+      ]
+    },
+    "stage_signature": "534cd7f50732611afb260d1ecdb1cf52d5d36c58fcde82764dca83333c41ad7b",
+    "steering_status": {
+      "direction_norm": 1.155036211013794,
+      "finished": true,
+      "model_id": "Qwen/Qwen2.5-3B-Instruct",
+      "random_control_norm": 1.155036211013794,
+      "seed": 20261025,
+      "selected_alpha": 0.02,
+      "selected_block": 19,
+      "selection": "validation only; held-out splits untouched",
+      "status": "complete",
+      "val_clean_gain": -0.010416666666666666,
+      "val_injection_gain": -0.07291666666666667,
+      "validation_objective": -0.08072916666666667
+    },
+    "unique_cases": 400
+  }
+]

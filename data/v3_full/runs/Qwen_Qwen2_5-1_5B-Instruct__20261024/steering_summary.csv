@@ -1,0 +1,17 @@
+model_id,seed,split,variant,condition,mean_delta,ci_lo,ci_hi,n_cases
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_id,clean,learned_direction,0.0,-0.078125,0.0703125,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_id,clean,norm_matched_random,-0.0546875,-0.1640625,0.0546875,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_id,injection,learned_direction,-0.0078125,-0.078125,0.0625,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_id,injection,norm_matched_random,0.0078125,-0.078125,0.0859375,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_id,misleading,learned_direction,0.015625,-0.0625,0.09375,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_id,misleading,norm_matched_random,-0.0234375,-0.1171875,0.0703125,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_id,trusted_misleading,learned_direction,0.0234375,-0.09375,0.140625,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_id,trusted_misleading,norm_matched_random,0.0078125,-0.1171875,0.140625,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_ood,clean,learned_direction,0.0625,-0.0078125,0.140625,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_ood,clean,norm_matched_random,0.1015625,0.0234375,0.1875,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_ood,injection,learned_direction,0.0390625,-0.0625,0.1484375,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_ood,injection,norm_matched_random,-0.015625,-0.109375,0.09375,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_ood,misleading,learned_direction,-0.015625,-0.0859375,0.0625,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_ood,misleading,norm_matched_random,0.0234375,-0.0625,0.1171875,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_ood,trusted_misleading,learned_direction,0.0390625,-0.0390625,0.125,16
+Qwen/Qwen2.5-1.5B-Instruct,20261024,test_ood,trusted_misleading,norm_matched_random,0.03125,-0.0390625,0.109375,16

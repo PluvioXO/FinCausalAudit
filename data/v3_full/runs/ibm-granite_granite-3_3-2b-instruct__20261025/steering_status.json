@@ -1,0 +1,14 @@
+{
+  "direction_norm": 0.8090156316757202,
+  "finished": true,
+  "model_id": "ibm-granite/granite-3.3-2b-instruct",
+  "random_control_norm": 0.8090156316757202,
+  "seed": 20261025,
+  "selected_alpha": -0.04,
+  "selected_block": 28,
+  "selection": "validation only; held-out splits untouched",
+  "status": "complete",
+  "val_clean_gain": 0.15104150772094727,
+  "val_injection_gain": 0.08333333333333333,
+  "validation_objective": 0.08333333333333333
+}

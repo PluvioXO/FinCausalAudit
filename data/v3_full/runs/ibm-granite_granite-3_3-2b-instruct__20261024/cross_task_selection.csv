@@ -1,0 +1,6 @@
+model_id,seed,holdout_task,status,selected_layer,probe_C,text_C,val_auroc_other_tasks
+ibm-granite/granite-3.3-2b-instruct,20261024,earnings,complete,34,0.1,1.0,0.9880067840413503
+ibm-granite/granite-3.3-2b-instruct,20261024,cashflow,complete,34,0.1,1.0,0.9931936086324965
+ibm-granite/granite-3.3-2b-instruct,20261024,credit,complete,28,0.1,1.0,0.9936446532191212
+ibm-granite/granite-3.3-2b-instruct,20261024,liquidity,complete,34,0.1,1.0,0.991498920847465
+ibm-granite/granite-3.3-2b-instruct,20261024,valuation,complete,34,1.0,1.0,0.9974084430198459

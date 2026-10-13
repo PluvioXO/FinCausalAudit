@@ -1,0 +1,6 @@
+model_id,seed,holdout_task,status,selected_layer,probe_C,text_C,val_auroc_other_tasks
+Qwen/Qwen2.5-3B-Instruct,20261014,earnings,complete,31,0.1,1.0,0.9984388938447815
+Qwen/Qwen2.5-3B-Instruct,20261014,cashflow,complete,31,0.1,1.0,0.998341567909339
+Qwen/Qwen2.5-3B-Instruct,20261014,credit,complete,31,1.0,1.0,0.9989937691087116
+Qwen/Qwen2.5-3B-Instruct,20261014,liquidity,complete,31,1.0,1.0,0.9988387524883875
+Qwen/Qwen2.5-3B-Instruct,20261014,valuation,complete,31,0.1,1.0,0.9964060733322565

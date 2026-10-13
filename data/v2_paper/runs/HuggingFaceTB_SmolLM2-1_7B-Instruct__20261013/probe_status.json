@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "seed": 20261013,
+  "best_decoder_block": 20,
+  "selected_C": 0.01,
+  "val_probe_auroc": 0.9061111111111111,
+  "val_text_auroc": 0.7938194444444444,
+  "meta_C": 0.01,
+  "text_C": 10.0,
+  "selection_rule": "validation AUROC maximisation; no test-layer selection"
+}

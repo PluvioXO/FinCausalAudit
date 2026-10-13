@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "seed": 20261025,
+  "best_decoder_block": 23,
+  "selected_C": 1.0,
+  "val_probe_auroc": 0.9773962557156414,
+  "val_text_auroc": 0.83736304028988,
+  "meta_C": 1.0,
+  "text_C": 10.0,
+  "text_only_C": 10.0,
+  "output_only_C": 0.01,
+  "selection_rule": "validation AUROC maximisation; no test-layer selection"
+}

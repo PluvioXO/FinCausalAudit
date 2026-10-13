@@ -1,0 +1,169 @@
+{
+  "all_stages_complete": true,
+  "cache_protocol_version": "v3.1-incremental-2026-10-12",
+  "cache_signature": "9cae53d15e275aacb05c4ed6fff448a756c6c33249e82f5fd701600543cc4ebf",
+  "causal_status": {
+    "completed_cases": [
+      "s20261025_cashflow_0_0_extra004",
+      "s20261025_cashflow_0_1_010",
+      "s20261025_cashflow_1_0_000",
+      "s20261025_cashflow_1_0_012",
+      "s20261025_cashflow_1_1_012",
+      "s20261025_credit_0_0_012",
+      "s20261025_credit_0_0_extra003",
+      "s20261025_credit_0_1_004",
+      "s20261025_credit_0_1_005",
+      "s20261025_credit_1_0_003",
+      "s20261025_credit_1_0_009",
+      "s20261025_credit_1_0_extra003",
+      "s20261025_earnings_0_0_011",
+      "s20261025_earnings_0_0_extra003",
+      "s20261025_earnings_0_1_002",
+      "s20261025_earnings_0_1_010",
+      "s20261025_earnings_0_1_extra003",
+      "s20261025_earnings_1_0_004",
+      "s20261025_earnings_1_0_extra004",
+      "s20261025_earnings_1_1_001",
+      "s20261025_earnings_1_1_009",
+      "s20261025_earnings_1_1_012",
+      "s20261025_liquidity_0_0_005",
+      "s20261025_liquidity_0_1_000",
+      "s20261025_liquidity_0_1_extra004",
+      "s20261025_liquidity_1_0_004",
+      "s20261025_liquidity_1_0_008",
+      "s20261025_liquidity_1_1_004",
+      "s20261025_valuation_0_0_002",
+      "s20261025_valuation_0_0_extra004",
+      "s20261025_valuation_0_1_008",
+      "s20261025_valuation_1_1_013"
+    ],
+    "finished": true,
+    "identity_controls_valid": false,
+    "identity_max_abs_delta_margin": 0.4999961853027344,
+    "interpretation": "interventions on labelled synthetic status and holistic last-token state",
+    "planned_case_ids": [
+      "s20261025_earnings_0_1_010",
+      "s20261025_credit_0_0_012",
+      "s20261025_credit_1_0_009",
+      "s20261025_cashflow_0_1_010",
+      "s20261025_credit_0_1_005",
+      "s20261025_liquidity_1_0_008",
+      "s20261025_credit_1_0_003",
+      "s20261025_earnings_1_1_012",
+      "s20261025_earnings_0_0_extra003",
+      "s20261025_cashflow_1_0_000",
+      "s20261025_credit_1_0_extra003",
+      "s20261025_credit_0_0_extra003",
+      "s20261025_credit_0_1_004",
+      "s20261025_cashflow_1_1_012",
+      "s20261025_cashflow_1_0_012",
+      "s20261025_earnings_0_1_extra003",
+      "s20261025_liquidity_0_1_extra004",
+      "s20261025_earnings_1_1_001",
+      "s20261025_cashflow_0_0_extra004",
+      "s20261025_valuation_0_0_002",
+      "s20261025_valuation_1_1_013",
+      "s20261025_earnings_0_0_011",
+      "s20261025_earnings_1_0_extra004",
+      "s20261025_valuation_0_1_008",
+      "s20261025_liquidity_1_1_004",
+      "s20261025_liquidity_1_0_004",
+      "s20261025_valuation_0_0_extra004",
+      "s20261025_liquidity_0_0_005",
+      "s20261025_earnings_0_1_002",
+      "s20261025_earnings_1_1_009",
+      "s20261025_liquidity_0_1_000",
+      "s20261025_earnings_1_0_004"
+    ],
+    "preflight_max_abs_drift": 0.0,
+    "skipped_interventions": [],
+    "status": "complete",
+    "tested_blocks": [
+      4,
+      10,
+      16,
+      22,
+      27
+    ],
+    "tested_cases": 32
+  },
+  "completed_utc": "2026-10-12T23:45:20.045941+00:00",
+  "forward_sha256": "cbed9ff4118279ec6455fdd2b6deef664cde70257b17c2f2981c7fc8d9f0a188",
+  "label_swap_enabled": true,
+  "measured_accuracy": 0.9792857142857143,
+  "measured_rows": 2800,
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "model_revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+  "n_layers": 32,
+  "probe_status": {
+    "best_decoder_block": 22,
+    "meta_C": 0.1,
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "output_only_C": 0.01,
+    "seed": 20261025,
+    "selected_C": 0.01,
+    "selection_rule": "validation AUROC maximisation; no test-layer selection",
+    "status": "complete",
+    "text_C": 0.1,
+    "text_only_C": 1.0,
+    "val_probe_auroc": 0.9979123173277662,
+    "val_text_auroc": 1.0
+  },
+  "real_sec_enabled": true,
+  "seed": 20261025,
+  "stage_outputs": {
+    "behaviour": [
+      "behaviour_paired.csv"
+    ],
+    "causal": [
+      "causal_raw.csv",
+      "causal_summary.csv",
+      "causal_status.json",
+      "causal_identity_preflight.json"
+    ],
+    "cross_task": [
+      "cross_task_predictions.csv",
+      "cross_task_selection.csv"
+    ],
+    "freeform": [
+      "freeform_check.csv"
+    ],
+    "label_swap": [
+      "label_swap_predictions.csv",
+      "label_swap_probe_metrics.csv",
+      "label_swap_state.json"
+    ],
+    "probes": [
+      "probe_metrics.csv",
+      "probe_risk_predictions.csv",
+      "probe_status.json"
+    ],
+    "sec": [
+      "sec_predictions.csv"
+    ],
+    "semantic": [
+      "paired_semantic_sensitivity.csv"
+    ],
+    "steering": [
+      "steering_test.csv",
+      "steering_summary.csv",
+      "steering_status.json"
+    ]
+  },
+  "stage_signature": "9cae53d15e275aacb05c4ed6fff448a756c6c33249e82f5fd701600543cc4ebf",
+  "steering_status": {
+    "direction_norm": 1.9786678552627563,
+    "finished": true,
+    "model_id": "microsoft/Phi-4-mini-instruct",
+    "random_control_norm": 1.9786678552627563,
+    "seed": 20261025,
+    "selected_alpha": -0.04,
+    "selected_block": 16,
+    "selection": "validation only; held-out splits untouched",
+    "status": "complete",
+    "val_clean_gain": 0.06249968210856105,
+    "val_injection_gain": 0.14583396911621094,
+    "validation_objective": 0.14583396911621094
+  },
+  "unique_cases": 400
+}

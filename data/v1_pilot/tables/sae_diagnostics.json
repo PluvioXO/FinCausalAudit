@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "layer": 16,
+  "d_sae": 3072,
+  "k": 32,
+  "val_variance_explained": 0.9821189089289656,
+  "selected_feature": 2498,
+  "control_feature": 2960,
+  "train_tokens": 1536,
+  "val_tokens": 768
+}

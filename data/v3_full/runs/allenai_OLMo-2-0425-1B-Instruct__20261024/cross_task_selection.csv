@@ -1,0 +1,6 @@
+model_id,seed,holdout_task,status,selected_layer,probe_C,text_C,val_auroc_other_tasks
+allenai/OLMo-2-0425-1B-Instruct,20261024,earnings,complete,13,0.1,1.0,0.8843581975490598
+allenai/OLMo-2-0425-1B-Instruct,20261024,cashflow,complete,13,1.0,1.0,0.8865079365079366
+allenai/OLMo-2-0425-1B-Instruct,20261024,credit,complete,13,1.0,1.0,0.9306083390293918
+allenai/OLMo-2-0425-1B-Instruct,20261024,liquidity,complete,13,0.1,1.0,0.8632731253420909
+allenai/OLMo-2-0425-1B-Instruct,20261024,valuation,complete,13,0.1,1.0,0.8874455337690631

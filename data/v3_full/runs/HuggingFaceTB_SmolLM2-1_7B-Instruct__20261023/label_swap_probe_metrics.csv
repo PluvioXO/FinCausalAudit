@@ -1,0 +1,11 @@
+model_id,seed,split,predictor,auroc,auprc,brier,n,errors,ci_lo,ci_hi,n_boot_valid
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,test_id,risk_internal,0.9672046703296704,0.9845162368712753,0.07944851327017409,160,104,,,
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,test_id,risk_text_output,0.060267857142857144,0.4464143812526826,0.5762571972232464,160,104,,,
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,test_id,risk_confidence,0.4434237637362637,0.6552844648178959,0.3363552433735372,160,104,,,
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,test_id,risk_rule_verifier,1.0,1.0,1.0000000000373824e-12,160,104,,,
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,test_id,DIFF_internal_minus_text_output,0.9069368131868133,,,160,104,0.850313425925926,0.9536018668831169,1000.0
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,test_ood,risk_internal,0.9130980392156862,0.8945164037639872,0.2572708535612733,160,85,,,
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,test_ood,risk_text_output,0.04549019607843137,0.3495861090678035,0.6473273941264327,160,85,,,
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,test_ood,risk_confidence,0.34847058823529414,0.4664567809506558,0.3021480440805524,160,85,,,
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,test_ood,risk_rule_verifier,1.0,1.0,1.0000000000305528e-12,160,85,,,
+HuggingFaceTB/SmolLM2-1.7B-Instruct,20261023,test_ood,DIFF_internal_minus_text_output,0.8676078431372548,,,160,85,0.7581411559017596,0.94189794921875,1000.0

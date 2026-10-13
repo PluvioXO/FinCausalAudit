@@ -1,0 +1,6 @@
+model_id,seed,layer,chosen_C,val_auroc
+microsoft/Phi-4-mini-instruct,20261024,4,0.01,0.9980851063829788
+microsoft/Phi-4-mini-instruct,20261024,10,0.01,0.9938297872340426
+microsoft/Phi-4-mini-instruct,20261024,16,0.01,1.0
+microsoft/Phi-4-mini-instruct,20261024,22,0.01,1.0
+microsoft/Phi-4-mini-instruct,20261024,27,0.01,1.0

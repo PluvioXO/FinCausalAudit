@@ -1,0 +1,12 @@
+{
+  "cases": 80,
+  "finished": true,
+  "flip_rate": 0.7125,
+  "identity_definition": "output letter should invert when option mapping is reversed",
+  "mean_deviation": 0.28352088382234797,
+  "model_id": "ibm-granite/granite-3.3-2b-instruct",
+  "note": "A nonflipping response may reflect letter bias or other task failures, not a causal claim.",
+  "prompts": 320,
+  "protocol_version": "v3",
+  "seed": 20261023
+}

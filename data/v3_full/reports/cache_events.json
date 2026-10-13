@@ -1,0 +1,1097 @@
+[
+  {
+    "event": "skipped_entire_job",
+    "model": "allenai/OLMo-2-0425-1B-Instruct",
+    "seed": 20261023
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261024",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261024",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261024",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261024",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261024",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261024",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261024",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261024",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261024",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "allenai/OLMo-2-0425-1B-Instruct",
+    "seed": 20261024
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "allenai/OLMo-2-0425-1B-Instruct",
+    "seed": 20261024
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261025",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261025",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261025",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261025",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261025",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261025",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261025",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261025",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/allenai_OLMo-2-0425-1B-Instruct__20261025",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "allenai/OLMo-2-0425-1B-Instruct",
+    "seed": 20261025
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "allenai/OLMo-2-0425-1B-Instruct",
+    "seed": 20261025
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261023",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261023",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261023",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261023",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261023",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261023",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261023",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261023",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261023",
+    "stage": "sec"
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "ibm-granite/granite-3.3-2b-instruct",
+    "seed": 20261023
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261024",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261024",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261024",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261024",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261024",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261024",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261024",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261024",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261024",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "ibm-granite/granite-3.3-2b-instruct",
+    "seed": 20261024
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "ibm-granite/granite-3.3-2b-instruct",
+    "seed": 20261024
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261025",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261025",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261025",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261025",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261025",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261025",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261025",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261025",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/ibm-granite_granite-3_3-2b-instruct__20261025",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "ibm-granite/granite-3.3-2b-instruct",
+    "seed": 20261025
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "ibm-granite/granite-3.3-2b-instruct",
+    "seed": 20261025
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261023",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261023",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261023",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261023",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261023",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261023",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261023",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261023",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261023",
+    "stage": "sec"
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "microsoft/Phi-4-mini-instruct",
+    "seed": 20261023
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261024",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261024",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261024",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261024",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261024",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261024",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261024",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261024",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261024",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "microsoft/Phi-4-mini-instruct",
+    "seed": 20261024
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "microsoft/Phi-4-mini-instruct",
+    "seed": 20261024
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261025",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261025",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261025",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261025",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261025",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261025",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261025",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261025",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/microsoft_Phi-4-mini-instruct__20261025",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "microsoft/Phi-4-mini-instruct",
+    "seed": 20261025
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "microsoft/Phi-4-mini-instruct",
+    "seed": 20261025
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261023",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261023",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261023",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261023",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261023",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261023",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261023",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261023",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261023",
+    "stage": "sec"
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "seed": 20261023
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261024",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261024",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261024",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261024",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261024",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261024",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261024",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261024",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261024",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "seed": 20261024
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "seed": 20261024
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261025",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261025",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261025",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261025",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261025",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261025",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261025",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261025",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen3-4B-Instruct-2507__20261025",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "seed": 20261025
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "seed": 20261025
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261023",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261023",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261023",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261023",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261023",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261023",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261023",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261023",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261023",
+    "stage": "sec"
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "seed": 20261023
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261024",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261024",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261024",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261024",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261024",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261024",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261024",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261024",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261024",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "seed": 20261024
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "seed": 20261024
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261025",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261025",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261025",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261025",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261025",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261025",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261025",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261025",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-1_5B-Instruct__20261025",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "seed": 20261025
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "seed": 20261025
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261023",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261023",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261023",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261023",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261023",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261023",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261023",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261023",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261023",
+    "stage": "sec"
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "seed": 20261023
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261024",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261024",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261024",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261024",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261024",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261024",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261024",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261024",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261024",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "seed": 20261024
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "seed": 20261024
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261025",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261025",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261025",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261025",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261025",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261025",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261025",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261025",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/HuggingFaceTB_SmolLM2-1_7B-Instruct__20261025",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "seed": 20261025
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "seed": 20261025
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261023",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261023",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261023",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261023",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261023",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261023",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261023",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261023",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261023",
+    "stage": "sec"
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "seed": 20261023
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261024",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261024",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261024",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261024",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261024",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261024",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261024",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261024",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261024",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "seed": 20261024
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "seed": 20261024
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261025",
+    "stage": "probes"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261025",
+    "stage": "cross_task"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261025",
+    "stage": "semantic"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261025",
+    "stage": "label_swap"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261025",
+    "stage": "behaviour"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261025",
+    "stage": "causal"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261025",
+    "stage": "steering"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261025",
+    "stage": "freeform"
+  },
+  {
+    "event": "computed_stage",
+    "job": "/content/drive/MyDrive/FinCausalAudit_v3/full/runs/Qwen_Qwen2_5-3B-Instruct__20261025",
+    "stage": "sec"
+  },
+  {
+    "event": "shared_sec_reuse",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "seed": 20261025
+  },
+  {
+    "all_stages_complete": true,
+    "event": "finished_job",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "seed": 20261025
+  }
+]

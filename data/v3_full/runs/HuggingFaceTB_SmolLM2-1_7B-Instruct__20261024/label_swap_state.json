@@ -1,0 +1,12 @@
+{
+  "cases": 80,
+  "finished": true,
+  "flip_rate": 0.0,
+  "identity_definition": "output letter should invert when option mapping is reversed",
+  "mean_deviation": 0.3239880277775228,
+  "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "note": "A nonflipping response may reflect letter bias or other task failures, not a causal claim.",
+  "prompts": 320,
+  "protocol_version": "v3",
+  "seed": 20261024
+}

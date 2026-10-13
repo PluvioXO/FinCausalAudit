@@ -1,0 +1,14 @@
+{
+  "direction_norm": 1.9786678552627563,
+  "finished": true,
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "random_control_norm": 1.9786678552627563,
+  "seed": 20261025,
+  "selected_alpha": -0.04,
+  "selected_block": 16,
+  "selection": "validation only; held-out splits untouched",
+  "status": "complete",
+  "val_clean_gain": 0.06249968210856105,
+  "val_injection_gain": 0.14583396911621094,
+  "validation_objective": 0.14583396911621094
+}

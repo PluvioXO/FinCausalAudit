@@ -1,0 +1,6 @@
+model_id,seed,holdout_task,status,selected_layer,probe_C,text_C,val_auroc_other_tasks
+microsoft/Phi-4-mini-instruct,20261025,earnings,complete,22.0,0.1,0.1,0.9973890339425587
+microsoft/Phi-4-mini-instruct,20261025,cashflow,complete,22.0,0.1,0.1,0.9973890339425587
+microsoft/Phi-4-mini-instruct,20261025,credit,unestimable labels,,,,
+microsoft/Phi-4-mini-instruct,20261025,liquidity,complete,22.0,0.1,0.1,0.9973890339425587
+microsoft/Phi-4-mini-instruct,20261025,valuation,complete,22.0,0.1,0.1,0.9973890339425587

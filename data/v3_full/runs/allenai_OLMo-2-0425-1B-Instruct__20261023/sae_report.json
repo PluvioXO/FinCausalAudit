@@ -1,0 +1,15 @@
+{
+  "block": 8,
+  "feature_status": "train/validation direction consistent",
+  "finished": true,
+  "latent_dim": 8192,
+  "matched_control_feature": 5318,
+  "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+  "note": "SAE ablation is exploratory; decoder feature significance and semantic identity are unproven.",
+  "seed": 20261023,
+  "selected_feature": 4731,
+  "topk": 32,
+  "train_examples": 1260,
+  "val_examples": 560,
+  "val_variance_explained": 0.9287276864051819
+}

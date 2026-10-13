@@ -1,0 +1,128 @@
+{
+  "protocol": "FinCausalAudit-v4.0.0-hardtasks-causal-identity",
+  "finished": true,
+  "signature": "225df9e65e30007132c050078da88ff0c8ad210c09fbbf607e04b0194abf5def",
+  "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+  "model_revision": "48d788eca847d4d7548f375ad03d3c9312f6139e",
+  "seed": 20261101,
+  "n_cases": 360,
+  "n_prompts": 2880,
+  "forward_cache": {
+    "reused_rows": 0,
+    "new_rows": 2880,
+    "layer_idxs": [
+      0,
+      5,
+      9,
+      14
+    ],
+    "model_revision": "48d788eca847d4d7548f375ad03d3c9312f6139e",
+    "model_signature": "97b194796acd4966c32122c42d76127efc06ae6fc5252cf6c538d0136827715d"
+  },
+  "probe_status": {
+    "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+    "seed": 20261101,
+    "finished": true,
+    "estimable": true,
+    "baseline_val_auroc": 0.8061124125967918,
+    "baseline_selected_C": 10.0,
+    "layers_considered": [
+      {
+        "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+        "seed": 20261101,
+        "block": 0,
+        "C": 0.1,
+        "val_auc": 0.7010497326490102
+      },
+      {
+        "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+        "seed": 20261101,
+        "block": 5,
+        "C": 0.1,
+        "val_auc": 0.8422897405175342
+      },
+      {
+        "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+        "seed": 20261101,
+        "block": 9,
+        "C": 0.1,
+        "val_auc": 0.8850480158801124
+      },
+      {
+        "model_id": "allenai/OLMo-2-0425-1B-Instruct",
+        "seed": 20261101,
+        "block": 14,
+        "C": 1.0,
+        "val_auc": 0.8865323056563958
+      }
+    ],
+    "selected_block": 14,
+    "selected_C": 1.0,
+    "val_auroc": 0.8865323056563958,
+    "signature": "4db66bc2e8480533584215d22e14d6d522cc6299e780205297cdf42171361f5c"
+  },
+  "causal_status": {
+    "signature": "d2f664b520846d9ed4331e0a94961dc0b3afbdfcf8607ab7b4951cefe99c8dcf",
+    "finished": true,
+    "valid": true,
+    "reason": "passed",
+    "max_abs_control_delta": 0.0,
+    "skips": [],
+    "completed_cases": [
+      "v4_20261101_debt_service_0003",
+      "v4_20261101_debt_service_0016",
+      "v4_20261101_debt_service_0018",
+      "v4_20261101_debt_service_0051",
+      "v4_20261101_free_cash_flow_0001",
+      "v4_20261101_leverage_and_coverage_0021",
+      "v4_20261101_leverage_and_coverage_0036",
+      "v4_20261101_operating_margin_0028",
+      "v4_20261101_operating_margin_0034",
+      "v4_20261101_operating_margin_0037",
+      "v4_20261101_operating_margin_0054",
+      "v4_20261101_post_payment_liquidity_0006",
+      "v4_20261101_post_payment_liquidity_0009",
+      "v4_20261101_post_payment_liquidity_0036",
+      "v4_20261101_post_payment_liquidity_0045",
+      "v4_20261101_working_capital_change_0011",
+      "v4_20261101_working_capital_change_0015",
+      "v4_20261101_working_capital_change_0020",
+      "v4_20261101_working_capital_change_0029",
+      "v4_20261101_working_capital_change_0031",
+      "v4_20261101_working_capital_change_0040",
+      "v4_20261101_working_capital_change_0042",
+      "v4_20261101_working_capital_change_0047",
+      "v4_20261101_working_capital_change_0052"
+    ],
+    "n_patched_cases": 24,
+    "selected_cases": [
+      "v4_20261101_debt_service_0003",
+      "v4_20261101_debt_service_0016",
+      "v4_20261101_debt_service_0018",
+      "v4_20261101_free_cash_flow_0001",
+      "v4_20261101_operating_margin_0034",
+      "v4_20261101_post_payment_liquidity_0036",
+      "v4_20261101_post_payment_liquidity_0045",
+      "v4_20261101_working_capital_change_0011",
+      "v4_20261101_working_capital_change_0015",
+      "v4_20261101_working_capital_change_0020",
+      "v4_20261101_working_capital_change_0031",
+      "v4_20261101_working_capital_change_0042",
+      "v4_20261101_debt_service_0051",
+      "v4_20261101_leverage_and_coverage_0021",
+      "v4_20261101_leverage_and_coverage_0036",
+      "v4_20261101_operating_margin_0028",
+      "v4_20261101_operating_margin_0037",
+      "v4_20261101_operating_margin_0054",
+      "v4_20261101_post_payment_liquidity_0006",
+      "v4_20261101_post_payment_liquidity_0009",
+      "v4_20261101_working_capital_change_0029",
+      "v4_20261101_working_capital_change_0040",
+      "v4_20261101_working_capital_change_0047",
+      "v4_20261101_working_capital_change_0052"
+    ],
+    "note": "Do not claim localization if identity/null controls failed. Authority labels are synthetic."
+  },
+  "elapsed_seconds": 217.8,
+  "completed_utc": "2026-10-13T03:20:49.594296+00:00"
+}

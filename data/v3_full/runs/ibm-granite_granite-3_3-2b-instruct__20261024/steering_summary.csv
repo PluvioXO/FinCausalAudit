@@ -1,0 +1,17 @@
+model_id,seed,split,variant,condition,mean_delta,ci_lo,ci_hi,n_cases
+ibm-granite/granite-3.3-2b-instruct,20261024,test_id,clean,learned_direction,-0.03125,-0.1328125,0.078125,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_id,clean,norm_matched_random,-0.07031238079071045,-0.21103515625,0.07031250298023224,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_id,injection,learned_direction,0.12109386920928955,-0.027343514561653137,0.30078125596046446,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_id,injection,norm_matched_random,0.02343761920928955,-0.0859372615814209,0.12890636920928955,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_id,misleading,learned_direction,0.15234363079071045,-0.054785272479057304,0.4532226532697677,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_id,misleading,norm_matched_random,0.12109375,-0.046875,0.3556640624999998,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_id,trusted_misleading,learned_direction,0.1015625,-0.0546875,0.3595703124999998,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_id,trusted_misleading,norm_matched_random,0.0703127384185791,-0.07812476456165314,0.2812501221895218,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_ood,clean,learned_direction,0.09374964237213135,-0.031250360608100894,0.21093714535236358,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_ood,clean,norm_matched_random,0.1015625,0.03515625,0.1758789062499999,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_ood,injection,learned_direction,0.10546880960464478,-0.042968574166297915,0.2578125,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_ood,injection,norm_matched_random,0.11718761920928955,1.1920928955078125e-07,0.2578125029802322,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_ood,misleading,learned_direction,-0.02734375,-0.20712890625,0.1328125,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_ood,misleading,norm_matched_random,-0.015625,-0.171875,0.1171875,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_ood,trusted_misleading,learned_direction,-0.09765613079071045,-0.3008787900209427,0.07421887218952179,16
+ibm-granite/granite-3.3-2b-instruct,20261024,test_ood,trusted_misleading,norm_matched_random,-0.0742185115814209,-0.2579100340604782,0.08994176089763632,16

@@ -1,0 +1,12 @@
+{
+  "cases": 80,
+  "finished": true,
+  "flip_rate": 0.753125,
+  "identity_definition": "output letter should invert when option mapping is reversed",
+  "mean_deviation": 0.2164421934488928,
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "note": "A nonflipping response may reflect letter bias or other task failures, not a causal claim.",
+  "prompts": 320,
+  "protocol_version": "v3",
+  "seed": 20261025
+}
